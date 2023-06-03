@@ -416,7 +416,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <autoplace>0</autoplace>
             <size>20</size>
             <offset x="3.72948" y="-4.48084"/>
-            <text><font size="20"></font>1</text>
+            <text><font size="20"/>1</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -850,7 +850,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           <StaffText>
             <size>20</size>
             <offset x="-0.197965" y="-2.78169"/>
-            <text><font size="20"></font>2</text>
+            <text><font size="20"/>2</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -1166,6 +1166,11 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>0.75</tempo>
+            <followText>1</followText>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 45</text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -1531,7 +1536,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           <StaffText>
             <size>20</size>
             <offset x="-3.67851" y="-4.40595"/>
-            <text><font size="20"></font>3</text>
+            <text><font size="20"/>3</text>
             </StaffText>
           <Chord>
             <durationType>16th</durationType>
@@ -2167,7 +2172,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           <Tempo>
             <tempo>1.25</tempo>
             <followText>1</followText>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 75</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 75</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -2236,7 +2241,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <tempo>2.133333</tempo>
             <followText>1</followText>
             <offset x="2.88914" y="-4.55965"/>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 128</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 128</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -2373,7 +2378,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <tempo>1.066667</tempo>
             <followText>1</followText>
             <offset x="0.0104081" y="-1.74171"/>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 64</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 64</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -2664,7 +2669,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           <StaffText>
             <size>20</size>
             <offset x="3.73495" y="-3.30189"/>
-            <text><font size="20"></font>4</text>
+            <text><font size="20"/>4</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -3154,7 +3159,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <tempo>2.9</tempo>
             <followText>1</followText>
             <bold>0</bold>
-            <text><b></b><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><b><font face="Edwin"></font> = 116</b></text>
+            <text><b></b><sym>metNoteQuarterUp</sym><sym>metAugmentationDot</sym><b><font face="Edwin"/> = 116</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -3566,7 +3571,7 @@ Pédale : Bourdon 8' et 16'</text>
           <StaffText>
             <size>20</size>
             <offset x="12.3161" y="-4.86837"/>
-            <text><font size="20"></font>5</text>
+            <text><font size="20"/>5</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -4196,7 +4201,7 @@ Pédale : Bourdon 8' et 16'</text>
           <StaffText>
             <size>20</size>
             <offset x="5.48657" y="-7.51282"/>
-            <text><font size="20"></font>6</text>
+            <text><font size="20"/>6</text>
             </StaffText>
           <Chord>
             <durationType>eighth</durationType>
@@ -4486,7 +4491,7 @@ Pédale : Bourdon 8' et 16'</text>
             <offset x="-8.32739" y="-3.03286"/>
             <frameType>1</frameType>
             <framePadding>0.6</framePadding>
-            <text><font size="14"></font>6</text>
+            <text><font size="14"/>6</text>
             </StaffText>
           <StaffText>
             <offset x="-3.76151" y="-2.60906"/>
@@ -4499,7 +4504,7 @@ Pédale : Bourdon 8' et 16'</text>
             <frameType>1</frameType>
             <framePadding>0.4</framePadding>
             <frameBgColor r="255" g="255" b="255" a="255"/>
-            <text><font size="9"></font>Enregistrement
+            <text><font size="9"/>Enregistrement
 joue</text>
             </StaffText>
           <Chord>
@@ -4642,7 +4647,7 @@ joue</text>
           <StaffText>
             <size>20</size>
             <offset x="4.38872" y="-3.56057"/>
-            <text><font size="20"></font>7</text>
+            <text><font size="20"/>7</text>
             </StaffText>
           <Rest>
             <visible>0</visible>
@@ -4793,7 +4798,7 @@ joue</text>
           <Tempo>
             <tempo>1.333333</tempo>
             <followText>1</followText>
-            <text><sym>metNoteQuarterUp</sym><font face="Edwin"></font> = 80</text>
+            <text><sym>metNoteQuarterUp</sym><font face="Edwin"/> = 80</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -4830,7 +4835,7 @@ joue</text>
           <StaffText>
             <size>20</size>
             <offset x="4.38872" y="-3.56057"/>
-            <text><font size="20"></font>8</text>
+            <text><font size="20"/>8</text>
             </StaffText>
           <Rest>
             <durationType>measure</durationType>
@@ -6954,7 +6959,7 @@ joue</text>
                 <offset x="-1.71506" y="-6.94028"/>
                 <frameType>1</frameType>
                 <framePadding>0.6</framePadding>
-                <text><font size="14"></font>2</text>
+                <text><font size="14"/>2</text>
                 </Fingering>
               <pitch>70</pitch>
               <tpc>12</tpc>
@@ -8392,7 +8397,7 @@ joue</text>
                 <offset x="-1.71506" y="-9.79972"/>
                 <frameType>1</frameType>
                 <framePadding>0.6</framePadding>
-                <text><font size="14"></font>3</text>
+                <text><font size="14"/>3</text>
                 </Fingering>
               <pitch>64</pitch>
               <tpc>18</tpc>
@@ -10475,7 +10480,7 @@ joue</text>
                 <offset x="0.484512" y="-8.26002"/>
                 <frameType>1</frameType>
                 <framePadding>0.6</framePadding>
-                <text><font size="14"></font>4</text>
+                <text><font size="14"/>4</text>
                 </Fingering>
               <pitch>45</pitch>
               <tpc>17</tpc>
@@ -18835,6 +18840,14 @@ joue</text>
               </Note>
             </Chord>
           <Chord>
+            <durationType>eighth</durationType>
+            <acciaccatura/>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
             <durationType>16th</durationType>
             <Note>
               <pitch>69</pitch>
@@ -19002,20 +19015,6 @@ joue</text>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>68</pitch>
-              <tpc>10</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -19033,19 +19032,58 @@ joue</text>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
-            <durationType>32nd</durationType>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
             <Note>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
           <Chord>
-            <durationType>32nd</durationType>
+            <durationType>16th</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -19055,38 +19093,14 @@ joue</text>
               </Note>
             </Chord>
           <Chord>
-            <durationType>32nd</durationType>
+            <durationType>16th</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>73</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
+            <durationType>16th</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -19095,14 +19109,22 @@ joue</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <endTuplet/>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
               <Accidental>
-                <subtype>accidentalNatural</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -19115,11 +19137,8 @@ joue</text>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>80</pitch>
-              <tpc>10</tpc>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
@@ -19250,9 +19269,18 @@ joue</text>
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -19604,7 +19632,7 @@ joue</text>
                 <offset x="0.944445" y="-19.1568"/>
                 <frameType>1</frameType>
                 <framePadding>0.6</framePadding>
-                <text><font size="14"></font>1</text>
+                <text><font size="14"/>1</text>
                 </Fingering>
               <pitch>48</pitch>
               <tpc>14</tpc>
