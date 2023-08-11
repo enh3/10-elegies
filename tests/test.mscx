@@ -19,7 +19,7 @@
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
-    <metaTag name="creationDate">2023-06-12</metaTag>
+    <metaTag name="creationDate">2023-08-11</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
@@ -28,7 +28,7 @@
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle">t</metaTag>
+    <metaTag name="workTitle">test</metaTag>
     <Order id="orchestral" customized="1">
       <name>Orchestral</name>
       <section id="woodwind" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
@@ -93,11 +93,10 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>Pipe Organ (Burea)</trackName>
-      <Instrument id="Burea">
-        <longName>Man.</longName>
-        <shortName>Man.</shortName>
-        <trackName>Pipe Organ (Burea)</trackName>
+      <trackName>Pipe Organ (Saint-Édouard)</trackName>
+      <Instrument id="Saint-Édouard">
+        <longName>Manuel</longName>
+        <trackName>Pipe Organ (Saint-Édouard)</trackName>
         <instrumentId>keyboard.organ.pipe</instrumentId>
         <clef staff="2">F</clef>
         <clef staff="3">F</clef>
@@ -141,408 +140,614 @@
           <velocity>120</velocity>
           <gateTime>100</gateTime>
           </Articulation>
-        <Channel name="Great">
-          <descr>Great</descr>
+        <Channel name="Récit">
+          <descr>Récit</descr>
           <program value="0"/>
-          <controller ctrl="7" value="0"/>
           <synti>Fluid</synti>
-          <MidiAction name="Gt +8' dia lg">
-            <descr>On: Open Diapason Lg 8</descr>
-            <controller ctrl="0" value="20"/>
-            </MidiAction>
-          <MidiAction name="Gt +8' dia sm">
-            <descr>On: Open Diapason Sm 8</descr>
+          <MidiAction name="R. + tremolo">
+            <descr>On: Tremolo</descr>
             <controller ctrl="1" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +8' dulciana">
-            <descr>On: Dulciana 8</descr>
+          <MidiAction name="R. +8' voix humaine">
+            <descr>On: Voix Humaine 8</descr>
             <controller ctrl="2" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +8' lieblich gedact">
-            <descr>On: Lieblich Gedact 8</descr>
+          <MidiAction name="R. +8' hautbois">
+            <descr>On: Hautbois 8</descr>
             <controller ctrl="3" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +4' principal">
-            <descr>On: Principal 4</descr>
-            <controller ctrl="4" value="20"/>
-            </MidiAction>
-          <MidiAction name="Gt +4' clear flute">
-            <descr>On: Clear Flute 4</descr>
-            <controller ctrl="5" value="20"/>
-            </MidiAction>
-          <MidiAction name="Gt +2' fifteenth">
-            <descr>On: Fifteenth 2</descr>
-            <controller ctrl="6" value="20"/>
-            </MidiAction>
-          <MidiAction name="Gt +IV mixture">
-            <descr>On: Mixture IV</descr>
-            <controller ctrl="7" value="20"/>
-            </MidiAction>
-          <MidiAction name="Gt +8' trumpet">
-            <descr>On: Trumpet 8</descr>
-            <controller ctrl="8" value="20"/>
-            </MidiAction>
-          <MidiAction name="Gt +4' clarion">
-            <descr>On: Clarion 4</descr>
-            <controller ctrl="9" value="20"/>
-            </MidiAction>
-          <MidiAction name="Gt -8' dia lg">
-            <descr>Off: Open Diapason Lg 8</descr>
-            <controller ctrl="0" value="110"/>
-            </MidiAction>
-          <MidiAction name="Gt -8' dia sm">
-            <descr>Off: Open Diapason Sm 8</descr>
-            <controller ctrl="1" value="110"/>
-            </MidiAction>
-          <MidiAction name="Gt -8' dulciana">
-            <descr>Off: Dulciana 8</descr>
-            <controller ctrl="2" value="110"/>
-            </MidiAction>
-          <MidiAction name="Gt -8' lieb gedact">
-            <descr>Off: Lieblich Gedact 8</descr>
-            <controller ctrl="3" value="110"/>
-            </MidiAction>
-          <MidiAction name="Gt -4' principal">
-            <descr>Off: Principal 4</descr>
-            <controller ctrl="4" value="110"/>
-            </MidiAction>
-          <MidiAction name="Gt -4' clear flute">
-            <descr>Off: Clear Flute 4</descr>
-            <controller ctrl="5" value="110"/>
-            </MidiAction>
-          <MidiAction name="Gt -2' fifteenth">
-            <descr>Off: Fifteenth 2</descr>
-            <controller ctrl="6" value="110"/>
-            </MidiAction>
-          <MidiAction name="Gt -IV mixture">
-            <descr>Off: Mixture IV</descr>
-            <controller ctrl="7" value="110"/>
-            </MidiAction>
-          <MidiAction name="Gt -8' trumpet">
-            <descr>Off: Trumpet 8</descr>
-            <controller ctrl="8" value="110"/>
-            </MidiAction>
-          <MidiAction name="Gt -4' clarion">
-            <descr>Off: Clarion 4</descr>
-            <controller ctrl="9" value="110"/>
-            </MidiAction>
-          </Channel>
-        <Channel name="Swell">
-          <descr>Swell</descr>
-          <program value="0"/>
-          <controller ctrl="7" value="0"/>
-          <synti>Fluid</synti>
-          <MidiAction name="Sw +16' lieb bourdon">
-            <descr>On: Lieblich Bourdon 16</descr>
-            <controller ctrl="0" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +8' geig principal">
-            <descr>On: Geigen Principal 8</descr>
-            <controller ctrl="1" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +8' rohr flute">
+          <MidiAction name="R. +8' trompette">
             <descr>On: Rohr Flute</descr>
-            <controller ctrl="2" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +8' viola di gamba">
-            <descr>On: Viola Di Gamba 8</descr>
-            <controller ctrl="3" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +8' voix celestes">
-            <descr>On: Voix Celestes 8</descr>
-            <controller ctrl="4" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +4' salicet">
-            <descr>On: Salicet 4</descr>
-            <controller ctrl="5" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +4' flauto magico">
-            <descr>On: Flauto Magico 4</descr>
-            <controller ctrl="6" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +2' piccolo">
-            <descr>On: Piccolo 2</descr>
-            <controller ctrl="7" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +III mixture">
-            <descr>On: Mixture III</descr>
-            <controller ctrl="8" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +16' contra fagotto">
-            <descr>On: Contra Fagotto 16</descr>
-            <controller ctrl="9" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +8' trumpet">
-            <descr>On: Trumpet 8</descr>
-            <controller ctrl="10" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +8' oboe">
-            <descr>On: Oboe 8</descr>
-            <controller ctrl="11" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw +8' clarinet">
-            <descr>On: Clarinet 8</descr>
-            <controller ctrl="12" value="110"/>
-            </MidiAction>
-          <MidiAction name="Sw -16' lieb bourdon">
-            <descr>Off: Lieblich Bourdon 16</descr>
-            <controller ctrl="0" value="20"/>
-            </MidiAction>
-          <MidiAction name="Sw -8' geig principal">
-            <descr>Off: Geigen Principal 8</descr>
-            <controller ctrl="1" value="20"/>
-            </MidiAction>
-          <MidiAction name="Sw -8' rohr flute">
-            <descr>Off: Rohr Flute 8</descr>
-            <controller ctrl="2" value="20"/>
-            </MidiAction>
-          <MidiAction name="Sw -8' viola di gamba">
-            <descr>Off: Viola Di Gamba 8</descr>
-            <controller ctrl="3" value="20"/>
-            </MidiAction>
-          <MidiAction name="Sw -8' voix celestes">
-            <descr>Off: Voix Celestes 8</descr>
             <controller ctrl="4" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -4' salicet">
-            <descr>Off: Salicet 4</descr>
+          <MidiAction name="R. +16' basson">
+            <descr>On: Basson 16</descr>
             <controller ctrl="5" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -4' flauto magico">
-            <descr>Off: Flauto Magico 4</descr>
+          <MidiAction name="R. +8' cor">
+            <descr>On: Cornet 8</descr>
             <controller ctrl="6" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -2' piccolo">
-            <descr>Off: Piccolo 2</descr>
+          <MidiAction name="R. +2' octavin">
+            <descr>On: Octavin 2</descr>
             <controller ctrl="7" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -III mixture">
-            <descr>Off: Mixture III</descr>
+          <MidiAction name="R. +4' flûte traverse">
+            <descr>On: Flûte Traverse 4</descr>
             <controller ctrl="8" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -16' contra fagotto">
-            <descr>Off: Contra Fagotto 16</descr>
+          <MidiAction name="R. +2' principal">
+            <descr>On: Principal 2</descr>
             <controller ctrl="9" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -8' trumpet">
-            <descr>Off: Trumpet 8</descr>
+          <MidiAction name="R. +8' viole d'orchestre">
+            <descr>On: Viole d'Orchestre 8</descr>
             <controller ctrl="10" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -8' oboe">
-            <descr>Off: Oboe 8</descr>
+          <MidiAction name="R. +8' voix celeste">
+            <descr>On: Voix Celeste</descr>
             <controller ctrl="11" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -8' clarinet">
-            <descr>Off: Clarinet 8</descr>
+          <MidiAction name="R. +8' viole de gambe">
+            <descr>On: Viole de Gambe 8</descr>
             <controller ctrl="12" value="20"/>
             </MidiAction>
+          <MidiAction name="R. +8' flûte harm.">
+            <descr>On: Flûte Harm. 8</descr>
+            <controller ctrl="13" value="20"/>
+            </MidiAction>
+          <MidiAction name="R. +8' bourdon">
+            <descr>On: Bourdon 8</descr>
+            <controller ctrl="14" value="20"/>
+            </MidiAction>
+          <MidiAction name="R. +8' principal">
+            <descr>On: Principal 8</descr>
+            <controller ctrl="15" value="20"/>
+            </MidiAction>
+          <MidiAction name="R. +16' bourdon">
+            <descr>On: Bourdon 16</descr>
+            <controller ctrl="16" value="20"/>
+            </MidiAction>
+          <MidiAction name="R. - tremolo">
+            <descr>Off: Tremolo</descr>
+            <controller ctrl="1" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -8' voix humaine">
+            <descr>Off: Voix Humaine 8</descr>
+            <controller ctrl="2" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -8' hautbois">
+            <descr>Off: Hautbois 8</descr>
+            <controller ctrl="3" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -8' trompette">
+            <descr>Off: Rohr Flute</descr>
+            <controller ctrl="4" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -8' basson">
+            <descr>Off: Basson 8</descr>
+            <controller ctrl="5" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -5Rgs. cornet">
+            <descr>Off: Cornet 5Rgs.</descr>
+            <controller ctrl="6" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -2' octavin">
+            <descr>Off: Octavin 2</descr>
+            <controller ctrl="7" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -4' flûte traverse">
+            <descr>Off: Flûte Traverse 4</descr>
+            <controller ctrl="8" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -2' principal">
+            <descr>Off: Principal 2</descr>
+            <controller ctrl="9" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -8' viole d'orchestre">
+            <descr>Off: Viole d'Orchestre 8</descr>
+            <controller ctrl="10" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -8' voix celeste">
+            <descr>Off: Voix Celeste</descr>
+            <controller ctrl="11" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -8' viole de gambe">
+            <descr>Off: Viole de Gambe 8</descr>
+            <controller ctrl="12" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -8' flûte harm.">
+            <descr>Off: Flûte Harm. 8</descr>
+            <controller ctrl="13" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -8' bourdon">
+            <descr>Off: Bourdon 8</descr>
+            <controller ctrl="14" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -8' principal">
+            <descr>Off: Principal 8</descr>
+            <controller ctrl="15" value="110"/>
+            </MidiAction>
+          <MidiAction name="R. -16' bourdon">
+            <descr>Off: Bourdon 16</descr>
+            <controller ctrl="16" value="110"/>
+            </MidiAction>
           </Channel>
-        <Channel name="Pedals">
-          <descr>Pedals</descr>
+        <Channel name="Positif">
+          <descr>Positif</descr>
           <program value="0"/>
-          <controller ctrl="7" value="0"/>
           <synti>Fluid</synti>
-          <MidiAction name="Ped. +16' dia">
-            <descr>On: Open Diapason 16</descr>
-            <controller ctrl="20" value="0"/>
+          <MidiAction name="P. + tremolo">
+            <descr>On: Tremolo</descr>
+            <controller ctrl="1" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. +16' echo">
-            <descr>On: Echo Bass 16</descr>
-            <controller ctrl="20" value="1"/>
+          <MidiAction name="P. +8' cor anglais">
+            <descr>On: Cor Anglais 8</descr>
+            <controller ctrl="2" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. +16' sub">
-            <descr>On: Sub Bass 16</descr>
-            <controller ctrl="20" value="2"/>
+          <MidiAction name="P. +8' clarinette">
+            <descr>On: Clarinette 8</descr>
+            <controller ctrl="3" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. +8'">
-            <descr>On: Octave 8</descr>
-            <controller ctrl="20" value="3"/>
+          <MidiAction name="P. +8' piccolo">
+            <descr>On: Piccolo 2</descr>
+            <controller ctrl="4" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. +8' flute">
-            <descr>On: Flute Bass 8</descr>
-            <controller ctrl="20" value="4"/>
+          <MidiAction name="P. +4' flûte douce">
+            <descr>On: Flûte Douce 4</descr>
+            <controller ctrl="5" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. +4'">
-            <descr>On: Fifteenth 4</descr>
-            <controller ctrl="20" value="5"/>
+          <MidiAction name="P. +4' violina">
+            <descr>On: Violina 4</descr>
+            <controller ctrl="6" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. +16' trombone">
-            <descr>On: Trombone 16</descr>
-            <controller ctrl="20" value="6"/>
+          <MidiAction name="P. +8' dulciane">
+            <descr>On: Dulciane 8</descr>
+            <controller ctrl="7" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. -16' dia">
-            <descr>Off: Open Diapason 16</descr>
-            <controller ctrl="20" value="0"/>
+          <MidiAction name="P. +8' melodie">
+            <descr>On: Melodie 8</descr>
+            <controller ctrl="8" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. -16' echo">
-            <descr>Off: Echo Bass 16</descr>
-            <controller ctrl="110" value="1"/>
+          <MidiAction name="P. +8' principal">
+            <descr>On: Principal 8</descr>
+            <controller ctrl="9" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. -16' sub">
-            <descr>Off: Sub Bass 16</descr>
-            <controller ctrl="110" value="2"/>
+          <MidiAction name="P. - tremolo">
+            <descr>Off: Tremolo</descr>
+            <controller ctrl="1" value="110"/>
             </MidiAction>
-          <MidiAction name="Ped. -8'">
-            <descr>Off: Octave 8</descr>
-            <controller ctrl="110" value="3"/>
+          <MidiAction name="P. -8' cor anglais">
+            <descr>Off: Cor Anglais 8</descr>
+            <controller ctrl="2" value="110"/>
             </MidiAction>
-          <MidiAction name="Ped. -8' flute">
-            <descr>Off: Flute Bass 8</descr>
-            <controller ctrl="110" value="4"/>
+          <MidiAction name="P. -8' clarinette">
+            <descr>Off: Clarinette 8</descr>
+            <controller ctrl="3" value="110"/>
             </MidiAction>
-          <MidiAction name="Ped. -4'">
-            <descr>Off: Fifteenth 4</descr>
-            <controller ctrl="110" value="5"/>
+          <MidiAction name="P. -8' piccolo">
+            <descr>Off: Piccolo 2</descr>
+            <controller ctrl="4" value="110"/>
             </MidiAction>
-          <MidiAction name="Ped. -16' trombone">
-            <descr>Off: Trombone 16</descr>
-            <controller ctrl="110" value="6"/>
+          <MidiAction name="P. -8' flûte douce">
+            <descr>Off: Flûte Douce 8</descr>
+            <controller ctrl="5" value="110"/>
+            </MidiAction>
+          <MidiAction name="P. -4' violina">
+            <descr>Off: Violina 4</descr>
+            <controller ctrl="6" value="110"/>
+            </MidiAction>
+          <MidiAction name="P. -8' dulciane">
+            <descr>Off: Dulciane 8</descr>
+            <controller ctrl="7" value="110"/>
+            </MidiAction>
+          <MidiAction name="P. -8' melodie">
+            <descr>Off: Melodie 8</descr>
+            <controller ctrl="8" value="110"/>
+            </MidiAction>
+          <MidiAction name="P. -8' principal">
+            <descr>Off: Principal 8</descr>
+            <controller ctrl="9" value="110"/>
+            </MidiAction>
+          </Channel>
+        <Channel name="Grand Orgue">
+          <descr>Grand Orgue</descr>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <MidiAction name="Gt +8' posaune">
+            <descr>On: Posaune 8</descr>
+            <controller ctrl="1" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +8' trompette">
+            <descr>On: Trompette 8</descr>
+            <controller ctrl="2" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +2Rgs. mixture">
+            <descr>On: Mixture 2Rgs.</descr>
+            <controller ctrl="3" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +4Rgs. mixture">
+            <descr>On: Mixture 4Rgs.</descr>
+            <controller ctrl="4" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +2' doublette">
+            <descr>On: Doublette 2</descr>
+            <controller ctrl="5" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +4' flûte harm.">
+            <descr>On: Flûte Harm. 4</descr>
+            <controller ctrl="6" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +4' prestant">
+            <descr>On: Prestant 8</descr>
+            <controller ctrl="7" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +8' gemshorn">
+            <descr>On: Gemshorn 8</descr>
+            <controller ctrl="8" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +8' bourdon">
+            <descr>On: Bourdon 8</descr>
+            <controller ctrl="9" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +8' flûte ouverte">
+            <descr>On: Flûte Ouverte 8</descr>
+            <controller ctrl="10" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +8' gambe">
+            <descr>On: Gambe 8</descr>
+            <controller ctrl="11" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +8' montre 2ième">
+            <descr>On: Montre 2ième</descr>
+            <controller ctrl="12" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +8' montre 1ère">
+            <descr>On: Montre 1ère</descr>
+            <controller ctrl="13" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt +16' montre">
+            <descr>On: Montre 16</descr>
+            <controller ctrl="14" value="20"/>
+            </MidiAction>
+          <MidiAction name="Gt -8' posaune">
+            <descr>Off: Posaune 8</descr>
+            <controller ctrl="1" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -8' trompette">
+            <descr>Off: Trompette 8</descr>
+            <controller ctrl="2" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -2Rgs. mixture">
+            <descr>Off: Mixture 2Rgs.</descr>
+            <controller ctrl="3" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -4Rgs. mixture">
+            <descr>Off: Mixture 4Rgs.</descr>
+            <controller ctrl="4" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -2' doublette">
+            <descr>Off: Doublette 2</descr>
+            <controller ctrl="5" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -4' flute harm.">
+            <descr>Off: Flûte Harm. 4</descr>
+            <controller ctrl="6" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -4' prestant">
+            <descr>Off: Prestant 4</descr>
+            <controller ctrl="7" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -8' gemshorn">
+            <descr>Off: Gemshorn 8</descr>
+            <controller ctrl="8" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -8' bourdon">
+            <descr>Off: Bourdon 8</descr>
+            <controller ctrl="9" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -8' flûte ouverte">
+            <descr>Off: Flûte Ouverte 8</descr>
+            <controller ctrl="10" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -8' gambe">
+            <descr>Off: Gambe 8</descr>
+            <controller ctrl="11" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -8' montre 2ième">
+            <descr>Off: Montre 2ième</descr>
+            <controller ctrl="12" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -8' montre 1ère">
+            <descr>Off: Montre 1ème</descr>
+            <controller ctrl="13" value="110"/>
+            </MidiAction>
+          <MidiAction name="Gt -16' montre">
+            <descr>Off: Montre 16</descr>
+            <controller ctrl="14" value="110"/>
+            </MidiAction>
+          </Channel>
+        <Channel name="Pédale">
+          <descr>Pédale</descr>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <MidiAction name="Ped. +8' trompette">
+            <descr>On: Trompette 8</descr>
+            <controller ctrl="1" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. +16' bombarde">
+            <descr>On: Bombarde 16</descr>
+            <controller ctrl="2" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. +4' flûte">
+            <descr>On: Flûte</descr>
+            <controller ctrl="3" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. +8' bourdon">
+            <descr>On: Bourdon 8</descr>
+            <controller ctrl="4" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. +8' flûte">
+            <descr>On: Flûte 8</descr>
+            <controller ctrl="5" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. +8' violoncelle">
+            <descr>On: Violoncelle 8</descr>
+            <controller ctrl="6" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. +16' bourdon doux">
+            <descr>On: Bourdon Doux 16</descr>
+            <controller ctrl="7" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. +16' violon">
+            <descr>On: Violon 16</descr>
+            <controller ctrl="8" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. +16' bourdon">
+            <descr>On: Bourdon 16</descr>
+            <controller ctrl="9" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. +16' flûte ouverte">
+            <descr>On: Flûte ouverte 16</descr>
+            <controller ctrl="10" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. +32' flûte">
+            <descr>On: Flûte 32</descr>
+            <controller ctrl="11" value="20"/>
+            </MidiAction>
+          <MidiAction name="Ped. -8' trompette">
+            <descr>Off: Trompette 8</descr>
+            <controller ctrl="1" value="110"/>
+            </MidiAction>
+          <MidiAction name="Ped. -16' bombarde">
+            <descr>Off: Bombarde 16</descr>
+            <controller ctrl="2" value="110"/>
+            </MidiAction>
+          <MidiAction name="Ped. -4' flûte">
+            <descr>Off: Flûte</descr>
+            <controller ctrl="3" value="110"/>
+            </MidiAction>
+          <MidiAction name="Ped. -8' bourdon">
+            <descr>Off: Bourdon 8</descr>
+            <controller ctrl="4" value="110"/>
+            </MidiAction>
+          <MidiAction name="Ped. -8' flûte">
+            <descr>Off: Flûte 8</descr>
+            <controller ctrl="5" value="110"/>
+            </MidiAction>
+          <MidiAction name="Ped. -8' violoncelle">
+            <descr>Off: Violoncelle 8</descr>
+            <controller ctrl="6" value="110"/>
+            </MidiAction>
+          <MidiAction name="Ped. -16' bourdon doux">
+            <descr>Off: Bourdon Doux 16</descr>
+            <controller ctrl="7" value="110"/>
+            </MidiAction>
+          <MidiAction name="Ped. -16' violon">
+            <descr>Off: Violon 16</descr>
+            <controller ctrl="8" value="110"/>
+            </MidiAction>
+          <MidiAction name="Ped. -16' bourdon">
+            <descr>Off: Bourdon 16</descr>
+            <controller ctrl="9" value="110"/>
+            </MidiAction>
+          <MidiAction name="Ped. -16' flûte ouverte">
+            <descr>Off: Flûte ouverte 16</descr>
+            <controller ctrl="10" value="110"/>
+            </MidiAction>
+          <MidiAction name="Ped. -32' flûte">
+            <descr>Off: Flûte 32</descr>
+            <controller ctrl="11" value="110"/>
             </MidiAction>
           </Channel>
         <Channel name="Couplers">
           <descr>Couplers</descr>
           <program value="0"/>
-          <controller ctrl="7" value="0"/>
           <synti>Aeolus</synti>
           <MidiAction name="Reset">
             <descr>Reset all stops</descr>
             <program value="0"/>
             </MidiAction>
-          <MidiAction name="Ped. +bass">
-            <descr>On: Bass Coupler</descr>
-            <controller ctrl="20" value="0"/>
+          <MidiAction name="+G. à la Péd.">
+            <descr>On: GrOrgue à la Pédale</descr>
+            <controller ctrl="1" value="20"/>
             </MidiAction>
-          <MidiAction name="+Gt to Ped.">
-            <descr>On: Great to Pedal</descr>
-            <controller ctrl="20" value="1"/>
+          <MidiAction name="+R. à la Péd.">
+            <descr>On: Récit à la Pédale</descr>
+            <controller ctrl="2" value="20"/>
             </MidiAction>
-          <MidiAction name="+Sw to Ped.">
-            <descr>On: Swell to Pedal</descr>
-            <controller ctrl="20" value="2"/>
+          <MidiAction name="+P. à la Péd.">
+            <descr>On: Positif à la Pédale</descr>
+            <controller ctrl="3" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +Sw 8vb">
-            <descr>On: Swell Suboctave to Great</descr>
-            <controller ctrl="20" value="3"/>
+          <MidiAction name="+R. 8vb au G.">
+            <descr>On: Récit Grave au GrOrgue</descr>
+            <controller ctrl="4" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +Sw">
-            <descr>On: Swell to Great</descr>
-            <controller ctrl="20" value="4"/>
+          <MidiAction name="+R. au G.">
+            <descr>On: Récit au GrOrgue</descr>
+            <controller ctrl="5" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +Sw 8va">
-            <descr>On: Swell Octave to Great</descr>
-            <controller ctrl="20" value="5"/>
+          <MidiAction name="+R. 8vb au G.">
+            <descr>On: Récit Aigue au GrOrgue</descr>
+            <controller ctrl="6" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt melody +Sw">
-            <descr>On: Swell to Great Melody</descr>
-            <controller ctrl="20" value="6"/>
+          <MidiAction name="+P. 8vb au G.">
+            <descr>On: Positif Grave au GrOrgue</descr>
+            <controller ctrl="7" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw +8vb">
-            <descr>On: Swell Suboctave</descr>
-            <controller ctrl="20" value="7"/>
+          <MidiAction name="+P. au G.">
+            <descr>On: Positif au GrOrgue</descr>
+            <controller ctrl="8" value="20"/>
             </MidiAction>
-          <MidiAction name="+Sw unison off">
-            <descr>On: Swell Unison Off</descr>
-            <controller ctrl="20" value="8"/>
+          <MidiAction name="+P 8va au G.">
+            <descr>On: Positif Aigue au GrOrgue</descr>
+            <controller ctrl="9" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw +8va">
-            <descr>On: Swell Octave</descr>
-            <controller ctrl="20" value="9"/>
+          <MidiAction name="+8va G.">
+            <descr>On: Oct. Aigue GrOrgue</descr>
+            <controller ctrl="10" value="20"/>
             </MidiAction>
-          <MidiAction name="+Gt and Ped. pistons">
-            <descr>On: Great + Pedal Pistons Coupled</descr>
-            <controller ctrl="20" value="10"/>
+          <MidiAction name="+8vb R.">
+            <descr>On: Oct. Grave Récit</descr>
+            <controller ctrl="11" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. +cresc">
-            <descr>On: Crescendo to Pedal</descr>
-            <controller ctrl="20" value="11"/>
+          <MidiAction name="+8va R.">
+            <descr>On: Oct. Aigue Récit</descr>
+            <controller ctrl="12" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +cresc">
-            <descr>On: Crescendo to Great</descr>
-            <controller ctrl="20" value="12"/>
+          <MidiAction name="+R. 8vb au P.">
+            <descr>On: Récit Grave au Positif</descr>
+            <controller ctrl="13" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw +cresc">
-            <descr>On: Crescendo to Swell</descr>
-            <controller ctrl="20" value="13"/>
+          <MidiAction name="+R. au P.">
+            <descr>On: Récit au Positif</descr>
+            <controller ctrl="14" value="20"/>
             </MidiAction>
-          <MidiAction name="+Trem">
-            <descr>On: Tremulant</descr>
-            <controller ctrl="20" value="14"/>
+          <MidiAction name="+R. 8va au P.">
+            <descr>On: Récit Aigue au Positif</descr>
+            <controller ctrl="15" value="20"/>
             </MidiAction>
-          <MidiAction name="+FF">
-            <descr>On: Gen FF action</descr>
-            <controller ctrl="20" value="16"/>
+          <MidiAction name="+8vb P.">
+            <descr>On: Oct. Grave Positif</descr>
+            <controller ctrl="16" value="20"/>
             </MidiAction>
-          <MidiAction name="+PP">
-            <descr>On: Gen PP action</descr>
-            <controller ctrl="20" value="17"/>
+          <MidiAction name="+8va P.">
+            <descr>On: Oct. Aigue Positif</descr>
+            <controller ctrl="17" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. -bass">
-            <descr>Off: Bass Coupler</descr>
-            <controller ctrl="110" value="0"/>
+          <MidiAction name="-G. à la Péd.">
+            <descr>On: GrOrgue à la Pédale</descr>
+            <controller ctrl="1" value="20"/>
             </MidiAction>
-          <MidiAction name="-Gt to Ped.">
-            <descr>Off: Great to Pedal</descr>
-            <controller ctrl="110" value="1"/>
+          <MidiAction name="-R. à la Péd.">
+            <descr>On: Récit à la Pédale</descr>
+            <controller ctrl="2" value="20"/>
             </MidiAction>
-          <MidiAction name="-Sw to Ped.">
-            <descr>Off: Swell to Pedal</descr>
-            <controller ctrl="110" value="2"/>
+          <MidiAction name="-P. à la Péd.">
+            <descr>On: Positif à la Pédale</descr>
+            <controller ctrl="3" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt -Sw 8vb">
-            <descr>Off: Swell Suboctave to Great</descr>
-            <controller ctrl="110" value="3"/>
+          <MidiAction name="-R. 8vb au G.">
+            <descr>On: Récit Grave au GrOrgue</descr>
+            <controller ctrl="4" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt -Sw">
-            <descr>Off: Swell to Great</descr>
-            <controller ctrl="110" value="4"/>
+          <MidiAction name="-R. au G.">
+            <descr>On: Récit au GrOrgue</descr>
+            <controller ctrl="5" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt -Sw 8va">
-            <descr>Off: Swell Octave to Great</descr>
-            <controller ctrl="110" value="5"/>
+          <MidiAction name="-R. 8vb au G.">
+            <descr>On: Récit Aigue au GrOrgue</descr>
+            <controller ctrl="6" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt melody -Sw">
-            <descr>Off: Swell to Great Melody</descr>
-            <controller ctrl="110" value="6"/>
+          <MidiAction name="-P. 8vb au G.">
+            <descr>On: Positif Grave au GrOrgue</descr>
+            <controller ctrl="7" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -8vb">
-            <descr>Off: Swell Suboctave</descr>
-            <controller ctrl="110" value="7"/>
+          <MidiAction name="-P. au G.">
+            <descr>On: Positif au GrOrgue</descr>
+            <controller ctrl="8" value="20"/>
             </MidiAction>
-          <MidiAction name="-Sw unison off">
-            <descr>Off: Swell Unison Off</descr>
-            <controller ctrl="110" value="8"/>
+          <MidiAction name="-P 8va au G.">
+            <descr>On: Positif Aigue au GrOrgue</descr>
+            <controller ctrl="9" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -8va">
-            <descr>Off: Swell Octave</descr>
-            <controller ctrl="110" value="9"/>
+          <MidiAction name="-8va G.">
+            <descr>On: Oct. Aigue GrOrgue</descr>
+            <controller ctrl="10" value="20"/>
             </MidiAction>
-          <MidiAction name="-Gt and Ped. pistons">
-            <descr>Off: Great + Pedal Pistons Coupled</descr>
-            <controller ctrl="110" value="10"/>
+          <MidiAction name="-8vb R.">
+            <descr>On: Oct. Grave Récit</descr>
+            <controller ctrl="11" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. -cresc">
-            <descr>Off: Crescendo to Pedal</descr>
-            <controller ctrl="110" value="11"/>
+          <MidiAction name="-8va R.">
+            <descr>On: Oct. Aigue Récit</descr>
+            <controller ctrl="12" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt -cresc">
-            <descr>Off: Crescendo to Great</descr>
-            <controller ctrl="110" value="12"/>
+          <MidiAction name="-R. 8vb au P.">
+            <descr>On: Récit Grave au Positif</descr>
+            <controller ctrl="13" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -cresc">
-            <descr>Off: Crescendo to Swell</descr>
-            <controller ctrl="110" value="13"/>
+          <MidiAction name="-R. au P.">
+            <descr>On: Récit au Positif</descr>
+            <controller ctrl="14" value="20"/>
             </MidiAction>
-          <MidiAction name="-Trem">
-            <descr>Off: Tremulant</descr>
-            <controller ctrl="110" value="14"/>
+          <MidiAction name="-R. 8va au P.">
+            <descr>On: Récit Aigue au Positif</descr>
+            <controller ctrl="15" value="20"/>
             </MidiAction>
-          <MidiAction name="-FF">
-            <descr>Off: Gen FF action</descr>
-            <controller ctrl="110" value="16"/>
+          <MidiAction name="-8vb P.">
+            <descr>On: Oct. Grave Positif</descr>
+            <controller ctrl="16" value="20"/>
             </MidiAction>
-          <MidiAction name="-PP">
-            <descr>Off: Gen PP action</descr>
-            <controller ctrl="110" value="17"/>
+          <MidiAction name="-8va P.">
+            <descr>On: Oct. Aigue Positif</descr>
+            <controller ctrl="17" value="20"/>
+            </MidiAction>
+          </Channel>
+        <Channel name="Synthèse">
+          <descr>Synthèse</descr>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <MidiAction name="Syn. 1">
+            <descr>On: Syn. 1</descr>
+            <controller ctrl="1" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 2">
+            <descr>On: Syn. 2</descr>
+            <controller ctrl="2" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 3">
+            <descr>On: Syn. 3</descr>
+            <controller ctrl="3" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 4">
+            <descr>On: Syn. 4</descr>
+            <controller ctrl="4" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 5">
+            <descr>On: Syn. 5</descr>
+            <controller ctrl="5" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 6">
+            <descr>On: Syn. 6</descr>
+            <controller ctrl="6" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 7">
+            <descr>On: Syn. 7</descr>
+            <controller ctrl="7" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 8">
+            <descr>On: Syn. 8</descr>
+            <controller ctrl="8" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 9">
+            <descr>On: Syn. 9</descr>
+            <controller ctrl="9" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 10">
+            <descr>On: Syn. 10</descr>
+            <controller ctrl="10" value="20"/>
             </MidiAction>
           </Channel>
         </Instrument>
@@ -552,7 +757,7 @@
         <height>10</height>
         <Text>
           <style>Title</style>
-          <text>t</text>
+          <text>test</text>
           </Text>
         </VBox>
       <Measure>
@@ -617,101 +822,25 @@
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <MidiAction channel="1" name="Sw +III mixture"/>
-            <MidiAction channel="1" name="Sw -4' salicet"/>
-            <channelSwitch voice="0" name="Swell"/>
-            <channelSwitch voice="1" name="Swell"/>
-            <channelSwitch voice="2" name="Swell"/>
-            <channelSwitch voice="3" name="Swell"/>
-            <offset x="0.0632935" y="-1.76156"/>
-            <text>Swell</text>
-            </StaffText>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <StaffText>
-            <MidiAction channel="1" name="Sw +4' salicet"/>
-            <MidiAction channel="1" name="Sw -III mixture"/>
-            <channelSwitch voice="0" name="Swell"/>
-            <channelSwitch voice="1" name="Swell"/>
-            <channelSwitch voice="2" name="Swell"/>
-            <channelSwitch voice="3" name="Swell"/>
-            <text>Swell</text>
-            </StaffText>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -907,6 +1036,10 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <MidiAction channel="0" name="R. + tremolo"/>
+            <text>T</text>
+            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -923,6 +1056,10 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <MidiAction channel="0" name="R. +8' voix humaine"/>
+            <text>T</text>
+            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
