@@ -21,6 +21,7 @@
       <staffDistance>5.5</staffDistance>
       <akkoladeDistance>5</akkoladeDistance>
       <minSystemDistance>7.5</minSystemDistance>
+      <minNoteDistance>0.1</minNoteDistance>
       <chordSymbolAFontSize>10</chordSymbolAFontSize>
       <chordSymbolBFontSize>10</chordSymbolBFontSize>
       <nashvilleNumberFontSize>10</nashvilleNumberFontSize>
@@ -127,11 +128,10 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <controller ctrl="10" value="63"/>
+          <controller ctrl="7" value="101"/>
           <synti>Fluid</synti>
-          <mute>1</mute>
           <midiPort>0</midiPort>
-          <midiChannel>3</midiChannel>
+          <midiChannel>9</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -207,134 +207,134 @@
           <program value="0"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
-          <midiChannel>7</midiChannel>
-          <MidiAction name="R. - tremolo">
+          <midiChannel>0</midiChannel>
+          <MidiAction name="R. + tremolo">
             <descr>On: Tremolo</descr>
-            <controller ctrl="0" value="110"/>
+            <controller ctrl="1" value="20"/>
             </MidiAction>
           <MidiAction name="R. +8' voix humaine">
             <descr>On: Voix Humaine 8</descr>
-            <controller ctrl="1" value="110"/>
+            <controller ctrl="2" value="20"/>
             </MidiAction>
           <MidiAction name="R. +8' hautbois">
             <descr>On: Hautbois 8</descr>
-            <controller ctrl="2" value="110"/>
+            <controller ctrl="3" value="20"/>
             </MidiAction>
           <MidiAction name="R. +8' trompette">
             <descr>On: Rohr Flute</descr>
-            <controller ctrl="3" value="110"/>
+            <controller ctrl="4" value="20"/>
             </MidiAction>
-          <MidiAction name="R. +8' basson">
-            <descr>On: Basson 8</descr>
-            <controller ctrl="4" value="110"/>
+          <MidiAction name="R. +16' basson">
+            <descr>On: Basson 16</descr>
+            <controller ctrl="5" value="20"/>
             </MidiAction>
-          <MidiAction name="R. +5Rgs. cornet">
-            <descr>On: Cornet 5Rgs.</descr>
-            <controller ctrl="5" value="110"/>
+          <MidiAction name="R. +8' cor">
+            <descr>On: Cornet 8</descr>
+            <controller ctrl="6" value="20"/>
             </MidiAction>
           <MidiAction name="R. +2' octavin">
             <descr>On: Octavin 2</descr>
-            <controller ctrl="6" value="110"/>
+            <controller ctrl="7" value="20"/>
             </MidiAction>
           <MidiAction name="R. +4' flûte traverse">
             <descr>On: Flûte Traverse 4</descr>
-            <controller ctrl="7" value="110"/>
+            <controller ctrl="8" value="20"/>
             </MidiAction>
           <MidiAction name="R. +2' principal">
             <descr>On: Principal 2</descr>
-            <controller ctrl="8" value="110"/>
+            <controller ctrl="9" value="20"/>
             </MidiAction>
           <MidiAction name="R. +8' viole d'orchestre">
             <descr>On: Viole d'Orchestre 8</descr>
-            <controller ctrl="9" value="110"/>
+            <controller ctrl="10" value="20"/>
             </MidiAction>
           <MidiAction name="R. +8' voix celeste">
             <descr>On: Voix Celeste</descr>
-            <controller ctrl="10" value="110"/>
+            <controller ctrl="11" value="20"/>
             </MidiAction>
           <MidiAction name="R. +8' viole de gambe">
             <descr>On: Viole de Gambe 8</descr>
-            <controller ctrl="11" value="110"/>
+            <controller ctrl="12" value="20"/>
             </MidiAction>
           <MidiAction name="R. +8' flûte harm.">
             <descr>On: Flûte Harm. 8</descr>
-            <controller ctrl="12" value="110"/>
+            <controller ctrl="13" value="20"/>
             </MidiAction>
           <MidiAction name="R. +8' bourdon">
             <descr>On: Bourdon 8</descr>
-            <controller ctrl="13" value="110"/>
+            <controller ctrl="14" value="20"/>
             </MidiAction>
           <MidiAction name="R. +8' principal">
             <descr>On: Principal 8</descr>
-            <controller ctrl="14" value="110"/>
+            <controller ctrl="15" value="20"/>
             </MidiAction>
           <MidiAction name="R. +16' bourdon">
             <descr>On: Bourdon 16</descr>
-            <controller ctrl="15" value="110"/>
+            <controller ctrl="16" value="20"/>
             </MidiAction>
           <MidiAction name="R. - tremolo">
             <descr>Off: Tremolo</descr>
-            <controller ctrl="0" value="20"/>
+            <controller ctrl="1" value="110"/>
             </MidiAction>
           <MidiAction name="R. -8' voix humaine">
             <descr>Off: Voix Humaine 8</descr>
-            <controller ctrl="1" value="20"/>
+            <controller ctrl="2" value="110"/>
             </MidiAction>
           <MidiAction name="R. -8' hautbois">
             <descr>Off: Hautbois 8</descr>
-            <controller ctrl="2" value="20"/>
+            <controller ctrl="3" value="110"/>
             </MidiAction>
           <MidiAction name="R. -8' trompette">
             <descr>Off: Rohr Flute</descr>
-            <controller ctrl="3" value="20"/>
+            <controller ctrl="4" value="110"/>
             </MidiAction>
           <MidiAction name="R. -8' basson">
             <descr>Off: Basson 8</descr>
-            <controller ctrl="4" value="20"/>
+            <controller ctrl="5" value="110"/>
             </MidiAction>
           <MidiAction name="R. -5Rgs. cornet">
             <descr>Off: Cornet 5Rgs.</descr>
-            <controller ctrl="5" value="20"/>
+            <controller ctrl="6" value="110"/>
             </MidiAction>
           <MidiAction name="R. -2' octavin">
             <descr>Off: Octavin 2</descr>
-            <controller ctrl="6" value="20"/>
+            <controller ctrl="7" value="110"/>
             </MidiAction>
           <MidiAction name="R. -4' flûte traverse">
             <descr>Off: Flûte Traverse 4</descr>
-            <controller ctrl="7" value="20"/>
+            <controller ctrl="8" value="110"/>
             </MidiAction>
           <MidiAction name="R. -2' principal">
             <descr>Off: Principal 2</descr>
-            <controller ctrl="8" value="20"/>
+            <controller ctrl="9" value="110"/>
             </MidiAction>
           <MidiAction name="R. -8' viole d'orchestre">
             <descr>Off: Viole d'Orchestre 8</descr>
-            <controller ctrl="9" value="20"/>
+            <controller ctrl="10" value="110"/>
             </MidiAction>
           <MidiAction name="R. -8' voix celeste">
             <descr>Off: Voix Celeste</descr>
-            <controller ctrl="10" value="20"/>
+            <controller ctrl="11" value="110"/>
             </MidiAction>
           <MidiAction name="R. -8' viole de gambe">
             <descr>Off: Viole de Gambe 8</descr>
-            <controller ctrl="11" value="20"/>
+            <controller ctrl="12" value="110"/>
             </MidiAction>
           <MidiAction name="R. -8' flûte harm.">
             <descr>Off: Flûte Harm. 8</descr>
-            <controller ctrl="12" value="20"/>
+            <controller ctrl="13" value="110"/>
             </MidiAction>
           <MidiAction name="R. -8' bourdon">
             <descr>Off: Bourdon 8</descr>
-            <controller ctrl="13" value="20"/>
+            <controller ctrl="14" value="110"/>
             </MidiAction>
           <MidiAction name="R. -8' principal">
             <descr>Off: Principal 8</descr>
-            <controller ctrl="14" value="20"/>
+            <controller ctrl="15" value="110"/>
             </MidiAction>
           <MidiAction name="R. -16' bourdon">
             <descr>Off: Bourdon 16</descr>
-            <controller ctrl="15" value="20"/>
+            <controller ctrl="16" value="110"/>
             </MidiAction>
           </Channel>
         <Channel name="Positif">
@@ -342,197 +342,198 @@
           <program value="0"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
-          <midiChannel>8</midiChannel>
-          <MidiAction name="P. - tremolo">
+          <midiChannel>1</midiChannel>
+          <MidiAction name="P. + tremolo">
             <descr>On: Tremolo</descr>
-            <controller ctrl="0" value="110"/>
+            <controller ctrl="1" value="20"/>
             </MidiAction>
           <MidiAction name="P. +8' cor anglais">
             <descr>On: Cor Anglais 8</descr>
-            <controller ctrl="1" value="110"/>
+            <controller ctrl="2" value="20"/>
             </MidiAction>
           <MidiAction name="P. +8' clarinette">
             <descr>On: Clarinette 8</descr>
-            <controller ctrl="2" value="110"/>
+            <controller ctrl="3" value="20"/>
             </MidiAction>
           <MidiAction name="P. +8' piccolo">
             <descr>On: Piccolo 2</descr>
-            <controller ctrl="3" value="110"/>
+            <controller ctrl="4" value="20"/>
             </MidiAction>
-          <MidiAction name="P. +8' flûte douce">
-            <descr>On: Flûte Douce 8</descr>
-            <controller ctrl="4" value="110"/>
+          <MidiAction name="P. +4' flûte douce">
+            <descr>On: Flûte Douce 4</descr>
+            <controller ctrl="5" value="20"/>
             </MidiAction>
           <MidiAction name="P. +4' violina">
             <descr>On: Violina 4</descr>
-            <controller ctrl="5" value="110"/>
+            <controller ctrl="6" value="20"/>
             </MidiAction>
           <MidiAction name="P. +8' dulciane">
             <descr>On: Dulciane 8</descr>
-            <controller ctrl="6" value="110"/>
+            <controller ctrl="7" value="20"/>
             </MidiAction>
           <MidiAction name="P. +8' melodie">
             <descr>On: Melodie 8</descr>
-            <controller ctrl="7" value="110"/>
+            <controller ctrl="8" value="20"/>
             </MidiAction>
           <MidiAction name="P. +8' principal">
             <descr>On: Principal 8</descr>
-            <controller ctrl="8" value="110"/>
+            <controller ctrl="9" value="20"/>
             </MidiAction>
           <MidiAction name="P. - tremolo">
             <descr>Off: Tremolo</descr>
-            <controller ctrl="0" value="20"/>
+            <controller ctrl="1" value="110"/>
             </MidiAction>
           <MidiAction name="P. -8' cor anglais">
             <descr>Off: Cor Anglais 8</descr>
-            <controller ctrl="1" value="20"/>
+            <controller ctrl="2" value="110"/>
             </MidiAction>
           <MidiAction name="P. -8' clarinette">
             <descr>Off: Clarinette 8</descr>
-            <controller ctrl="2" value="20"/>
+            <controller ctrl="3" value="110"/>
             </MidiAction>
           <MidiAction name="P. -8' piccolo">
             <descr>Off: Piccolo 2</descr>
-            <controller ctrl="3" value="20"/>
+            <controller ctrl="4" value="110"/>
             </MidiAction>
           <MidiAction name="P. -8' flûte douce">
             <descr>Off: Flûte Douce 8</descr>
-            <controller ctrl="4" value="20"/>
+            <controller ctrl="5" value="110"/>
             </MidiAction>
           <MidiAction name="P. -4' violina">
             <descr>Off: Violina 4</descr>
-            <controller ctrl="5" value="20"/>
+            <controller ctrl="6" value="110"/>
             </MidiAction>
           <MidiAction name="P. -8' dulciane">
             <descr>Off: Dulciane 8</descr>
-            <controller ctrl="6" value="20"/>
+            <controller ctrl="7" value="110"/>
             </MidiAction>
           <MidiAction name="P. -8' melodie">
             <descr>Off: Melodie 8</descr>
-            <controller ctrl="7" value="20"/>
+            <controller ctrl="8" value="110"/>
             </MidiAction>
           <MidiAction name="P. -8' principal">
             <descr>Off: Principal 8</descr>
-            <controller ctrl="8" value="20"/>
+            <controller ctrl="9" value="110"/>
             </MidiAction>
           </Channel>
         <Channel name="Grand Orgue">
           <descr>Grand Orgue</descr>
           <program value="0"/>
+          <controller ctrl="10" value="67"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
-          <midiChannel>10</midiChannel>
+          <midiChannel>2</midiChannel>
           <MidiAction name="Gt +8' posaune">
             <descr>On: Posaune 8</descr>
-            <controller ctrl="0" value="110"/>
+            <controller ctrl="1" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +8' trompette">
             <descr>On: Trompette 8</descr>
-            <controller ctrl="1" value="110"/>
+            <controller ctrl="2" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +2Rgs. mixture">
             <descr>On: Mixture 2Rgs.</descr>
-            <controller ctrl="2" value="110"/>
+            <controller ctrl="3" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +4Rgs. mixture">
             <descr>On: Mixture 4Rgs.</descr>
-            <controller ctrl="3" value="110"/>
+            <controller ctrl="4" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +2' doublette">
             <descr>On: Doublette 2</descr>
-            <controller ctrl="4" value="110"/>
+            <controller ctrl="5" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +4' flûte harm.">
             <descr>On: Flûte Harm. 4</descr>
-            <controller ctrl="5" value="110"/>
+            <controller ctrl="6" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +4' prestant">
             <descr>On: Prestant 8</descr>
-            <controller ctrl="6" value="110"/>
+            <controller ctrl="7" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +8' gemshorn">
             <descr>On: Gemshorn 8</descr>
-            <controller ctrl="7" value="110"/>
+            <controller ctrl="8" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +8' bourdon">
             <descr>On: Bourdon 8</descr>
-            <controller ctrl="8" value="110"/>
+            <controller ctrl="9" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +8' flûte ouverte">
             <descr>On: Flûte Ouverte 8</descr>
-            <controller ctrl="9" value="110"/>
+            <controller ctrl="10" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +8' gambe">
             <descr>On: Gambe 8</descr>
-            <controller ctrl="10" value="110"/>
+            <controller ctrl="11" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +8' montre 2ième">
             <descr>On: Montre 2ième</descr>
-            <controller ctrl="11" value="110"/>
+            <controller ctrl="12" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +8' montre 1ère">
             <descr>On: Montre 1ère</descr>
-            <controller ctrl="12" value="110"/>
+            <controller ctrl="13" value="20"/>
             </MidiAction>
           <MidiAction name="Gt +16' montre">
             <descr>On: Montre 16</descr>
-            <controller ctrl="13" value="110"/>
+            <controller ctrl="14" value="20"/>
             </MidiAction>
           <MidiAction name="Gt -8' posaune">
             <descr>Off: Posaune 8</descr>
-            <controller ctrl="0" value="20"/>
+            <controller ctrl="1" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -8' trompette">
             <descr>Off: Trompette 8</descr>
-            <controller ctrl="1" value="20"/>
+            <controller ctrl="2" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -2Rgs. mixture">
             <descr>Off: Mixture 2Rgs.</descr>
-            <controller ctrl="2" value="20"/>
+            <controller ctrl="3" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -4Rgs. mixture">
             <descr>Off: Mixture 4Rgs.</descr>
-            <controller ctrl="3" value="20"/>
+            <controller ctrl="4" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -2' doublette">
             <descr>Off: Doublette 2</descr>
-            <controller ctrl="4" value="20"/>
+            <controller ctrl="5" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -4' flute harm.">
             <descr>Off: Flûte Harm. 4</descr>
-            <controller ctrl="5" value="20"/>
+            <controller ctrl="6" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -4' prestant">
             <descr>Off: Prestant 4</descr>
-            <controller ctrl="6" value="20"/>
+            <controller ctrl="7" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -8' gemshorn">
             <descr>Off: Gemshorn 8</descr>
-            <controller ctrl="7" value="20"/>
+            <controller ctrl="8" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -8' bourdon">
             <descr>Off: Bourdon 8</descr>
-            <controller ctrl="8" value="20"/>
+            <controller ctrl="9" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -8' flûte ouverte">
             <descr>Off: Flûte Ouverte 8</descr>
-            <controller ctrl="9" value="20"/>
+            <controller ctrl="10" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -8' gambe">
             <descr>Off: Gambe 8</descr>
-            <controller ctrl="10" value="20"/>
+            <controller ctrl="11" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -8' montre 2ième">
             <descr>Off: Montre 2ième</descr>
-            <controller ctrl="11" value="20"/>
+            <controller ctrl="12" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -8' montre 1ère">
             <descr>Off: Montre 1ème</descr>
-            <controller ctrl="12" value="20"/>
+            <controller ctrl="13" value="110"/>
             </MidiAction>
           <MidiAction name="Gt -16' montre">
             <descr>Off: Montre 16</descr>
-            <controller ctrl="13" value="20"/>
+            <controller ctrl="14" value="110"/>
             </MidiAction>
           </Channel>
         <Channel name="Pédale">
@@ -540,109 +541,94 @@
           <program value="0"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
-          <midiChannel>11</midiChannel>
+          <midiChannel>3</midiChannel>
           <MidiAction name="Ped. +8' trompette">
             <descr>On: Trompette 8</descr>
-            <controller ctrl="0" value="110"/>
+            <controller ctrl="1" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. +16' bombarde">
             <descr>On: Bombarde 16</descr>
-            <controller ctrl="1" value="110"/>
+            <controller ctrl="2" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. +4' flûte">
             <descr>On: Flûte</descr>
-            <controller ctrl="2" value="110"/>
+            <controller ctrl="3" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. +8' bourdon">
             <descr>On: Bourdon 8</descr>
-            <controller ctrl="3" value="110"/>
+            <controller ctrl="4" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. +8' flûte">
-            <descr>On: flûte 8</descr>
-            <controller ctrl="4" value="110"/>
+            <descr>On: Flûte 8</descr>
+            <controller ctrl="5" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. +8' violoncelle">
             <descr>On: Violoncelle 8</descr>
-            <controller ctrl="5" value="110"/>
+            <controller ctrl="6" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. +16' bourdon doux">
             <descr>On: Bourdon Doux 16</descr>
-            <controller ctrl="6" value="110"/>
+            <controller ctrl="7" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. +16' violon">
             <descr>On: Violon 16</descr>
-            <controller ctrl="7" value="110"/>
+            <controller ctrl="8" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. +16' bourdon">
             <descr>On: Bourdon 16</descr>
-            <controller ctrl="8" value="110"/>
+            <controller ctrl="9" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. +16' flûte ouverte">
-            <descr>On: flûte ouverte 16</descr>
-            <controller ctrl="9" value="110"/>
+            <descr>On: Flûte ouverte 16</descr>
+            <controller ctrl="10" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. +32' flûte">
             <descr>On: Flûte 32</descr>
-            <controller ctrl="10" value="110"/>
+            <controller ctrl="11" value="20"/>
             </MidiAction>
           <MidiAction name="Ped. -8' trompette">
             <descr>Off: Trompette 8</descr>
-            <controller ctrl="0" value="20"/>
+            <controller ctrl="1" value="110"/>
             </MidiAction>
           <MidiAction name="Ped. -16' bombarde">
             <descr>Off: Bombarde 16</descr>
-            <controller ctrl="1" value="20"/>
+            <controller ctrl="2" value="110"/>
             </MidiAction>
           <MidiAction name="Ped. -4' flûte">
             <descr>Off: Flûte</descr>
-            <controller ctrl="2" value="20"/>
+            <controller ctrl="3" value="110"/>
             </MidiAction>
           <MidiAction name="Ped. -8' bourdon">
             <descr>Off: Bourdon 8</descr>
-            <controller ctrl="3" value="20"/>
+            <controller ctrl="4" value="110"/>
             </MidiAction>
           <MidiAction name="Ped. -8' flûte">
-            <descr>Off: flûte 8</descr>
-            <controller ctrl="4" value="20"/>
+            <descr>Off: Flûte 8</descr>
+            <controller ctrl="5" value="110"/>
             </MidiAction>
           <MidiAction name="Ped. -8' violoncelle">
             <descr>Off: Violoncelle 8</descr>
-            <controller ctrl="5" value="20"/>
+            <controller ctrl="6" value="110"/>
             </MidiAction>
           <MidiAction name="Ped. -16' bourdon doux">
             <descr>Off: Bourdon Doux 16</descr>
-            <controller ctrl="6" value="20"/>
+            <controller ctrl="7" value="110"/>
             </MidiAction>
           <MidiAction name="Ped. -16' violon">
             <descr>Off: Violon 16</descr>
-            <controller ctrl="7" value="20"/>
+            <controller ctrl="8" value="110"/>
             </MidiAction>
           <MidiAction name="Ped. -16' bourdon">
             <descr>Off: Bourdon 16</descr>
-            <controller ctrl="8" value="20"/>
+            <controller ctrl="9" value="110"/>
             </MidiAction>
           <MidiAction name="Ped. -16' flûte ouverte">
-            <descr>Off: flûte ouverte 16</descr>
-            <controller ctrl="9" value="20"/>
+            <descr>Off: Flûte ouverte 16</descr>
+            <controller ctrl="10" value="110"/>
             </MidiAction>
           <MidiAction name="Ped. -32' flûte">
             <descr>Off: Flûte 32</descr>
-            <controller ctrl="10" value="20"/>
-            </MidiAction>
-          </Channel>
-        <Channel name="Synthèse">
-          <descr>Synthèse</descr>
-          <program value="0"/>
-          <synti>Fluid</synti>
-          <midiPort>0</midiPort>
-          <midiChannel>12</midiChannel>
-          <MidiAction name="Syn.">
-            <descr>On: Syn.</descr>
-            <controller ctrl="0" value="110"/>
-            </MidiAction>
-          <MidiAction name="Syn.">
-            <descr>Off: Syn.</descr>
-            <controller ctrl="0" value="20"/>
+            <controller ctrl="11" value="110"/>
             </MidiAction>
           </Channel>
         <Channel name="Couplers">
@@ -650,146 +636,193 @@
           <program value="0"/>
           <synti>Aeolus</synti>
           <midiPort>0</midiPort>
-          <midiChannel>13</midiChannel>
+          <midiChannel>4</midiChannel>
           <MidiAction name="Reset">
             <descr>Reset all stops</descr>
             <program value="0"/>
             </MidiAction>
-          <MidiAction name="Ped. +bass">
-            <descr>On: Bass Coupler</descr>
-            <controller ctrl="20" value="0"/>
+          <MidiAction name="+G. à la Péd.">
+            <descr>On: GrOrgue à la Pédale</descr>
+            <controller ctrl="1" value="20"/>
             </MidiAction>
-          <MidiAction name="+Gt to Ped.">
-            <descr>On: Great to Pedal</descr>
-            <controller ctrl="20" value="1"/>
+          <MidiAction name="+R. à la Péd.">
+            <descr>On: Récit à la Pédale</descr>
+            <controller ctrl="2" value="20"/>
             </MidiAction>
-          <MidiAction name="+Sw to Ped.">
-            <descr>On: Swell to Pedal</descr>
-            <controller ctrl="20" value="2"/>
+          <MidiAction name="+P. à la Péd.">
+            <descr>On: Positif à la Pédale</descr>
+            <controller ctrl="3" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +Sw 8vb">
-            <descr>On: Swell Suboctave to Great</descr>
-            <controller ctrl="20" value="3"/>
+          <MidiAction name="+R. 8vb au G.">
+            <descr>On: Récit Grave au GrOrgue</descr>
+            <controller ctrl="4" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +Sw">
-            <descr>On: Swell to Great</descr>
-            <controller ctrl="20" value="4"/>
+          <MidiAction name="+R. au G.">
+            <descr>On: Récit au GrOrgue</descr>
+            <controller ctrl="5" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +Sw 8va">
-            <descr>On: Swell Octave to Great</descr>
-            <controller ctrl="20" value="5"/>
+          <MidiAction name="+R. 8vb au G.">
+            <descr>On: Récit Aigue au GrOrgue</descr>
+            <controller ctrl="6" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt melody +Sw">
-            <descr>On: Swell to Great Melody</descr>
-            <controller ctrl="20" value="6"/>
+          <MidiAction name="+P. 8vb au G.">
+            <descr>On: Positif Grave au GrOrgue</descr>
+            <controller ctrl="7" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw +8vb">
-            <descr>On: Swell Suboctave</descr>
-            <controller ctrl="20" value="7"/>
+          <MidiAction name="+P. au G.">
+            <descr>On: Positif au GrOrgue</descr>
+            <controller ctrl="8" value="20"/>
             </MidiAction>
-          <MidiAction name="+Sw unison off">
-            <descr>On: Swell Unison Off</descr>
-            <controller ctrl="20" value="8"/>
+          <MidiAction name="+P 8va au G.">
+            <descr>On: Positif Aigue au GrOrgue</descr>
+            <controller ctrl="9" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw +8va">
-            <descr>On: Swell Octave</descr>
-            <controller ctrl="20" value="9"/>
+          <MidiAction name="+8va G.">
+            <descr>On: Oct. Aigue GrOrgue</descr>
+            <controller ctrl="10" value="20"/>
             </MidiAction>
-          <MidiAction name="+Gt and Ped. pistons">
-            <descr>On: Great + Pedal Pistons Coupled</descr>
-            <controller ctrl="20" value="10"/>
+          <MidiAction name="+8vb R.">
+            <descr>On: Oct. Grave Récit</descr>
+            <controller ctrl="11" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. +cresc">
-            <descr>On: Crescendo to Pedal</descr>
-            <controller ctrl="20" value="11"/>
+          <MidiAction name="+8va R.">
+            <descr>On: Oct. Aigue Récit</descr>
+            <controller ctrl="12" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt +cresc">
-            <descr>On: Crescendo to Great</descr>
-            <controller ctrl="20" value="12"/>
+          <MidiAction name="+R. 8vb au P.">
+            <descr>On: Récit Grave au Positif</descr>
+            <controller ctrl="13" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw +cresc">
-            <descr>On: Crescendo to Swell</descr>
-            <controller ctrl="20" value="13"/>
+          <MidiAction name="+R. au P.">
+            <descr>On: Récit au Positif</descr>
+            <controller ctrl="14" value="20"/>
             </MidiAction>
-          <MidiAction name="+Trem">
-            <descr>On: Tremulant</descr>
-            <controller ctrl="20" value="14"/>
+          <MidiAction name="+R. 8va au P.">
+            <descr>On: Récit Aigue au Positif</descr>
+            <controller ctrl="15" value="20"/>
             </MidiAction>
-          <MidiAction name="+FF">
-            <descr>On: Gen FF action</descr>
-            <controller ctrl="20" value="16"/>
+          <MidiAction name="+8vb P.">
+            <descr>On: Oct. Grave Positif</descr>
+            <controller ctrl="16" value="20"/>
             </MidiAction>
-          <MidiAction name="+PP">
-            <descr>On: Gen PP action</descr>
-            <controller ctrl="20" value="17"/>
+          <MidiAction name="+8va P.">
+            <descr>On: Oct. Aigue Positif</descr>
+            <controller ctrl="17" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. -bass">
-            <descr>Off: Bass Coupler</descr>
-            <controller ctrl="110" value="0"/>
+          <MidiAction name="-G. à la Péd.">
+            <descr>On: GrOrgue à la Pédale</descr>
+            <controller ctrl="1" value="20"/>
             </MidiAction>
-          <MidiAction name="-Gt to Ped.">
-            <descr>Off: Great to Pedal</descr>
-            <controller ctrl="110" value="1"/>
+          <MidiAction name="-R. à la Péd.">
+            <descr>On: Récit à la Pédale</descr>
+            <controller ctrl="2" value="20"/>
             </MidiAction>
-          <MidiAction name="-Sw to Ped.">
-            <descr>Off: Swell to Pedal</descr>
-            <controller ctrl="110" value="2"/>
+          <MidiAction name="-P. à la Péd.">
+            <descr>On: Positif à la Pédale</descr>
+            <controller ctrl="3" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt -Sw 8vb">
-            <descr>Off: Swell Suboctave to Great</descr>
-            <controller ctrl="110" value="3"/>
+          <MidiAction name="-R. 8vb au G.">
+            <descr>On: Récit Grave au GrOrgue</descr>
+            <controller ctrl="4" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt -Sw">
-            <descr>Off: Swell to Great</descr>
-            <controller ctrl="110" value="4"/>
+          <MidiAction name="-R. au G.">
+            <descr>On: Récit au GrOrgue</descr>
+            <controller ctrl="5" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt -Sw 8va">
-            <descr>Off: Swell Octave to Great</descr>
-            <controller ctrl="110" value="5"/>
+          <MidiAction name="-R. 8vb au G.">
+            <descr>On: Récit Aigue au GrOrgue</descr>
+            <controller ctrl="6" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt melody -Sw">
-            <descr>Off: Swell to Great Melody</descr>
-            <controller ctrl="110" value="6"/>
+          <MidiAction name="-P. 8vb au G.">
+            <descr>On: Positif Grave au GrOrgue</descr>
+            <controller ctrl="7" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -8vb">
-            <descr>Off: Swell Suboctave</descr>
-            <controller ctrl="110" value="7"/>
+          <MidiAction name="-P. au G.">
+            <descr>On: Positif au GrOrgue</descr>
+            <controller ctrl="8" value="20"/>
             </MidiAction>
-          <MidiAction name="-Sw unison off">
-            <descr>Off: Swell Unison Off</descr>
-            <controller ctrl="110" value="8"/>
+          <MidiAction name="-P 8va au G.">
+            <descr>On: Positif Aigue au GrOrgue</descr>
+            <controller ctrl="9" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -8va">
-            <descr>Off: Swell Octave</descr>
-            <controller ctrl="110" value="9"/>
+          <MidiAction name="-8va G.">
+            <descr>On: Oct. Aigue GrOrgue</descr>
+            <controller ctrl="10" value="20"/>
             </MidiAction>
-          <MidiAction name="-Gt and Ped. pistons">
-            <descr>Off: Great + Pedal Pistons Coupled</descr>
-            <controller ctrl="110" value="10"/>
+          <MidiAction name="-8vb R.">
+            <descr>On: Oct. Grave Récit</descr>
+            <controller ctrl="11" value="20"/>
             </MidiAction>
-          <MidiAction name="Ped. -cresc">
-            <descr>Off: Crescendo to Pedal</descr>
-            <controller ctrl="110" value="11"/>
+          <MidiAction name="-8va R.">
+            <descr>On: Oct. Aigue Récit</descr>
+            <controller ctrl="12" value="20"/>
             </MidiAction>
-          <MidiAction name="Gt -cresc">
-            <descr>Off: Crescendo to Great</descr>
-            <controller ctrl="110" value="12"/>
+          <MidiAction name="-R. 8vb au P.">
+            <descr>On: Récit Grave au Positif</descr>
+            <controller ctrl="13" value="20"/>
             </MidiAction>
-          <MidiAction name="Sw -cresc">
-            <descr>Off: Crescendo to Swell</descr>
-            <controller ctrl="110" value="13"/>
+          <MidiAction name="-R. au P.">
+            <descr>On: Récit au Positif</descr>
+            <controller ctrl="14" value="20"/>
             </MidiAction>
-          <MidiAction name="-Trem">
-            <descr>Off: Tremulant</descr>
-            <controller ctrl="110" value="14"/>
+          <MidiAction name="-R. 8va au P.">
+            <descr>On: Récit Aigue au Positif</descr>
+            <controller ctrl="15" value="20"/>
             </MidiAction>
-          <MidiAction name="-FF">
-            <descr>Off: Gen FF action</descr>
-            <controller ctrl="110" value="16"/>
+          <MidiAction name="-8vb P.">
+            <descr>On: Oct. Grave Positif</descr>
+            <controller ctrl="16" value="20"/>
             </MidiAction>
-          <MidiAction name="-PP">
-            <descr>Off: Gen PP action</descr>
-            <controller ctrl="110" value="17"/>
+          <MidiAction name="-8va P.">
+            <descr>On: Oct. Aigue Positif</descr>
+            <controller ctrl="17" value="20"/>
+            </MidiAction>
+          </Channel>
+        <Channel name="Synthèse">
+          <descr>Synthèse</descr>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>5</midiChannel>
+          <MidiAction name="Syn. 1">
+            <descr>On: Syn. 1</descr>
+            <controller ctrl="1" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 2">
+            <descr>On: Syn. 2</descr>
+            <controller ctrl="2" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 3">
+            <descr>On: Syn. 3</descr>
+            <controller ctrl="3" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 4">
+            <descr>On: Syn. 4</descr>
+            <controller ctrl="4" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 5">
+            <descr>On: Syn. 5</descr>
+            <controller ctrl="5" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 6">
+            <descr>On: Syn. 6</descr>
+            <controller ctrl="6" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 7">
+            <descr>On: Syn. 7</descr>
+            <controller ctrl="7" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 8">
+            <descr>On: Syn. 8</descr>
+            <controller ctrl="8" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 9">
+            <descr>On: Syn. 9</descr>
+            <controller ctrl="9" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 10">
+            <descr>On: Syn. 10</descr>
+            <controller ctrl="10" value="20"/>
             </MidiAction>
           </Channel>
         </Instrument>
@@ -3599,7 +3632,6 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.6</stretch>
         <voice>
           <TimeSig>
             <sigN>12</sigN>
@@ -3617,7 +3649,6 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.7</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -3626,7 +3657,6 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.7</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -3635,16 +3665,9 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.7</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.9</stretch>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -3681,159 +3704,6 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
         </Measure>
       <Measure>
         <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.8</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.5</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.5</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.5</stretch>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>0.5</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -3891,6 +3761,175 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
         </Measure>
       <Measure>
         <stretch>0.8</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.1</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.7</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.8</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/2</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
         <LayoutBreak>
           <subtype>page</subtype>
           </LayoutBreak>
@@ -4180,12 +4219,6 @@ Pédale : Bourdon 8' et 16'</text>
             </Rest>
           </voice>
         </Measure>
-      <HBox>
-        <width>5</width>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        </HBox>
       <Measure>
         <voice>
           <Rest>
@@ -7078,9 +7111,6 @@ joue</text>
     <Staff id="2">
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <offset x="2.20532" y="-4.67938"/>
             <visible>0</visible>
@@ -7094,6 +7124,13 @@ joue</text>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <slashStyle>1</slashStyle>
+            <stemless>1</stemless>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
           <TimeSig>
             <offset x="-4.43407" y="-0.451897"/>
@@ -7101,6 +7138,10 @@ joue</text>
             <sigN>20</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -7135,7 +7176,11 @@ joue</text>
             <text>cca. 2'</text>
             </StaffText>
           <StaffText>
-            <channelSwitch voice="3" name="normal"/>
+            <MidiAction channel="5" name="Syn. 1"/>
+            <channelSwitch voice="0" name="Pédale"/>
+            <channelSwitch voice="1" name="Pédale"/>
+            <channelSwitch voice="2" name="Pédale"/>
+            <channelSwitch voice="3" name="Pédale"/>
             <minDistance>-2.30891</minDistance>
             <offset x="-1.40445" y="-0.511236"/>
             <text>Syn.</text>
@@ -7166,9 +7211,9 @@ joue</text>
             <Note>
               <Fingering>
                 <style>String Number</style>
-                <minDistance>-10.829</minDistance>
+                <minDistance>-4.82896</minDistance>
                 <size>14</size>
-                <offset x="-6.29156" y="-12.1776"/>
+                <offset x="-5.78112" y="-9.37019"/>
                 <frameType>1</frameType>
                 <text>1</text>
                 </Fingering>
@@ -7176,9 +7221,35 @@ joue</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>33</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <visible>0</visible>
-            <durationType>whole</durationType>
+            <durationType>16th</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
@@ -7311,14 +7382,14 @@ joue</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <placement>below</placement>
-            <text>Pos.</text>
-            </StaffText>
           <Dynamic>
             <subtype>ff</subtype>
             <velocity>112</velocity>
             </Dynamic>
+          <StaffText>
+            <placement>below</placement>
+            <text>Pos.</text>
+            </StaffText>
           <Spanner type="TextLine">
             <TextLine>
               <beginHookType>1</beginHookType>
@@ -7474,7 +7545,6 @@ joue</text>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
               </TextLine>
             <next>
               <location>
@@ -7485,6 +7555,7 @@ joue</text>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
+              <placement>below</placement>
               </TextLine>
             <next>
               <location>
@@ -7547,7 +7618,8 @@ joue</text>
               </TextLine>
             <next>
               <location>
-                <fractions>1/4</fractions>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -7557,8 +7629,7 @@ joue</text>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
+                <fractions>1/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -7817,6 +7888,11 @@ joue</text>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
           <KeySig>
             <accidental>-1</accidental>
@@ -7826,14 +7902,14 @@ joue</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Dynamic>
-            <subtype>p</subtype>
-            <velocity>49</velocity>
-            </Dynamic>
           <StaffText>
             <MidiAction channel="4" name="Syn."/>
             <text>Syn.</text>
             </StaffText>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -10774,12 +10850,12 @@ joue</text>
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <text>30&quot;</text>
-            </StaffText>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
+          <StaffText>
+            <text>30&quot;</text>
+            </StaffText>
           <Spanner type="TextLine">
             <TextLine>
               <beginHookType>1</beginHookType>
@@ -12922,13 +12998,6 @@ joue</text>
             </TimeSig>
           <Chord>
             <durationType>eighth</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Hook>
-              <name>flag8thUp</name>
-              <visible>0</visible>
-              </Hook>
             <Note>
               <visible>0</visible>
               <pitch>55</pitch>
@@ -20038,9 +20107,6 @@ joue</text>
     <Staff id="3">
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <offset x="2.20532" y="-4.67938"/>
             <visible>0</visible>
@@ -20054,6 +20120,13 @@ joue</text>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <slashStyle>1</slashStyle>
+            <stemless>1</stemless>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
           <TimeSig>
             <offset x="-4.43407" y="-0.451897"/>
@@ -20062,600 +20135,9 @@ joue</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>20/4</duration>
             </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <StaffText>
-            <placement>below</placement>
-            <offset x="0.781382" y="8.03768"/>
-            <text>Pédale crescendo 
-40</text>
-            </StaffText>
-          <StaffText>
-            <channelSwitch voice="0" name="normal"/>
-            <text>G.O.</text>
-            </StaffText>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.14295" y="3.82323"/>
-                <off2 x="13.3926" y="0"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>5/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              </Note>
-            <Note>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.734745" y="-0.520792"/>
-                <off2 x="0.389316" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/1</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.781382" y="0.508751"/>
-                <off2 x="4.89219" y="0"/>
-                <minDistance>-2.40069</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>2/1</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.781382" y="1.35212"/>
-                <off2 x="-0.955023" y="0"/>
-                <minDistance>-1.55733</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>5/2</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>whole</durationType>
-            </Rest>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-5/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.14905" y="-0.485885"/>
-                <off2 x="-0.389895" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>5/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.07719" y="-0.878827"/>
-                <off2 x="-33.9313" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-2/1</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <StaffText>
-            <placement>below</placement>
-            <text>20</text>
-            </StaffText>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-2/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <StaffText>
-            <placement>below</placement>
-            <offset x="-3.03871" y="4.52362"/>
-            <text>0</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-5/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-5/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            </Clef>
-          <Chord>
-            <BeamMode>begin</BeamMode>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.1495" y="0.66026"/>
-                <off2 x="7.53725" y="0"/>
-                <minDistance>-5.12793</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/16</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.126198" y="5.02875"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>5/32</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.41167" y="-2.38141"/>
-                <off2 x="-2.92604" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>7/32</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>32nd</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>73</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>32nd</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>82</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/16</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.30885" y="-1.6268"/>
-                <off2 x="1.57594" y="0"/>
-                <minDistance>-3.24788</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/32</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>32nd</durationType>
-            <Note>
-              <pitch>79</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.13396" y="-3.98623"/>
-                <off2 x="-3.27011" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/8</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Chord>
-            <BeamMode>mid</BeamMode>
-            <durationType>32nd</durationType>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>90</pitch>
-              <tpc>20</tpc>
-              </Note>
-            </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0.381386" y="-3.6688"/>
-                <off2 x="-2.91552" y="0"/>
-                <minDistance>-0.718073</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>11/32</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>32nd</durationType>
-            </Rest>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-5/32</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/32</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>16th</durationType>
-            </Rest>
-          <StaffText>
-            <placement>below</placement>
-            <text>30</text>
-            </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-7/32</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            <Note>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <role>1</role>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>78</pitch>
-              <tpc>20</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>85</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-11/32</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.126198" y="4.90255"/>
-                <off2 x="0" y="0"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.00862" y="1.54365"/>
-                <off2 x="1.51437" y="0"/>
-                <minDistance>-1.2158</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.00862" y="-2.52365"/>
-                <off2 x="1.00958" y="0"/>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.01142" y="-0.0389587"/>
-                <off2 x="0.770159" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.26102" y="1.12672"/>
-                <off2 x="1.14596" y="0"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.996729" y="-1.46227"/>
-                <off2 x="-2.0301" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-4/1</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <StaffText>
-            <placement>below</placement>
-            <text>0</text>
-            </StaffText>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <BarLine>
             <visible>0</visible>
             </BarLine>
@@ -20668,357 +20150,9 @@ joue</text>
             <sigN>23</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>2/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>4/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
-              </Note>
-            <Note>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>54</pitch>
-              <tpc>20</tpc>
-              </Note>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              </Note>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>42</pitch>
-              <tpc>8</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>49</pitch>
-              <tpc>9</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>56</pitch>
-              <tpc>10</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>61</pitch>
-              <tpc>9</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
-              </Note>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            <Note>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>44</pitch>
-              <tpc>10</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>51</pitch>
-              <tpc>11</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              </Note>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>down</StemDirection>
-            <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>51</pitch>
-              <tpc>23</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>56</pitch>
-              <tpc>22</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>63</pitch>
-              <tpc>23</tpc>
-              </Note>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>68</pitch>
-              <tpc>22</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <durationType>whole</durationType>
+            <durationType>measure</durationType>
+            <duration>23/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -21163,6 +20297,7 @@ joue</text>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
+              <placement>below</placement>
               </TextLine>
             <next>
               <location>
@@ -21173,7 +20308,6 @@ joue</text>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
               </TextLine>
             <next>
               <location>
@@ -21387,6 +20521,11 @@ joue</text>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
           <KeySig>
             <accidental>-1</accidental>
@@ -31785,9 +30924,6 @@ joue</text>
     <Staff id="4">
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <offset x="2.20532" y="-4.67938"/>
             <visible>0</visible>
@@ -31801,6 +30937,13 @@ joue</text>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <slashStyle>1</slashStyle>
+            <stemless>1</stemless>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
           <TimeSig>
             <offset x="-4.43407" y="-0.451897"/>
@@ -31812,55 +30955,9 @@ joue</text>
             <durationType>measure</durationType>
             <duration>20/4</duration>
             </Rest>
-          <location>
-            <fractions>-17/4</fractions>
-            </location>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              </TextLine>
-            <next>
-              <location>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                </location>
-              </prev>
-            </Spanner>
-          <location>
-            <fractions>17/4</fractions>
-            </location>
           <BarLine>
             <visible>0</visible>
             </BarLine>
-          </voice>
-        <voice>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
-            <Note>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>long</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -31871,14 +30968,6 @@ joue</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>23/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>23/4</duration>
             </Rest>
