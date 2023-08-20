@@ -128,7 +128,7 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="52"/>
-          <controller ctrl="10" value="63"/>
+          <controller ctrl="7" value="101"/>
           <synti>Fluid</synti>
           <mute>1</mute>
           <midiPort>0</midiPort>
@@ -7146,10 +7146,20 @@ joue</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Dynamic>
-            <subtype>f</subtype>
-            <velocity>96</velocity>
-            </Dynamic>
+          <StaffText>
+            <offset x="56.1782" y="-3.13587"/>
+            <text>cca. 2'</text>
+            </StaffText>
+          <StaffText>
+            <MidiAction channel="5" name="Syn. 1"/>
+            <channelSwitch voice="0" name="Synthèse"/>
+            <channelSwitch voice="1" name="Synthèse"/>
+            <channelSwitch voice="2" name="Synthèse"/>
+            <channelSwitch voice="3" name="Synthèse"/>
+            <minDistance>-2.30891</minDistance>
+            <offset x="1.61121" y="-0.511236"/>
+            <text>Syn.</text>
+            </StaffText>
           <Spanner type="TextLine">
             <TextLine>
               <beginHookType>1</beginHookType>
@@ -7171,41 +7181,20 @@ joue</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <StaffText>
-            <offset x="56.1782" y="-3.13587"/>
-            <text>cca. 2'</text>
-            </StaffText>
-          <StaffText>
-            <MidiAction channel="5" name="Syn. 1"/>
-            <channelSwitch voice="0" name="Synthèse"/>
-            <channelSwitch voice="1" name="Synthèse"/>
-            <channelSwitch voice="2" name="Synthèse"/>
-            <channelSwitch voice="3" name="Synthèse"/>
-            <minDistance>-2.30891</minDistance>
-            <offset x="-1.40445" y="-0.511236"/>
-            <text>Syn.</text>
-            </StaffText>
           <Spanner type="Pedal">
             <Pedal>
               <endHookType>1</endHookType>
-              <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
-              <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.0956361" y="5.59063"/>
-                <off2 x="0.0956361" y="0"/>
-                </Segment>
+              <beginHookType>1</beginHookType>
               </Pedal>
             <next>
               <location>
-                <measures>2</measures>
-                <fractions>-1/2</fractions>
+                <measures>1</measures>
+                <fractions>9/2</fractions>
                 </location>
               </next>
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
-            <StemDirection>up</StemDirection>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
@@ -7215,26 +7204,38 @@ joue</text>
               <tpc>13</tpc>
               </Note>
             <Note>
-              <Fingering>
-                <style>String Number</style>
-                <minDistance>-4.82896</minDistance>
-                <size>14</size>
-                <offset x="-5.78112" y="-9.37019"/>
-                <frameType>1</frameType>
-                <text>1</text>
-                </Fingering>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>whole</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
+          <Chord>
             <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -7281,6 +7282,9 @@ joue</text>
               </Note>
             </Chord>
           <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
@@ -7320,6 +7324,14 @@ joue</text>
             <visible>0</visible>
             <durationType>whole</durationType>
             </Rest>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>-9/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -7337,14 +7349,6 @@ joue</text>
             <sigN>34</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>34/4</duration>
