@@ -1575,27 +1575,31 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <durationType>16th</durationType>
             </Rest>
           <BarLine>
-            <offset x="0.8" y="0"/>
+            <offset x="4" y="0"/>
             </BarLine>
           <TimeSig>
             <visible>0</visible>
-            <sigN>20</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
         </Measure>
       <HBox>
-        <width>7.59432</width>
+        <width>7.0183</width>
         </HBox>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <TimeSig>
             <offset x="-4.43407" y="-0.451897"/>
             <visible>0</visible>
-            <sigN>20</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>0.16666666666666666</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 10</b></text>
+            </Tempo>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -1606,26 +1610,18 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             </Spanner>
           <Rest>
             <durationType>measure</durationType>
-            <duration>20/4</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.7</stretch>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
-          <TimeSig>
-            <visible>0</visible>
-            <sigN>23</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>23/4</duration>
+            <duration>60/4</duration>
             </Rest>
           <TimeSig>
+            <visible>0</visible>
             <sigN>34</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -1716,12 +1712,6 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <TextLine>
               <diagonal>1</diagonal>
               <lineWidth>0.45</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.92494" y="3.04042"/>
-                <off2 x="-2.20775" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -4571,12 +4561,12 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>90</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>45/2</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -4584,7 +4574,15 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>45/2</duration>
+            <duration>60/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -4592,12 +4590,12 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>112</sigN>
-            <sigD>8</sigD>
+            <sigN>60</sigN>
+            <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>14/1</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8176,44 +8174,24 @@ joue</text>
             <durationType>measure</durationType>
             <duration>20/8</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <StaffTypeChange>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <timesig>0</timesig>
-            </StaffType>
-          </StaffTypeChange>
-        <StaffTypeChange>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <timesig>0</timesig>
-            </StaffType>
-          </StaffTypeChange>
-        <voice>
-          <TimeSig>
-            <offset x="-4.43407" y="-0.451897"/>
-            <visible>0</visible>
-            <sigN>20</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <offset x="-4.43407" y="-0.451897"/>
+            <visible>0</visible>
+            <sigN>60</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
-          <StaffText>
-            <offset x="56.1782" y="-3.13587"/>
-            <text>cca. 2'</text>
-            </StaffText>
           <StaffText>
             <MidiAction channel="5" name="Syn. 1"/>
             <channelSwitch voice="0" name="Synthèse"/>
@@ -8224,26 +8202,25 @@ joue</text>
             <offset x="1.61121" y="-0.511236"/>
             <text>Syn.</text>
             </StaffText>
+          <StaffText>
+            <offset x="56.1782" y="-3.13587"/>
+            <text>cca. 2'</text>
+            </StaffText>
           <Spanner type="TextLine">
             <TextLine>
               <beginHookType>1</beginHookType>
               <endHookType>1</endHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-1"/>
-                <off2 x="15.0389" y="0"/>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>15/4</fractions>
+                <measures>2</measures>
+                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Spanner type="Pedal">
             <Pedal>
@@ -8252,158 +8229,237 @@ joue</text>
               </Pedal>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>9/2</fractions>
+                <measures>2</measures>
+                <fractions>-1/1</fractions>
                 </location>
               </next>
             </Spanner>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
-              <pitch>41</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
-              <pitch>45</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
-              <pitch>41</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
-              <pitch>43</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
-              <pitch>45</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
-              <pitch>47</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>46</pitch>
+              <pitch>58</pitch>
               <tpc>12</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
-              <pitch>43</pitch>
+              <pitch>55</pitch>
               <tpc>15</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
-              <pitch>47</pitch>
+              <pitch>59</pitch>
               <tpc>19</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>49</pitch>
+              <pitch>61</pitch>
               <tpc>21</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
             <durationType>whole</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
             </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <BarLine>
+          <Rest>
             <visible>0</visible>
-            </BarLine>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
+          <Rest>
             <visible>0</visible>
-            <sigN>23</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <NoteDot>
+              <visible>0</visible>
+              </NoteDot>
+            </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>long</durationType>
             </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-15/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>breve</durationType>
+            </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>whole</durationType>
             </Rest>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-9/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
             </Rest>
           <TimeSig>
             <visible>0</visible>
@@ -8419,6 +8475,22 @@ joue</text>
             <sigN>34</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>34/4</duration>
@@ -8457,11 +8529,6 @@ joue</text>
             <TextLine>
               <beginHookType>1</beginHookType>
               <endHookType>1</endHookType>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0.688475" y="-4.59213"/>
-                <off2 x="0" y="0"/>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8491,12 +8558,6 @@ joue</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.922623" y="1.96368"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8524,14 +8585,7 @@ joue</text>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.29257" y="0.00484118"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8542,13 +8596,8 @@ joue</text>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
+              <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.18485" y="2.98542"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8614,12 +8663,6 @@ joue</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.234677" y="1.93346"/>
-                <off2 x="0.176008" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8642,14 +8685,7 @@ joue</text>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.176008" y="0.589316"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.409316</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8660,13 +8696,8 @@ joue</text>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
+              <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.234677" y="2.9895"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8737,12 +8768,6 @@ joue</text>
             <TextLine>
               <diagonal>1</diagonal>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.436371" y="2.561"/>
-                <off2 x="0.837835" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8752,7 +8777,7 @@ joue</text>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
+              <diagonal>1</diagonal>
               <lineWidth>0.25</lineWidth>
               </TextLine>
             <next>
@@ -8764,14 +8789,8 @@ joue</text>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
-              <diagonal>1</diagonal>
+              <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.436041" y="3.50575"/>
-                <off2 x="-1.96218" y="0"/>
-                <autoplace>0</autoplace>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8850,12 +8869,6 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.0858285" y="1.01269"/>
-                <off2 x="0.863663" y="0"/>
-                <minDistance>0.34769</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8867,12 +8880,6 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.504113" y="-0.694343"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8900,12 +8907,6 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.596831" y="1"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-0.165</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -9042,11 +9043,6 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="2.06716" y="1.00843"/>
-                <off2 x="-7.75184" y="0"/>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -9059,12 +9055,6 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.62749" y="-0.525151"/>
-                <off2 x="-7.35976" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -15124,9 +15114,21 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>90</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <StaffText>
             <placement>below</placement>
             <text>Syn.</text>
@@ -15150,14 +15152,115 @@ et en dessus de le cantus firmus rouge</text>
                 <frameType>1</frameType>
                 <text>4</text>
                 </Fingering>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>45</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>whole</durationType>
-            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -15165,21 +15268,99 @@ et en dessus de le cantus firmus rouge</text>
                 </location>
               </prev>
             </Spanner>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
             </Rest>
           <Spanner type="TextLine">
             <TextLine>
@@ -15200,7 +15381,10 @@ et en dessus de le cantus firmus rouge</text>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
@@ -15242,7 +15426,16 @@ et en dessus de le cantus firmus rouge</text>
             </Spanner>
           <Rest>
             <visible>0</visible>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Spanner type="TextLine">
             <TextLine>
@@ -15274,11 +15467,23 @@ et en dessus de le cantus firmus rouge</text>
             </Spanner>
           <Rest>
             <visible>0</visible>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
@@ -15294,11 +15499,23 @@ et en dessus de le cantus firmus rouge</text>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
@@ -15314,11 +15531,35 @@ et en dessus de le cantus firmus rouge</text>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>breve</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -15333,7 +15574,16 @@ et en dessus de le cantus firmus rouge</text>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
@@ -15349,11 +15599,27 @@ et en dessus de le cantus firmus rouge</text>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -15368,35 +15634,22 @@ et en dessus de le cantus firmus rouge</text>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <NoteDot>
-              <visible>0</visible>
-              </NoteDot>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>whole</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>22</tpc>
               </Note>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <dots>1</dots>
-            <durationType>whole</durationType>
-            <NoteDot>
-              <visible>0</visible>
-              </NoteDot>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>breve</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -15411,15 +15664,7 @@ et en dessus de le cantus firmus rouge</text>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <NoteDot>
-              <visible>0</visible>
-              </NoteDot>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>whole</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -15450,24 +15695,12 @@ et en dessus de le cantus firmus rouge</text>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -15534,18 +15767,14 @@ et en dessus de le cantus firmus rouge</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
-            <durationType>breve</durationType>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
               <pitch>45</pitch>
@@ -15554,28 +15783,39 @@ et en dessus de le cantus firmus rouge</text>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
-          <Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
             <dots>1</dots>
             <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>whole</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>48</pitch>
               <tpc>14</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
               <Accidental>
@@ -15587,11 +15827,10 @@ et en dessus de le cantus firmus rouge</text>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>whole</durationType>
             </Rest>
           <Chord>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
               <Accidental>
@@ -15603,19 +15842,16 @@ et en dessus de le cantus firmus rouge</text>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
               <pitch>45</pitch>
@@ -15624,19 +15860,16 @@ et en dessus de le cantus firmus rouge</text>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
               <pitch>48</pitch>
@@ -15645,23 +15878,13 @@ et en dessus de le cantus firmus rouge</text>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>breve</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <Chord>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
               <Accidental>
@@ -15673,15 +15896,13 @@ et en dessus de le cantus firmus rouge</text>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
               <pitch>52</pitch>
@@ -15690,15 +15911,13 @@ et en dessus de le cantus firmus rouge</text>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <Chord>
-            <durationType>whole</durationType>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
               <Accidental>
@@ -15710,19 +15929,9 @@ et en dessus de le cantus firmus rouge</text>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <noStem>1</noStem>
-            <Note>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
-              </Note>
-            </Chord>
           <Rest>
-            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           </voice>
@@ -15731,9 +15940,27 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>112</sigN>
-            <sigD>8</sigD>
+            <sigN>60</sigN>
+            <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>whole</durationType>
@@ -15747,24 +15974,22 @@ et en dessus de le cantus firmus rouge</text>
             <durationType>quarter</durationType>
             </Rest>
           <Chord>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>43</pitch>
               <tpc>15</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>whole</durationType>
             </Rest>
           <Chord>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
               <pitch>46</pitch>
@@ -15773,8 +15998,10 @@ et en dessus de le cantus firmus rouge</text>
               </Note>
             </Chord>
           <Rest>
-            <visible>0</visible>
             <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -15877,16 +16104,6 @@ et en dessus de le cantus firmus rouge</text>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-53/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -15916,14 +16133,6 @@ et en dessus de le cantus firmus rouge</text>
                     <notes>1</notes>
                     </location>
                   </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>53/4</fractions>
-                    </location>
-                  </prev>
                 </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -24314,28 +24523,20 @@ et en dessus de le cantus firmus rouge</text>
           </voice>
         </Measure>
       <Measure>
-        <StaffTypeChange>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <timesig>0</timesig>
-            </StaffType>
-          </StaffTypeChange>
         <voice>
           <TimeSig>
             <offset x="-4.43407" y="-0.451897"/>
             <visible>0</visible>
-            <sigN>20</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <StaffText>
             <MidiAction channel="2" name="Gt +8' bourdon"/>
@@ -24346,7 +24547,7 @@ et en dessus de le cantus firmus rouge</text>
             <text>G.O.</text>
             </StaffText>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <Spanner type="Tie">
@@ -24358,12 +24559,13 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -24375,12 +24577,13 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>41</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Spanner type="Tie">
@@ -24392,28 +24595,23 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>45</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.734745" y="-0.520792"/>
-                <off2 x="0.389316" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>1/1</fractions>
+                <fractions>2/1</fractions>
                 </location>
               </next>
             </Spanner>
@@ -24421,16 +24619,10 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.781382" y="0.508751"/>
-                <off2 x="4.89219" y="0"/>
-                <minDistance>-2.40069</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>5/4</fractions>
+                <fractions>3/1</fractions>
                 </location>
               </next>
             </Spanner>
@@ -24438,37 +24630,15 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.781382" y="1.35212"/>
-                <off2 x="-0.955023" y="0"/>
-                <minDistance>-1.55733</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>5/2</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0.0600903" y="17.0923"/>
-                <off2 x="-0.607602" y="0"/>
-                <autoplace>0</autoplace>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>5/2</fractions>
+                <fractions>5/1</fractions>
                 </location>
               </next>
             </Spanner>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <visible>0</visible>
@@ -24481,19 +24651,20 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <visible>0</visible>
@@ -24506,19 +24677,20 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>41</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <visible>0</visible>
@@ -24531,23 +24703,24 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>45</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <visible>0</visible>
               <Spanner type="Tie">
@@ -24559,19 +24732,20 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <visible>0</visible>
@@ -24584,19 +24758,20 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>41</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <visible>0</visible>
@@ -24609,23 +24784,24 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>45</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <visible>0</visible>
               <Spanner type="Tie">
@@ -24637,19 +24813,20 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <visible>0</visible>
@@ -24662,19 +24839,20 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>41</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <visible>0</visible>
@@ -24687,79 +24865,85 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>45</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <Note>
               <visible>0</visible>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <visible>0</visible>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>41</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <visible>0</visible>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/4</fractions>
+                    <fractions>-1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>45</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-1/1</fractions>
+                <fractions>-2/1</fractions>
                 </location>
               </prev>
             </Spanner>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <visible>0</visible>
-              <pitch>38</pitch>
+              <pitch>50</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <visible>0</visible>
-              <pitch>41</pitch>
+              <pitch>53</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <visible>0</visible>
@@ -24772,42 +24956,30 @@ et en dessus de le cantus firmus rouge</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/4</fractions>
+                    <fractions>1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>45</pitch>
+              <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
-              <pitch>46</pitch>
+              <pitch>58</pitch>
               <tpc>12</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-5/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.14905" y="-0.485885"/>
-                <off2 x="-0.389895" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>5/4</fractions>
+                <fractions>2/1</fractions>
                 </location>
               </next>
             </Spanner>
@@ -24815,313 +24987,319 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.07719" y="-0.878827"/>
-                <off2 x="-33.9313" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
+                <fractions>5/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <headType>quarter</headType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <headType>quarter</headType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <headType>quarter</headType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <headType>quarter</headType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <headType>quarter</headType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <headType>quarter</headType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              <headType>quarter</headType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              <headType>quarter</headType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
                 <fractions>-2/1</fractions>
                 </location>
-              </next>
+              </prev>
             </Spanner>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>41</pitch>
-              <tpc>13</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <offset x="-1.05102" y="17.5856"/>
-            <text>0</text>
-            </StaffText>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-5/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-5/2</fractions>
+                <fractions>-5/1</fractions>
                 </location>
               </prev>
             </Spanner>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-5/4</fractions>
+                <fractions>-5/2</fractions>
                 </location>
               </prev>
             </Spanner>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Clef>
             <concertClefType>G</concertClefType>
@@ -25129,26 +25307,21 @@ et en dessus de le cantus firmus rouge</text>
             </Clef>
           <Chord>
             <BeamMode>begin</BeamMode>
-            <durationType>32nd</durationType>
+            <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.1495" y="0.66026"/>
-                <off2 x="7.53725" y="0"/>
-                <minDistance>-5.12793</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>1/16</fractions>
+                <fractions>1/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -25156,126 +25329,95 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.41167" y="-2.38141"/>
-                <off2 x="-2.92604" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>7/32</fractions>
+                <fractions>7/16</fractions>
                 </location>
               </next>
             </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
-            <durationType>32nd</durationType>
+            <durationType>16th</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>73</pitch>
               <tpc>21</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
-            <durationType>32nd</durationType>
+            <durationType>16th</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
                 </Accidental>
               <pitch>82</pitch>
               <tpc>12</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-1/16</fractions>
+                <fractions>-1/8</fractions>
                 </location>
               </prev>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.30885" y="-1.6268"/>
-                <off2 x="1.57594" y="0"/>
-                <minDistance>-3.24788</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/32</fractions>
+                <fractions>3/16</fractions>
                 </location>
               </next>
             </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
-            <durationType>32nd</durationType>
+            <durationType>16th</durationType>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.13396" y="-3.98623"/>
-                <off2 x="-3.27011" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/8</fractions>
+                <fractions>3/4</fractions>
                 </location>
               </next>
             </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
-            <durationType>32nd</durationType>
+            <durationType>16th</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
               <pitch>90</pitch>
               <tpc>20</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0.381386" y="-3.6688"/>
-                <off2 x="-2.91552" y="0"/>
-                <minDistance>-0.718073</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>11/32</fractions>
+                <fractions>11/16</fractions>
                 </location>
               </next>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>32nd</durationType>
-            </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/32</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Rest>
             <visible>0</visible>
@@ -25284,23 +25426,33 @@ et en dessus de le cantus firmus rouge</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-7/32</fractions>
+                <fractions>-3/16</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-7/16</fractions>
                 </location>
               </prev>
             </Spanner>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25309,6 +25461,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>74</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25316,6 +25469,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>78</pitch>
               <tpc>20</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25323,19 +25477,20 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>85</pitch>
               <tpc>9</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-3/8</fractions>
+                <fractions>-3/4</fractions>
                 </location>
               </prev>
             </Spanner>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-11/32</fractions>
+                <fractions>-11/16</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -25343,63 +25498,40 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.00862" y="1.54365"/>
-                <off2 x="1.51437" y="0"/>
-                <minDistance>-1.2158</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/4</fractions>
+                <fractions>3/2</fractions>
                 </location>
               </next>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.00862" y="-2.52365"/>
-                <off2 x="1.00958" y="0"/>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/4</fractions>
+                <fractions>3/2</fractions>
                 </location>
               </next>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.01142" y="-0.0389587"/>
-                <off2 x="0.770159" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/4</fractions>
+                <fractions>3/2</fractions>
                 </location>
               </next>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.17056" y="1.12672"/>
-                <off2 x="1.14596" y="0"/>
-                <autoplace>0</autoplace>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/4</fractions>
+                <fractions>3/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -25407,17 +25539,10 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.996729" y="-1.46227"/>
-                <off2 x="-2.0301" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-4/1</fractions>
+                <fractions>2/1</fractions>
                 </location>
               </next>
             </Spanner>
@@ -25427,82 +25552,139 @@ et en dessus de le cantus firmus rouge</text>
             </Rest>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
             </Rest>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-3/4</fractions>
+                <fractions>-3/2</fractions>
                 </location>
               </prev>
             </Spanner>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-3/4</fractions>
+                <fractions>-3/2</fractions>
                 </location>
               </prev>
             </Spanner>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-3/4</fractions>
+                <fractions>-3/2</fractions>
                 </location>
               </prev>
             </Spanner>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-3/4</fractions>
+                <fractions>-3/2</fractions>
                 </location>
               </prev>
             </Spanner>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
-          <BarLine>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-2/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
             <visible>0</visible>
-            </BarLine>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
-            <visible>0</visible>
-            <sigN>23</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>2/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>4/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Chord>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
             <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>40</pitch>
               <tpc>18</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25510,77 +25692,98 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>54</pitch>
               <tpc>20</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>41</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>45</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>45</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
@@ -25588,6 +25791,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>39</pitch>
               <tpc>11</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25595,6 +25799,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>46</pitch>
               <tpc>12</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25602,6 +25807,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>53</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25609,30 +25815,35 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <Accidental>
@@ -25640,6 +25851,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>42</pitch>
               <tpc>8</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25647,6 +25859,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>49</pitch>
               <tpc>9</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25654,6 +25867,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>56</pitch>
               <tpc>10</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25661,41 +25875,55 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>9</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>45</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25703,37 +25931,50 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>45</pitch>
               <tpc>17</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <Accidental>
@@ -25741,6 +25982,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>44</pitch>
               <tpc>10</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25748,6 +25990,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>51</pitch>
               <tpc>11</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25755,6 +25998,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>58</pitch>
               <tpc>12</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25762,18 +26006,21 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>63</pitch>
               <tpc>11</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25781,14 +26028,16 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             <StemDirection>down</StemDirection>
             <Note>
               <Accidental>
@@ -25796,6 +26045,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>47</pitch>
               <tpc>19</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25803,6 +26053,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>51</pitch>
               <tpc>23</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25810,6 +26061,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>56</pitch>
               <tpc>22</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25817,6 +26069,7 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>63</pitch>
               <tpc>23</tpc>
+              <headType>quarter</headType>
               </Note>
             <Note>
               <Accidental>
@@ -25824,13 +26077,26 @@ et en dessus de le cantus firmus rouge</text>
                 </Accidental>
               <pitch>68</pitch>
               <tpc>22</tpc>
+              <headType>quarter</headType>
               </Note>
             </Chord>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
           <Rest>
-            <durationType>whole</durationType>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
             </Rest>
           <TimeSig>
             <visible>0</visible>
@@ -25892,12 +26158,6 @@ et en dessus de le cantus firmus rouge</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.07714" y="-0.569144"/>
-                <off2 x="0" y="0"/>
-                <minDistance>0.389144</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -25909,12 +26169,6 @@ et en dessus de le cantus firmus rouge</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.02328" y="0.992708"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -25970,12 +26224,6 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.244421" y="-4.01062"/>
-                <off2 x="0.611051" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -26012,12 +26260,6 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.436041" y="-3.94179"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -26061,12 +26303,6 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.372288" y="-3.54191"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -26107,12 +26343,6 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.50251" y="-3.00951"/>
-                <off2 x="-0.901504" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -26211,12 +26441,6 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="-2.99986"/>
-                <off2 x="-4.52191" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -31992,12 +32216,12 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>90</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -32005,7 +32229,15 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -32013,12 +32245,12 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>112</sigN>
-            <sigD>8</sigD>
+            <sigN>60</sigN>
+            <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>112/8</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -39885,29 +40117,17 @@ et en dessus de le cantus firmus rouge</text>
           </voice>
         </Measure>
       <Measure>
-        <StaffTypeChange>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <timesig>0</timesig>
-            </StaffType>
-          </StaffTypeChange>
         <voice>
           <TimeSig>
             <offset x="-4.43407" y="-0.451897"/>
             <visible>0</visible>
-            <sigN>20</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
+            <durationType>whole</durationType>
             </Rest>
-          <location>
-            <fractions>-9/2</fractions>
-            </location>
           <StaffText>
             <MidiAction channel="3" name="Ped. +4' flûte"/>
             <MidiAction channel="3" name="Ped. +8' bourdon"/>
@@ -39918,360 +40138,287 @@ et en dessus de le cantus firmus rouge</text>
             <channelSwitch voice="2" name="Pédale"/>
             <channelSwitch voice="3" name="Pédale"/>
             <placement>below</placement>
-            <offset x="0.335726" y="6.17421"/>
+            <offset x="-0.101465" y="6.17421"/>
             <text>Pédale crescendo 
 40</text>
             </StaffText>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
           <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-1.2321" y="1.59298"/>
-                <off2 x="-27.5379" y="0"/>
-                <minDistance>-0.572015</minDistance>
+                <offset x="1.99148" y="1.63367"/>
+                <off2 x="4.501" y="0"/>
+                <minDistance>-0.531334</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>11/4</fractions>
+                <fractions>3/2</fractions>
                 </location>
               </next>
             </Spanner>
-          <location>
-            <fractions>11/4</fractions>
-            </location>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.95201" y="8.00844"/>
+                <off2 x="1.11083" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>2/1</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-11/4</fractions>
+                <fractions>-3/2</fractions>
                 </location>
               </prev>
             </Spanner>
-          <location>
-            <fractions>3/2</fractions>
-            </location>
-          <BarLine>
-            <visible>0</visible>
-            </BarLine>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <placement>below</placement>
+            <offset x="-0.276299" y="8.35335"/>
+            <text>0</text>
+            </StaffText>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-2/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            </Rest>
           </voice>
         <voice>
           <location>
-            <fractions>1/4</fractions>
+            <fractions>1/1</fractions>
             </location>
-          <Rest>
+          <StaffText>
+            <MidiAction channel="3" name="Ped. +8' bourdon"/>
+            <MidiAction channel="3" name="Ped. +16' violon"/>
+            <MidiAction channel="3" name="Ped. +16' bourdon"/>
+            <MidiAction channel="3" name="Ped. +16' flûte ouverte"/>
+            <channelSwitch voice="0" name="Pédale"/>
+            <channelSwitch voice="1" name="Pédale"/>
+            <channelSwitch voice="2" name="Pédale"/>
+            <channelSwitch voice="3" name="Pédale"/>
             <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
+            <offset x="-3.46096" y="-0.849524"/>
+            <text>Ped.</text>
+            </StaffText>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
-            <visible>0</visible>
-            <sigN>23</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>23/4</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>breve</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>breve</durationType>
             </Rest>
           <TimeSig>
             <visible>0</visible>
             <sigN>34</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>23/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -40325,12 +40472,6 @@ et en dessus de le cantus firmus rouge</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.21865" y="4.02597"/>
-                <off2 x="0.241307" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -40373,12 +40514,6 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.244421" y="-1.01647"/>
-                <off2 x="0.733262" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -40417,12 +40552,6 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.726734" y="-2.99704"/>
-                <off2 x="-7.04932" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -40453,12 +40582,6 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0.0915656" y="-1.4709"/>
-                <off2 x="-2.48979" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -40506,12 +40629,6 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.306329" y="-1.9724"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -40574,12 +40691,6 @@ et en dessus de le cantus firmus rouge</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="1.60017" y="-0.523969"/>
-                <off2 x="-23.9643" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
               </TextLine>
             <next>
               <location>
@@ -43216,34 +43327,28 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>90</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -43251,19 +43356,12 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>112</sigN>
-            <sigD>8</sigD>
+            <sigN>60</sigN>
+            <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>112/8</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>112/8</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -49623,28 +49721,20 @@ et en dessus de le cantus firmus rouge</text>
           <TimeSig>
             <offset x="-4.43407" y="-0.451897"/>
             <visible>0</visible>
-            <sigN>20</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>20/4</duration>
+            <duration>60/4</duration>
             </Rest>
-          <BarLine>
-            <visible>0</visible>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
-            <visible>0</visible>
-            <sigN>23</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>23/4</duration>
+            <duration>60/4</duration>
             </Rest>
           <TimeSig>
             <visible>0</visible>
@@ -51064,12 +51154,12 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>90</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -51077,7 +51167,15 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -51085,12 +51183,12 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>112</sigN>
-            <sigD>8</sigD>
+            <sigN>60</sigN>
+            <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>112/8</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -53562,28 +53660,20 @@ et en dessus de le cantus firmus rouge</text>
           <TimeSig>
             <offset x="-4.43407" y="-0.451897"/>
             <visible>0</visible>
-            <sigN>20</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>20/4</duration>
+            <duration>60/4</duration>
             </Rest>
-          <BarLine>
-            <visible>0</visible>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
-            <visible>0</visible>
-            <sigN>23</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>23/4</duration>
+            <duration>60/4</duration>
             </Rest>
           <TimeSig>
             <visible>0</visible>
@@ -55003,12 +55093,12 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>90</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -55016,7 +55106,15 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -55024,12 +55122,12 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>112</sigN>
-            <sigD>8</sigD>
+            <sigN>60</sigN>
+            <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>112/8</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -57501,64 +57599,89 @@ et en dessus de le cantus firmus rouge</text>
           <TimeSig>
             <offset x="-4.43407" y="-0.451897"/>
             <visible>0</visible>
-            <sigN>20</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>20/4</duration>
+            <durationType>half</durationType>
             </Rest>
-          <location>
-            <fractions>-9/2</fractions>
-            </location>
-          <StaffText>
-            <MidiAction channel="3" name="Ped. +4' flûte"/>
-            <MidiAction channel="3" name="Ped. +8' bourdon"/>
-            <MidiAction channel="3" name="Ped. +16' violon"/>
-            <MidiAction channel="3" name="Ped. +16' bourdon"/>
-            <channelSwitch voice="0" name="Pédale"/>
-            <channelSwitch voice="1" name="Pédale"/>
-            <channelSwitch voice="2" name="Pédale"/>
-            <channelSwitch voice="3" name="Pédale"/>
-            <placement>below</placement>
-            <offset x="0.335726" y="6.03223"/>
-            <text>Pédale crescendo 
-40</text>
-            </StaffText>
-          <location>
-            <fractions>9/2</fractions>
-            </location>
-          <BarLine>
-            <visible>0</visible>
-            </BarLine>
-          </voice>
-        <voice>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
           <Rest>
-            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>120</velocity>
+            <offset x="-0.0493317" y="2.49861"/>
+            </Dynamic>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>102</velocity>
+            </Dynamic>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <veloChange>90</veloChange>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0" y="2"/>
-                <off2 x="-17.5095" y="0"/>
+                <off2 x="-1.6815" y="0"/>
                 </Segment>
               </HairPin>
             <next>
               <location>
-                <fractions>2/1</fractions>
+                <fractions>5/2</fractions>
                 </location>
               </next>
             </Spanner>
           <Chord>
-            <durationType>breve</durationType>
-            <StemDirection>up</StemDirection>
+            <durationType>half</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>breve</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>71</pitch>
               <tpc>19</tpc>
               </Note>
@@ -57566,58 +57689,129 @@ et en dessus de le cantus firmus rouge</text>
           <Spanner type="HairPin">
             <prev>
               <location>
-                <fractions>-2/1</fractions>
+                <fractions>-5/2</fractions>
                 </location>
               </prev>
             </Spanner>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
-            <visible>0</visible>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
             <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
-            <visible>0</visible>
-            <sigN>23</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>23/4</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <durationType>breve</durationType>
+            </Rest>
+          <Rest>
+            <durationType>whole</durationType>
             </Rest>
           <TimeSig>
             <visible>0</visible>
             <sigN>34</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>23/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -59031,12 +59225,12 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>90</sigN>
+            <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -59044,7 +59238,15 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>90/4</duration>
+            <duration>60/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -59052,12 +59254,12 @@ et en dessus de le cantus firmus rouge</text>
         <voice>
           <TimeSig>
             <visible>0</visible>
-            <sigN>112</sigN>
-            <sigD>8</sigD>
+            <sigN>60</sigN>
+            <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>112/8</duration>
+            <duration>60/4</duration>
             </Rest>
           </voice>
         </Measure>
