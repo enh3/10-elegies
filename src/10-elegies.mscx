@@ -1212,7 +1212,7 @@
             <sigD>8</sigD>
             </TimeSig>
           <StaffText>
-            <offset x="-4.98854" y="-11.4998"/>
+            <offset x="-4.98854" y="-13.346"/>
             <text>Récit : Principal 8'
 G.O. : Bourdon 8'
 Positif : Plein jeu (Réc. à pos.)
@@ -1352,6 +1352,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             </Rest>
           <Fermata>
             <subtype>fermataAbove</subtype>
+            <visible>0</visible>
             </Fermata>
           <Spanner type="TextLine">
             <prev>
@@ -1368,6 +1369,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
               <name>restWhole</name>
               <font>Leland</font>
               <offset x="-0.137076" y="0.587842"/>
+              <visible>0</visible>
               </Symbol>
             </Rest>
           <Rest>
@@ -1470,7 +1472,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="3.14896" y="-2.24528"/>
+            <offset x="4.65948" y="-6.609"/>
             <text><font size="20"></font>1</text>
             </StaffText>
           <Spanner type="TextLine">
@@ -1735,6 +1737,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           <Tempo>
             <tempo>0.5</tempo>
             <followText>1</followText>
+            <visible>0</visible>
             <offset x="0.448662" y="-3.90681"/>
             <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 30</b></text>
             </Tempo>
@@ -1758,6 +1761,18 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <durationType>measure</durationType>
             <duration>60/4</duration>
             </Rest>
+          <location>
+            <fractions>-23/2</fractions>
+            </location>
+          <Tempo>
+            <tempo>0.83333333333333337</tempo>
+            <followText>1</followText>
+            <offset x="0.448662" y="-3.90681"/>
+            <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 50</b></text>
+            </Tempo>
+          <location>
+            <fractions>23/2</fractions>
+            </location>
           <TimeSig>
             <visible>0</visible>
             <sigN>34</sigN>
@@ -1770,6 +1785,11 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
         </HBox>
       <Measure>
         <stretch>0.3</stretch>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>4</text>
+          </MeasureNumber>
+        <vspacerDown>2.76844</vspacerDown>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -1789,6 +1809,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
               </Note>
             </Chord>
           <StaffText>
+            <offset x="-19.7935" y="-18.0645"/>
             <text>Récit : Principal 8'
 G.O. : Bourdon 8'
 Positif : Plein jeu (Réc. à pos.)
@@ -1846,17 +1867,6 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <diagonal>1</diagonal>
-              <lineWidth>0.45</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -1869,17 +1879,27 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.45</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.70393" y="2.96513"/>
+                <off2 x="-2.52326" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -1895,6 +1915,13 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>half</durationType>
             </Rest>
@@ -1957,6 +1984,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <durationType>half</durationType>
             </Rest>
           <StaffText>
+            <offset x="-1.23648" y="-9.04955"/>
             <text><font size="20"></font>2</text>
             </StaffText>
           <Chord>
@@ -2007,6 +2035,18 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
+              <Spanner type="Glissando">
+                <Glissando>
+                  <text>gliss.</text>
+                  <diagonal>1</diagonal>
+                  <anchor>3</anchor>
+                  </Glissando>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               </Note>
             </Chord>
           <Rest>
@@ -2026,6 +2066,13 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
                 </Accidental>
               <pitch>51</pitch>
               <tpc>11</tpc>
+              <Spanner type="Glissando">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           <Rest>
@@ -2087,6 +2134,23 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.45</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.334232" y="4.12442"/>
+                <off2 x="-2.57458" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -2095,6 +2159,13 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -2151,8 +2222,12 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <subtype>fermataAbove</subtype>
             </Fermata>
           <Rest>
+            <offset x="2.03788" y="0"/>
             <durationType>whole</durationType>
             </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
           </voice>
         </Measure>
       <HBox>
@@ -2223,6 +2298,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           </voice>
         </Measure>
       <Measure>
+        <noOffset>-15</noOffset>
         <voice>
           <KeySig>
             <accidental>-1</accidental>
@@ -2389,6 +2465,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <mode>none</mode>
             </KeySig>
           <StaffText>
+            <offset x="-1.99265" y="-12.4214"/>
             <text>Récit : Voix humaine 8' (tremulant)
 G.O. : Montres 16' et 8', prestant 4' et doublette 2'
 Positif : Mélodie 8' et piccolo 2'
@@ -2597,6 +2674,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <offset x="-5.69328" y="-5.1223"/>
             <text><font size="20"></font>3</text>
             </StaffText>
           <Chord>
@@ -2831,6 +2909,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
         <width>10.7075</width>
         </HBox>
       <Measure>
+        <vspacerDown>25.9444</vspacerDown>
         <voice>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -8172,6 +8251,10 @@ joue</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>2</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -8240,6 +8323,14 @@ joue</text>
               <headType>quarter</headType>
               </Note>
             <Note>
+              <Fingering>
+                <style>String Number</style>
+                <minDistance>-2.84896</minDistance>
+                <size>14</size>
+                <offset x="-8.05819" y="-3.41718"/>
+                <frameType>1</frameType>
+                <text>1</text>
+                </Fingering>
               <pitch>53</pitch>
               <tpc>13</tpc>
               <headType>quarter</headType>
@@ -8500,6 +8591,10 @@ joue</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>5</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -8527,10 +8622,15 @@ joue</text>
             <TextLine>
               <beginHookType>1</beginHookType>
               <endHookType>1</endHookType>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.60463"/>
+                <off2 x="0.285997" y="0"/>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>7</measures>
                 </location>
               </next>
             </Spanner>
@@ -8556,6 +8656,12 @@ joue</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.591348" y="1.95674"/>
+                <off2 x="2.91613" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8584,6 +8690,12 @@ joue</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.76889" y="4.02738"/>
+                <off2 x="2.69623" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8596,6 +8708,12 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.70778" y="-1.00915"/>
+                <off2 x="2.52523" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8612,13 +8730,6 @@ joue</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -8661,6 +8772,12 @@ joue</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.564346" y="1.91579"/>
+                <off2 x="2.5651" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8683,19 +8800,31 @@ joue</text>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
+              <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="0.449906"/>
+                <off2 x="-3.06294" y="0"/>
+                <minDistance>0.269906</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>-3/4</fractions>
+                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
           <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.188115" y="2.95042"/>
+                <off2 x="1.96658" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8728,14 +8857,6 @@ joue</text>
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -8753,6 +8874,14 @@ joue</text>
               </Note>
             </Chord>
           <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               </TextLine>
@@ -8766,6 +8895,12 @@ joue</text>
             <TextLine>
               <diagonal>1</diagonal>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.470288" y="2.57419"/>
+                <off2 x="0.699534" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8777,6 +8912,12 @@ joue</text>
             <TextLine>
               <diagonal>1</diagonal>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.481103" y="3.42071"/>
+                <off2 x="-1.9644" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8789,6 +8930,11 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.314618" y="1"/>
+                <off2 x="0.314618" y="0"/>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8837,6 +8983,7 @@ joue</text>
       <Measure>
         <voice>
           <StaffText>
+            <offset x="0.219571" y="-4.34629"/>
             <text>45-55&quot;</text>
             </StaffText>
           <Spanner type="TextLine">
@@ -8867,17 +9014,12 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.597151" y="-0.789003"/>
+                <off2 x="0.33175" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8890,13 +9032,6 @@ joue</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -8905,6 +9040,12 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.5208" y="0.511219"/>
+                <off2 x="0.265462" y="0"/>
+                <minDistance>0.331219</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -8994,6 +9135,23 @@ joue</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.7273" y="2.02278"/>
+                <off2 x="-5.59355" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -9009,6 +9167,22 @@ joue</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.52259" y="2.54097"/>
+                <off2 x="-11.8" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -9017,6 +9191,14 @@ joue</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -9041,11 +9223,17 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2.01169" y="0.981963"/>
+                <off2 x="-13.8704" y="0"/>
+                <minDistance>-0.143037</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
                 <measures>2</measures>
-                <fractions>-3/4</fractions>
+                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -9053,11 +9241,17 @@ joue</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.76023" y="-0.526804"/>
+                <off2 x="-13.6076" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
                 <measures>2</measures>
-                <fractions>-3/4</fractions>
+                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -9077,6 +9271,13 @@ joue</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -9087,7 +9288,8 @@ joue</text>
             </Rest>
           <Fermata>
             <subtype>fermataAbove</subtype>
-            <offset x="-0.0989137" y="-0.994591"/>
+            <minDistance>-2.50956</minDistance>
+            <offset x="-0.0989137" y="-1.17006"/>
             </Fermata>
           <Rest>
             <durationType>half</durationType>
@@ -9126,16 +9328,7 @@ et en-dessous du cantus firmus rouge</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <measures>-2</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>3/4</fractions>
+                <measures>-7</measures>
                 </location>
               </prev>
             </Spanner>
@@ -9148,6 +9341,22 @@ et en-dessous du cantus firmus rouge</text>
               <small>1</small>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -9397,8 +9606,11 @@ et en-dessous du cantus firmus rouge</text>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Note>
-              <pitch>66</pitch>
-              <tpc>8</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
               <small>1</small>
               </Note>
             </Chord>
@@ -9696,10 +9908,18 @@ et en-dessous du cantus firmus rouge</text>
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
-            <durationType>eighth</durationType>
+            <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
+              <small>1</small>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               <small>1</small>
               </Note>
             </Chord>
@@ -13246,6 +13466,11 @@ basent sur les harmonies en-dessous</text>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <StaffText>
+            <MidiAction channel="4" name="Syn."/>
+            <MidiAction channel="5" name="Syn. 3"/>
+            <text>Syn.</text>
+            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>2/4</duration>
@@ -22898,6 +23123,40 @@ basent sur les harmonies en-dessous</text>
             <channelSwitch voice="3" name="Grand Orgue"/>
             <text>G.O.</text>
             </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.73696" y="-4.01104"/>
+                <off2 x="-3.94771" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>5/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.88434" y="-1.80029"/>
+                <off2 x="-3.94771" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>11/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -22960,32 +23219,16 @@ basent sur les harmonies en-dessous</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>2/1</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.91599" y="-2.97936"/>
+                <off2 x="19.779" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
                 <fractions>3/1</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>5/1</fractions>
                 </location>
               </next>
             </Spanner>
@@ -23278,9 +23521,41 @@ basent sur les harmonies en-dessous</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-2/1</fractions>
+                <fractions>-5/2</fractions>
                 </location>
               </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.48727" y="-0.0110445"/>
+                <off2 x="-0.0925116" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>5/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.78204" y="-0.608082"/>
+                <off2 x="-0.308201" y="0"/>
+                <minDistance>-0.0369183</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>5/2</fractions>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <durationType>half</durationType>
@@ -23325,27 +23600,6 @@ basent sur les harmonies en-dessous</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>2/1</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>5/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -23480,6 +23734,7 @@ basent sur les harmonies en-dessous</text>
                 <Tie>
                   <visible>0</visible>
                   <TieSegment no="0">
+                    <offset x="-3.38982" y="0.589535"/>
                     <visible>0</visible>
                     </TieSegment>
                   </Tie>
@@ -23627,7 +23882,14 @@ basent sur les harmonies en-dessous</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-2/1</fractions>
+                <fractions>-5/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-5/2</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -23638,14 +23900,7 @@ basent sur les harmonies en-dessous</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-5/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-5/2</fractions>
+                <fractions>-11/2</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -23700,6 +23955,23 @@ basent sur les harmonies en-dessous</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.19788" y="-2.49811"/>
+                <off2 x="1.25824" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -23719,16 +23991,6 @@ basent sur les harmonies en-dessous</text>
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/16</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -23738,17 +24000,6 @@ basent sur les harmonies en-dessous</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -23761,16 +24012,6 @@ basent sur les harmonies en-dessous</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>11/16</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>16th</durationType>
@@ -23778,7 +24019,7 @@ basent sur les harmonies en-dessous</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-3/16</fractions>
+                <fractions>-1/4</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -23792,6 +24033,39 @@ basent sur les harmonies en-dessous</text>
                 <fractions>-7/16</fractions>
                 </location>
               </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.89998" y="0.95022"/>
+                <off2 x="-1.41243" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>2/1</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.80247" y="-3.97306"/>
+                <off2 x="-5.21536" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>5/2</fractions>
+                </location>
+              </next>
             </Spanner>
           <Chord>
             <durationType>half</durationType>
@@ -23833,57 +24107,17 @@ basent sur les harmonies en-dessous</text>
               </Note>
             </Chord>
           <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-11/16</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.96708" y="-2.50408"/>
+                <off2 x="5.968" y="0"/>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/2</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/2</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/2</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/2</fractions>
+                <fractions>1/1</fractions>
                 </location>
               </next>
             </Spanner>
@@ -23891,10 +24125,31 @@ basent sur les harmonies en-dessous</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.7552" y="1.48756"/>
+                <off2 x="2.53529" y="0"/>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>2/1</fractions>
+                <fractions>3/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.95022" y="2.5104"/>
+                <off2 x="2.73031" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -23906,6 +24161,13 @@ basent sur les harmonies en-dessous</text>
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -23913,14 +24175,7 @@ basent sur les harmonies en-dessous</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-3/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/2</fractions>
+                <fractions>-2/1</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -23949,7 +24204,7 @@ basent sur les harmonies en-dessous</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-2/1</fractions>
+                <fractions>-5/2</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -23996,7 +24251,42 @@ basent sur les harmonies en-dessous</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>3</text>
+          </MeasureNumber>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
+          <StaffText>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
+            <offset x="0.229783" y="6.36096"/>
+            <text>The continuation of the 
+synthesizer sustain pedal</text>
+            </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <endHookType>1</endHookType>
+              <endHookHeight>-1.5</endHookHeight>
+              <diagonal>1</diagonal>
+              <lineWidth>0.138406</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4.19131"/>
+                <off2 x="96.9684" y="0"/>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -24018,6 +24308,7 @@ basent sur les harmonies en-dessous</text>
             <durationType>half</durationType>
             </Rest>
           <Rest>
+            <offset x="0.229783" y="9.19131"/>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
@@ -24029,6 +24320,13 @@ basent sur les harmonies en-dessous</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -24090,22 +24388,22 @@ basent sur les harmonies en-dessous</text>
             <Note>
               <pitch>38</pitch>
               <tpc>16</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <pitch>45</pitch>
               <tpc>17</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             </Chord>
           <Fermata>
@@ -24211,7 +24509,7 @@ basent sur les harmonies en-dessous</text>
                 </Accidental>
               <pitch>42</pitch>
               <tpc>8</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <Accidental>
@@ -24219,7 +24517,7 @@ basent sur les harmonies en-dessous</text>
                 </Accidental>
               <pitch>49</pitch>
               <tpc>9</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <Accidental>
@@ -24227,7 +24525,7 @@ basent sur les harmonies en-dessous</text>
                 </Accidental>
               <pitch>56</pitch>
               <tpc>10</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <Accidental>
@@ -24235,7 +24533,7 @@ basent sur les harmonies en-dessous</text>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>9</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             </Chord>
           <Fermata>
@@ -24278,12 +24576,12 @@ basent sur les harmonies en-dessous</text>
             <Note>
               <pitch>45</pitch>
               <tpc>17</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <Accidental>
@@ -24291,12 +24589,12 @@ basent sur les harmonies en-dessous</text>
                 </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             </Chord>
           <Fermata>
@@ -24405,7 +24703,7 @@ basent sur les harmonies en-dessous</text>
                 </Accidental>
               <pitch>47</pitch>
               <tpc>19</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <Accidental>
@@ -24413,7 +24711,7 @@ basent sur les harmonies en-dessous</text>
                 </Accidental>
               <pitch>51</pitch>
               <tpc>23</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <Accidental>
@@ -24421,7 +24719,7 @@ basent sur les harmonies en-dessous</text>
                 </Accidental>
               <pitch>56</pitch>
               <tpc>22</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <Accidental>
@@ -24429,7 +24727,7 @@ basent sur les harmonies en-dessous</text>
                 </Accidental>
               <pitch>63</pitch>
               <tpc>23</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             <Note>
               <Accidental>
@@ -24437,7 +24735,7 @@ basent sur les harmonies en-dessous</text>
                 </Accidental>
               <pitch>68</pitch>
               <tpc>22</tpc>
-              <headType>quarter</headType>
+              <headType>half</headType>
               </Note>
             </Chord>
           <Fermata>
@@ -24518,6 +24816,12 @@ basent sur les harmonies en-dessous</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.61468" y="0.979116"/>
+                <off2 x="2.66428" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -24529,11 +24833,17 @@ basent sur les harmonies en-dessous</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.58269" y="-0.627601"/>
+                <off2 x="-1.09468" y="0"/>
+                <minDistance>0.447601</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>-3/4</fractions>
+                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -24553,18 +24863,18 @@ basent sur les harmonies en-dessous</text>
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -24584,6 +24894,12 @@ basent sur les harmonies en-dessous</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.37623" y="-4.07911"/>
+                <off2 x="2.81845" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -24620,6 +24936,12 @@ basent sur les harmonies en-dessous</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.658403" y="-3.98505"/>
+                <off2 x="0" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -24663,6 +24985,12 @@ basent sur les harmonies en-dessous</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.37623" y="-3.51477"/>
+                <off2 x="0" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -24701,8 +25029,13 @@ basent sur les harmonies en-dessous</text>
             </Rest>
           <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.64756" y="0.942945"/>
+                <off2 x="-1.24793" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -24801,6 +25134,12 @@ basent sur les harmonies en-dessous</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.377192" y="-3.02338"/>
+                <off2 x="-3.77192" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -36111,7 +36450,6 @@ basent sur les harmonies en-dessous</text>
             </Chord>
           <StaffText>
             <autoplace>0</autoplace>
-            <visible>0</visible>
             <placement>below</placement>
             <offset x="-0.276299" y="8.35335"/>
             <text>0</text>
@@ -36284,6 +36622,23 @@ basent sur les harmonies en-dessous</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.7018" y="4.02738"/>
+                <off2 x="-6.02479" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -36292,17 +36647,6 @@ basent sur les harmonies en-dessous</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -36319,7 +36663,7 @@ basent sur les harmonies en-dessous</text>
             <prev>
               <location>
                 <measures>-1</measures>
-                <fractions>1/4</fractions>
+                <fractions>-1/4</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -36337,6 +36681,12 @@ basent sur les harmonies en-dessous</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.37623" y="-1.06927"/>
+                <off2 x="1.8644" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -36365,16 +36715,22 @@ basent sur les harmonies en-dessous</text>
             <durationType>quarter</durationType>
             <Note>
               <Accidental>
-                <subtype>accidentalSharp</subtype>
+                <subtype>accidentalFlat</subtype>
                 </Accidental>
               <pitch>54</pitch>
-              <tpc>20</tpc>
+              <tpc>8</tpc>
               </Note>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.846519" y="-3.37975"/>
+                <off2 x="0" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -36405,6 +36761,12 @@ basent sur les harmonies en-dessous</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.282173" y="-1.4455"/>
+                <off2 x="-2.53956" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -36452,6 +36814,12 @@ basent sur les harmonies en-dessous</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.564346" y="-2.1039"/>
+                <off2 x="0.564346" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -36514,10 +36882,16 @@ basent sur les harmonies en-dessous</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.76023" y="-0.563881"/>
+                <off2 x="-38.6775" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>3</measures>
+                <measures>4</measures>
                 <fractions>-3/4</fractions>
                 </location>
               </next>
@@ -36556,6 +36930,16 @@ basent sur les harmonies en-dessous</text>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <slashStyle>1</slashStyle>
+            <stemless>1</stemless>
+            <barlines>0</barlines>
+            <timesig>0</timesig>
+            <keysig>0</keysig>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
           <KeySig>
             <accidental>-1</accidental>
@@ -36574,14 +36958,6 @@ basent sur les harmonies en-dessous</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                <fractions>3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -36591,6 +36967,14 @@ basent sur les harmonies en-dessous</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-4</measures>
+                <fractions>3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
