@@ -25,7 +25,6 @@
       <chordSymbolAFontSize>10</chordSymbolAFontSize>
       <chordSymbolBFontSize>10</chordSymbolBFontSize>
       <nashvilleNumberFontSize>10</nashvilleNumberFontSize>
-      <hideEmptyStaves>1</hideEmptyStaves>
       <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
       <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
       <alwaysShowBracketsWhenEmptyStavesAreHidden>1</alwaysShowBracketsWhenEmptyStavesAreHidden>
@@ -5063,6 +5062,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
       <Measure>
         <voice>
           <StaffText>
+            <offset x="-7.47337" y="-14.1594"/>
             <text>Récit : Voix celeste 8', viole de gambe 8'
 G.O. : Bourdon 8', prestant 4'
 Positif : Mélodie 8', flute 2' (Réc. à pos.)
@@ -5333,6 +5333,12 @@ Pédale : Bourdon 8' et 16'</text>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Tempo>
+            <tempo>0.90000000000000002</tempo>
+            <followText>1</followText>
+            <offset x="12.346" y="-2"/>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 54</b></text>
+            </Tempo>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -5341,9 +5347,16 @@ Pédale : Bourdon 8' et 16'</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-4</accidental>
+            </KeySig>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5351,7 +5364,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5359,7 +5372,37 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5367,7 +5410,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5375,7 +5418,31 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5383,7 +5450,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5391,7 +5458,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5399,7 +5466,19 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5407,7 +5486,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5415,7 +5494,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5423,7 +5502,39 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5598,9 +5709,6 @@ Pédale : Bourdon 8' et 16'</text>
               </Lyrics>
             <noStem>1</noStem>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
@@ -5666,6 +5774,9 @@ Pédale : Bourdon 8' et 16'</text>
               </Spanner>
             <noStem>1</noStem>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -6146,6 +6257,9 @@ joue</text>
               </Lyrics>
             <noStem>1</noStem>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
@@ -8251,10 +8365,6 @@ joue</text>
           </voice>
         </Measure>
       <Measure>
-        <MeasureNumber>
-          <visible>0</visible>
-          <text>2</text>
-          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -8591,10 +8701,6 @@ joue</text>
           </voice>
         </Measure>
       <Measure>
-        <MeasureNumber>
-          <visible>0</visible>
-          <text>5</text>
-          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -9087,10 +9193,6 @@ joue</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -17031,9 +17133,1319 @@ basent sur les harmonies en-dessous</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-4</accidental>
+            </KeySig>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <StaffText>
+            <MidiAction channel="0" name="R. +8' flûte harm."/>
+            <MidiAction channel="0" name="R. +8' principal"/>
+            <channelSwitch voice="0" name="Récit"/>
+            <channelSwitch voice="1" name="Récit"/>
+            <channelSwitch voice="2" name="Récit"/>
+            <channelSwitch voice="3" name="Récit"/>
+            <placement>below</placement>
+            <minDistance>0.381868</minDistance>
+            <offset x="-4.03447" y="2.83708"/>
+            <text>Rec.</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>61</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>78</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>24</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <autoplace>0</autoplace>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>68</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17041,7 +18453,7 @@ basent sur les harmonies en-dessous</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17049,7 +18461,7 @@ basent sur les harmonies en-dessous</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17057,7 +18469,7 @@ basent sur les harmonies en-dessous</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17065,7 +18477,7 @@ basent sur les harmonies en-dessous</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17073,7 +18485,7 @@ basent sur les harmonies en-dessous</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17081,39 +18493,7 @@ basent sur les harmonies en-dessous</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17459,9 +18839,6 @@ basent sur les harmonies en-dessous</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -19640,9 +21017,6 @@ basent sur les harmonies en-dessous</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -19716,9 +21090,6 @@ basent sur les harmonies en-dessous</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -19749,9 +21120,6 @@ basent sur les harmonies en-dessous</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -19778,9 +21146,6 @@ basent sur les harmonies en-dessous</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -24251,10 +25616,6 @@ basent sur les harmonies en-dessous</text>
           </voice>
         </Measure>
       <Measure>
-        <MeasureNumber>
-          <visible>0</visible>
-          <text>3</text>
-          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -25211,9 +26572,9 @@ synthesizer sustain pedal</text>
             </StaffText>
           </voice>
         <voice>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -25255,9 +26616,9 @@ synthesizer sustain pedal</text>
             </Chord>
           </voice>
         <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -26100,10 +27461,9 @@ synthesizer sustain pedal</text>
               <small>1</small>
               </Note>
             </Chord>
-          <Rest>
-            <offset x="0" y="-5"/>
-            <durationType>eighth</durationType>
-            </Rest>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -31904,9 +33264,16 @@ synthesizer sustain pedal</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-4</accidental>
+            </KeySig>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -31914,7 +33281,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -31922,7 +33289,37 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -31930,7 +33327,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -31938,7 +33335,287 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <StaffText>
+            <channelSwitch voice="0" name="Récit"/>
+            <channelSwitch voice="1" name="Récit"/>
+            <channelSwitch voice="2" name="Récit"/>
+            <channelSwitch voice="3" name="Récit"/>
+            <visible>0</visible>
+            <placement>below</placement>
+            <minDistance>0.381868</minDistance>
+            <offset x="-4.03447" y="2.83708"/>
+            <text>Rec.</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>61</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>61</pitch>
+              <tpc>9</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>56</pitch>
+              <tpc>10</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -31946,7 +33623,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -31954,7 +33631,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -31962,7 +33639,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -31970,7 +33647,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -31978,7 +33655,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -31986,7 +33663,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -32419,12 +34096,6 @@ synthesizer sustain pedal</text>
             </Chord>
           <Rest>
             <durationType>half</durationType>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -36595,12 +38266,6 @@ synthesizer sustain pedal</text>
             <duration>34/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>34/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <StaffTypeChange>
@@ -36981,6 +38646,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -36997,6 +38664,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -37013,6 +38682,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -37029,6 +38700,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -37045,6 +38718,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -37061,6 +38736,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -37077,115 +38754,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -37203,22 +38776,11 @@ synthesizer sustain pedal</text>
             <duration>1/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -37232,8 +38794,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -37247,38 +38812,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -37297,12 +38835,6 @@ synthesizer sustain pedal</text>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -37316,8 +38848,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -37331,8 +38866,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -37346,12 +38884,6 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -37361,53 +38893,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -38540,12 +40030,6 @@ synthesizer sustain pedal</text>
             <duration>17/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>17/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -38601,8 +40085,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -38616,38 +40103,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -38665,12 +40125,6 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -38680,12 +40134,6 @@ synthesizer sustain pedal</text>
             </TimeSig>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -38706,28 +40154,11 @@ synthesizer sustain pedal</text>
             <transposingClefType>F</transposingClefType>
             </Clef>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -39808,12 +41239,6 @@ synthesizer sustain pedal</text>
             <duration>12/8</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -39823,23 +41248,11 @@ synthesizer sustain pedal</text>
             <duration>12/8</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>12/8</duration>
             </Rest>
@@ -39860,180 +41273,197 @@ synthesizer sustain pedal</text>
             <transposingClefType>F</transposingClefType>
             </Clef>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
+          <KeySig>
+            <accidental>-4</accidental>
+            </KeySig>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
-            <durationType>whole</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -40050,6 +41480,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -40066,73 +41498,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <location>
-            <fractions>-3/4</fractions>
-            </location>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              </TextLine>
-            <next>
-              <location>
-                <measures>3</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
-          </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -40149,30 +41516,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
-        <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-3</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -40189,6 +41534,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -40205,6 +41552,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -40221,6 +41570,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -40237,21 +41588,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -40268,13 +41606,6 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -40284,54 +41615,8 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -40353,12 +41638,6 @@ synthesizer sustain pedal</text>
             <duration>36/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>36/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -40370,12 +41649,6 @@ synthesizer sustain pedal</text>
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>36/4</duration>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -40541,10 +41814,9 @@ synthesizer sustain pedal</text>
             </Chord>
           </voice>
         <voice>
-          <Rest>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            </Rest>
+          <location>
+            <fractions>3/8</fractions>
+            </location>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -40958,9 +42230,6 @@ synthesizer sustain pedal</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -41254,23 +42523,11 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41284,12 +42541,6 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -41299,23 +42550,11 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41325,12 +42564,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41340,12 +42573,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41355,12 +42582,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41370,12 +42591,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41385,12 +42600,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41400,12 +42609,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41415,12 +42618,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41430,12 +42627,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41445,12 +42636,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41460,12 +42645,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41475,12 +42654,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41490,12 +42663,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41505,12 +42672,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41520,12 +42681,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41535,12 +42690,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41550,12 +42699,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41565,12 +42708,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41580,12 +42717,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41595,12 +42726,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41610,12 +42735,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41629,23 +42748,11 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41659,12 +42766,6 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -41674,23 +42775,11 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41700,12 +42789,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41715,12 +42798,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41730,12 +42807,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41745,12 +42816,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41760,12 +42825,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41775,12 +42834,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41790,12 +42843,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41805,12 +42852,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41820,12 +42861,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41835,12 +42870,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41850,12 +42879,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41865,12 +42888,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41880,12 +42897,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41895,12 +42906,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41910,12 +42915,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41925,12 +42924,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41944,23 +42937,11 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -41974,12 +42955,6 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -41989,23 +42964,11 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42015,12 +42978,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42030,12 +42987,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42045,12 +42996,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42060,12 +43005,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42075,12 +43014,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42090,12 +43023,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42105,12 +43032,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42120,12 +43041,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42135,12 +43050,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42150,12 +43059,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42165,12 +43068,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42180,12 +43077,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42195,12 +43086,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42210,12 +43095,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42225,12 +43104,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42240,12 +43113,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -42263,12 +43130,6 @@ synthesizer sustain pedal</text>
             <duration>6/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>6/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -42282,12 +43143,6 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -42297,23 +43152,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42331,8 +43174,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42346,8 +43192,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42361,8 +43210,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42376,8 +43228,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42391,8 +43246,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42406,8 +43264,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42421,8 +43282,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42436,8 +43300,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42451,143 +43318,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42615,12 +43350,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -42708,12 +43437,6 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -42868,9 +43591,6 @@ synthesizer sustain pedal</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -43021,9 +43741,6 @@ synthesizer sustain pedal</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -43044,9 +43761,6 @@ synthesizer sustain pedal</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -43067,9 +43781,6 @@ synthesizer sustain pedal</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -43146,9 +43857,6 @@ synthesizer sustain pedal</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -43227,12 +43935,6 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -43429,36 +44131,12 @@ synthesizer sustain pedal</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -43472,8 +44150,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -43487,8 +44168,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -43502,38 +44186,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -43604,9 +44261,9 @@ synthesizer sustain pedal</text>
             </Rest>
           </voice>
         <voice>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -43899,25 +44556,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -43931,23 +44574,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -43965,12 +44596,6 @@ synthesizer sustain pedal</text>
             <duration>3/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
@@ -43984,8 +44609,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -43999,8 +44627,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44014,8 +44645,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44029,8 +44663,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44044,8 +44681,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44059,8 +44699,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44074,8 +44717,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44089,8 +44735,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44104,8 +44753,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44119,8 +44771,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44134,8 +44789,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44149,8 +44807,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44164,8 +44825,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44179,8 +44843,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44194,8 +44861,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44209,8 +44879,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44224,8 +44897,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44239,8 +44915,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44254,8 +44933,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44269,8 +44951,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44284,8 +44969,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44299,8 +44987,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44314,8 +45005,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44329,8 +45023,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44344,8 +45041,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44359,8 +45059,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44374,8 +45077,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44389,8 +45095,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44404,8 +45113,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44419,8 +45131,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
+        </Measure>
+      <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44434,473 +45149,11 @@ synthesizer sustain pedal</text>
             <duration>4/4</duration>
             </Rest>
           </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        <voice>
-          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -44916,12 +45169,6 @@ synthesizer sustain pedal</text>
           <BarLine>
             <subtype>end</subtype>
             </BarLine>
-          </voice>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
           </voice>
         </Measure>
       </Staff>
@@ -46632,9 +46879,16 @@ synthesizer sustain pedal</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-4</accidental>
+            </KeySig>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46642,7 +46896,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46650,7 +46904,37 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46658,7 +46942,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46666,7 +46950,31 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46674,7 +46982,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46682,7 +46990,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46690,7 +46998,19 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46698,7 +47018,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46706,7 +47026,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46714,7 +47034,39 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50417,9 +50769,16 @@ synthesizer sustain pedal</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-4</accidental>
+            </KeySig>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50427,7 +50786,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50435,7 +50794,37 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50443,7 +50832,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50451,7 +50840,31 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50459,7 +50872,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50467,7 +50880,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50475,7 +50888,19 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50483,7 +50908,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50491,7 +50916,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -50499,7 +50924,39 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54395,9 +54852,16 @@ synthesizer sustain pedal</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-4</accidental>
+            </KeySig>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54405,7 +54869,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54413,7 +54877,37 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54421,7 +54915,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54429,7 +54923,31 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54437,7 +54955,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54445,7 +54963,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54453,7 +54971,19 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>8</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54461,7 +54991,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54469,7 +54999,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -54477,7 +55007,39 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>12/8</duration>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/8</duration>
             </Rest>
           </voice>
         </Measure>
