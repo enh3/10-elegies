@@ -25,6 +25,7 @@
       <chordSymbolAFontSize>10</chordSymbolAFontSize>
       <chordSymbolBFontSize>10</chordSymbolBFontSize>
       <nashvilleNumberFontSize>10</nashvilleNumberFontSize>
+      <hideEmptyStaves>1</hideEmptyStaves>
       <dontHidStavesInFirstSystm>0</dontHidStavesInFirstSystm>
       <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
       <alwaysShowBracketsWhenEmptyStavesAreHidden>1</alwaysShowBracketsWhenEmptyStavesAreHidden>
@@ -204,13 +205,63 @@
           <velocity>120</velocity>
           <gateTime>100</gateTime>
           </Articulation>
+        <Channel name="Synthèse">
+          <descr>Synthèse</descr>
+          <program value="0"/>
+          <controller ctrl="7" value="0"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>0</midiChannel>
+          <MidiAction name="Syn. 1">
+            <descr>On: Syn. 1</descr>
+            <controller ctrl="1" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 2">
+            <descr>On: Syn. 2</descr>
+            <controller ctrl="2" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 3">
+            <descr>On: Syn. 3</descr>
+            <controller ctrl="3" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 4">
+            <descr>On: Syn. 4</descr>
+            <controller ctrl="4" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 5">
+            <descr>On: Syn. 5</descr>
+            <controller ctrl="5" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 6">
+            <descr>On: Syn. 6</descr>
+            <controller ctrl="6" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 7">
+            <descr>On: Syn. 7</descr>
+            <controller ctrl="7" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 8">
+            <descr>On: Syn. 8</descr>
+            <controller ctrl="8" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 9">
+            <descr>On: Syn. 9</descr>
+            <controller ctrl="9" value="20"/>
+            </MidiAction>
+          <MidiAction name="Syn. 10">
+            <descr>On: Syn. 10</descr>
+            <controller ctrl="10" value="20"/>
+            </MidiAction>
+          </Channel>
         <Channel name="Récit">
           <descr>Récit</descr>
           <program value="0"/>
           <controller ctrl="7" value="0"/>
+          <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
-          <midiChannel>0</midiChannel>
+          <midiChannel>1</midiChannel>
           <MidiAction name="R. + tremolo">
             <descr>On: Tremolo</descr>
             <controller ctrl="1" value="20"/>
@@ -344,9 +395,10 @@
           <descr>Positif</descr>
           <program value="0"/>
           <controller ctrl="7" value="0"/>
+          <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
-          <midiChannel>1</midiChannel>
+          <midiChannel>2</midiChannel>
           <MidiAction name="P. + tremolo">
             <descr>On: Tremolo</descr>
             <controller ctrl="1" value="20"/>
@@ -424,9 +476,10 @@
           <descr>Grand Orgue</descr>
           <program value="0"/>
           <controller ctrl="7" value="0"/>
+          <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
-          <midiChannel>2</midiChannel>
+          <midiChannel>3</midiChannel>
           <MidiAction name="Gt +8' posaune">
             <descr>On: Posaune 8</descr>
             <controller ctrl="1" value="20"/>
@@ -544,9 +597,10 @@
           <descr>Pédale</descr>
           <program value="0"/>
           <controller ctrl="7" value="0"/>
+          <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
-          <midiChannel>3</midiChannel>
+          <midiChannel>4</midiChannel>
           <MidiAction name="Ped. +8' trompette">
             <descr>On: Trompette 8</descr>
             <controller ctrl="1" value="20"/>
@@ -640,9 +694,10 @@
           <descr>Couplers</descr>
           <program value="0"/>
           <controller ctrl="7" value="0"/>
+          <controller ctrl="10" value="63"/>
           <synti>Aeolus</synti>
           <midiPort>0</midiPort>
-          <midiChannel>4</midiChannel>
+          <midiChannel>5</midiChannel>
           <MidiAction name="Reset">
             <descr>Reset all stops</descr>
             <program value="0"/>
@@ -784,13 +839,14 @@
             <controller ctrl="17" value="20"/>
             </MidiAction>
           </Channel>
-        <Channel name="Synthèse">
+        <Channel name="harmony">
           <descr>Synthèse</descr>
           <program value="0"/>
           <controller ctrl="7" value="0"/>
+          <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
-          <midiChannel>5</midiChannel>
+          <midiChannel>10</midiChannel>
           <MidiAction name="Syn. 1">
             <descr>On: Syn. 1</descr>
             <controller ctrl="1" value="20"/>
@@ -830,142 +886,6 @@
           <MidiAction name="Syn. 10">
             <descr>On: Syn. 10</descr>
             <controller ctrl="10" value="20"/>
-            </MidiAction>
-          </Channel>
-        <Channel name="harmony">
-          <descr>Récit</descr>
-          <program value="0"/>
-          <controller ctrl="7" value="0"/>
-          <synti>Fluid</synti>
-          <midiPort>0</midiPort>
-          <midiChannel>10</midiChannel>
-          <MidiAction name="R. + tremolo">
-            <descr>On: Tremolo</descr>
-            <controller ctrl="1" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +8' voix humaine">
-            <descr>On: Voix Humaine 8</descr>
-            <controller ctrl="2" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +8' hautbois">
-            <descr>On: Hautbois 8</descr>
-            <controller ctrl="3" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +8' trompette">
-            <descr>On: Rohr Flute</descr>
-            <controller ctrl="4" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +16' basson">
-            <descr>On: Basson 16</descr>
-            <controller ctrl="5" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +8' cor">
-            <descr>On: Cornet 8</descr>
-            <controller ctrl="6" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +2' octavin">
-            <descr>On: Octavin 2</descr>
-            <controller ctrl="7" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +4' flûte traverse">
-            <descr>On: Flûte Traverse 4</descr>
-            <controller ctrl="8" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +2' principal">
-            <descr>On: Principal 2</descr>
-            <controller ctrl="9" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +8' viole d'orchestre">
-            <descr>On: Viole d'Orchestre 8</descr>
-            <controller ctrl="10" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +8' voix celeste">
-            <descr>On: Voix Celeste</descr>
-            <controller ctrl="11" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +8' viole de gambe">
-            <descr>On: Viole de Gambe 8</descr>
-            <controller ctrl="12" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +8' flûte harm.">
-            <descr>On: Flûte Harm. 8</descr>
-            <controller ctrl="13" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +8' bourdon">
-            <descr>On: Bourdon 8</descr>
-            <controller ctrl="14" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +8' principal">
-            <descr>On: Principal 8</descr>
-            <controller ctrl="15" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. +16' bourdon">
-            <descr>On: Bourdon 16</descr>
-            <controller ctrl="16" value="20"/>
-            </MidiAction>
-          <MidiAction name="R. - tremolo">
-            <descr>Off: Tremolo</descr>
-            <controller ctrl="1" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -8' voix humaine">
-            <descr>Off: Voix Humaine 8</descr>
-            <controller ctrl="2" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -8' hautbois">
-            <descr>Off: Hautbois 8</descr>
-            <controller ctrl="3" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -8' trompette">
-            <descr>Off: Rohr Flute</descr>
-            <controller ctrl="4" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -8' basson">
-            <descr>Off: Basson 8</descr>
-            <controller ctrl="5" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -5Rgs. cornet">
-            <descr>Off: Cornet 5Rgs.</descr>
-            <controller ctrl="6" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -2' octavin">
-            <descr>Off: Octavin 2</descr>
-            <controller ctrl="7" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -4' flûte traverse">
-            <descr>Off: Flûte Traverse 4</descr>
-            <controller ctrl="8" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -2' principal">
-            <descr>Off: Principal 2</descr>
-            <controller ctrl="9" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -8' viole d'orchestre">
-            <descr>Off: Viole d'Orchestre 8</descr>
-            <controller ctrl="10" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -8' voix celeste">
-            <descr>Off: Voix Celeste</descr>
-            <controller ctrl="11" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -8' viole de gambe">
-            <descr>Off: Viole de Gambe 8</descr>
-            <controller ctrl="12" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -8' flûte harm.">
-            <descr>Off: Flûte Harm. 8</descr>
-            <controller ctrl="13" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -8' bourdon">
-            <descr>Off: Bourdon 8</descr>
-            <controller ctrl="14" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -8' principal">
-            <descr>Off: Principal 8</descr>
-            <controller ctrl="15" value="110"/>
-            </MidiAction>
-          <MidiAction name="R. -16' bourdon">
-            <descr>Off: Bourdon 16</descr>
-            <controller ctrl="16" value="110"/>
             </MidiAction>
           </Channel>
         </Instrument>
@@ -5277,12 +5197,6 @@ Pédale : Bourdon 8' et 16'</text>
           <Rest>
             <durationType>half</durationType>
             </Rest>
-          <Tempo>
-            <tempo>0.76666666666666661</tempo>
-            <followText>1</followText>
-            <offset x="12.346" y="-2"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 46</b></text>
-            </Tempo>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -5298,6 +5212,12 @@ Pédale : Bourdon 8' et 16'</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>0.76666666666666661</tempo>
+            <followText>1</followText>
+            <offset x="1.04098" y="-2"/>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 46</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -5441,13 +5361,8 @@ Pédale : Bourdon 8' et 16'</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5515,9 +5430,19 @@ Pédale : Bourdon 8' et 16'</text>
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5525,7 +5450,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5533,7 +5458,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5541,23 +5466,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5565,7 +5474,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5573,7 +5482,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5581,7 +5490,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5589,7 +5498,7 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -5597,7 +5506,15 @@ Pédale : Bourdon 8' et 16'</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8521,7 +8438,12 @@ joue</text>
             <durationType>half</durationType>
             </Rest>
           <StaffText>
+            <offset x="56.1782" y="-3.13587"/>
+            <text>cca. 2'</text>
+            </StaffText>
+          <StaffText>
             <MidiAction channel="5" name="Syn. 1"/>
+            <MidiAction channel="0" name="Syn. 1"/>
             <channelSwitch voice="0" name="Synthèse"/>
             <channelSwitch voice="1" name="Synthèse"/>
             <channelSwitch voice="2" name="Synthèse"/>
@@ -8529,10 +8451,6 @@ joue</text>
             <minDistance>-2.30891</minDistance>
             <offset x="1.61121" y="-0.511236"/>
             <text>Syn.</text>
-            </StaffText>
-          <StaffText>
-            <offset x="56.1782" y="-3.13587"/>
-            <text>cca. 2'</text>
             </StaffText>
           <Spanner type="TextLine">
             <TextLine>
@@ -8709,6 +8627,17 @@ joue</text>
               <visible>0</visible>
               </NoteDot>
             </Rest>
+          <StaffText>
+            <MidiAction channel="5" name="Syn. 1"/>
+            <MidiAction channel="0" name="Syn. 1"/>
+            <channelSwitch voice="0" name="Synthèse"/>
+            <channelSwitch voice="1" name="Synthèse"/>
+            <channelSwitch voice="2" name="Synthèse"/>
+            <channelSwitch voice="3" name="Synthèse"/>
+            <minDistance>-2.30891</minDistance>
+            <offset x="1.61121" y="-0.511236"/>
+            <text>Syn.</text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <dots>1</dots>
@@ -9563,6 +9492,7 @@ et en-dessous du cantus firmus rouge</text>
           <StaffText>
             <MidiAction channel="4" name="Syn."/>
             <MidiAction channel="5" name="Syn. 2"/>
+            <MidiAction channel="0" name="Syn. 2"/>
             <channelSwitch voice="0" name="Synthèse"/>
             <channelSwitch voice="1" name="Synthèse"/>
             <channelSwitch voice="2" name="Synthèse"/>
@@ -10603,6 +10533,8 @@ et en-dessous du cantus firmus rouge</text>
           <StaffText>
             <MidiAction channel="1" name="P. +8' piccolo"/>
             <MidiAction channel="1" name="P. +8' melodie"/>
+            <MidiAction channel="2" name="P. +8' piccolo"/>
+            <MidiAction channel="2" name="P. +8' melodie"/>
             <channelSwitch voice="0" name="Positif"/>
             <channelSwitch voice="1" name="Positif"/>
             <channelSwitch voice="2" name="Positif"/>
@@ -11419,8 +11351,8 @@ et en-dessous du cantus firmus rouge</text>
             <accidental>-1</accidental>
             </KeySig>
           <StaffText>
-            <MidiAction channel="0" name="R. + tremolo"/>
-            <MidiAction channel="0" name="R. +8' voix humaine"/>
+            <MidiAction channel="1" name="R. + tremolo"/>
+            <MidiAction channel="1" name="R. +8' voix humaine"/>
             <channelSwitch voice="0" name="Récit"/>
             <channelSwitch voice="1" name="Récit"/>
             <channelSwitch voice="2" name="Récit"/>
@@ -11931,6 +11863,7 @@ et en-dessous du cantus firmus rouge</text>
         <voice>
           <StaffText>
             <MidiAction channel="5" name="Syn. 3"/>
+            <MidiAction channel="0" name="Syn. 3"/>
             <channelSwitch voice="0" name="Synthèse"/>
             <channelSwitch voice="1" name="Synthèse"/>
             <channelSwitch voice="2" name="Synthèse"/>
@@ -14603,16 +14536,21 @@ basent sur les harmonies en-dessous</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
           <StaffText>
+            <MidiAction channel="0" name="Syn. 4"/>
+            <channelSwitch voice="0" name="Synthèse"/>
+            <channelSwitch voice="1" name="Synthèse"/>
+            <channelSwitch voice="2" name="Synthèse"/>
+            <channelSwitch voice="3" name="Synthèse"/>
             <placement>below</placement>
             <minDistance>-2.55958</minDistance>
             <offset x="-4.48738" y="2.0426"/>
             <text>Syn.</text>
             </StaffText>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>33</velocity>
-            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -19968,13 +19906,6 @@ basent sur les harmonies en-dessous</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <offset x="-12.3724" y="-9.16221"/>
-            <text>Quittez la scène pour  
-être caché du public,
-préfèrablement en arrière
-d'une porte.</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -20641,9 +20572,75 @@ d'une porte.</text>
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -20651,23 +20648,7 @@ d'une porte.</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -20677,27 +20658,64 @@ d'une porte.</text>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           </voice>
         <voice>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Rest>
             <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
             </Rest>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -20705,39 +20723,7 @@ d'une porte.</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -20767,12 +20753,7 @@ d'une porte.</text>
               <beginText>&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;</beginText>
               <continueText>(&lt;sym&gt;keyboardPedalPed&lt;/sym&gt;)</continueText>
               <Segment>
-                <subtype>1</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
+                <subtype>0</subtype>
                 <offset x="0" y="2.5"/>
                 <off2 x="1.14045" y="0"/>
                 </Segment>
@@ -21047,11 +21028,8 @@ d'une porte.</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -27021,6 +26999,7 @@ d'une porte.</text>
             </Rest>
           <StaffText>
             <MidiAction channel="2" name="Gt +8' bourdon"/>
+            <MidiAction channel="3" name="Gt +8' bourdon"/>
             <channelSwitch voice="0" name="Grand Orgue"/>
             <channelSwitch voice="1" name="Grand Orgue"/>
             <channelSwitch voice="2" name="Grand Orgue"/>
@@ -29082,6 +29061,7 @@ synthesizer sustain pedal</text>
             </TimeSig>
           <StaffText>
             <MidiAction channel="3" name="Ped. +8' bourdon"/>
+            <MidiAction channel="4" name="Ped. +8' bourdon"/>
             <channelSwitch voice="0" name="Pédale"/>
             <text>Ped.</text>
             </StaffText>
@@ -29106,6 +29086,7 @@ synthesizer sustain pedal</text>
             </location>
           <StaffText>
             <MidiAction channel="2" name="Gt +8' bourdon"/>
+            <MidiAction channel="3" name="Gt +8' bourdon"/>
             <channelSwitch voice="1" name="Grand Orgue"/>
             <text>G.</text>
             </StaffText>
@@ -30539,6 +30520,10 @@ synthesizer sustain pedal</text>
             <MidiAction channel="2" name="Gt +4' prestant"/>
             <MidiAction channel="2" name="Gt +8' montre 2ième"/>
             <MidiAction channel="2" name="Gt +16' montre"/>
+            <MidiAction channel="3" name="Gt +2' doublette"/>
+            <MidiAction channel="3" name="Gt +4' prestant"/>
+            <MidiAction channel="3" name="Gt +8' montre 2ième"/>
+            <MidiAction channel="3" name="Gt +16' montre"/>
             <channelSwitch voice="0" name="Grand Orgue"/>
             <channelSwitch voice="1" name="Grand Orgue"/>
             <channelSwitch voice="2" name="Grand Orgue"/>
@@ -30908,8 +30893,8 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <StaffText>
-            <MidiAction channel="0" name="R. + tremolo"/>
-            <MidiAction channel="0" name="R. +8' voix humaine"/>
+            <MidiAction channel="1" name="R. + tremolo"/>
+            <MidiAction channel="1" name="R. +8' voix humaine"/>
             <channelSwitch voice="0" name="Récit"/>
             <channelSwitch voice="1" name="Récit"/>
             <channelSwitch voice="2" name="Récit"/>
@@ -31187,9 +31172,15 @@ synthesizer sustain pedal</text>
             <sigN>5</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Harmony>
+            <root>16</root>
+            <name>m6</name>
+            </Harmony>
           <StaffText>
             <MidiAction channel="1" name="P. +8' piccolo"/>
             <MidiAction channel="1" name="P. +8' melodie"/>
+            <MidiAction channel="2" name="P. +8' piccolo"/>
+            <MidiAction channel="2" name="P. +8' melodie"/>
             <channelSwitch voice="0" name="Positif"/>
             <channelSwitch voice="1" name="Positif"/>
             <channelSwitch voice="2" name="Positif"/>
@@ -31198,10 +31189,6 @@ synthesizer sustain pedal</text>
             <offset x="-3.79588" y="-2.27079"/>
             <text>Pos.</text>
             </StaffText>
-          <Harmony>
-            <root>16</root>
-            <name>m6</name>
-            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -32037,17 +32024,6 @@ synthesizer sustain pedal</text>
             <sigN>3</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <StaffText>
-            <MidiAction channel="1" name="P. +8' piccolo"/>
-            <MidiAction channel="1" name="P. +8' melodie"/>
-            <channelSwitch voice="0" name="Positif"/>
-            <channelSwitch voice="1" name="Positif"/>
-            <channelSwitch voice="2" name="Positif"/>
-            <channelSwitch voice="3" name="Positif"/>
-            <minDistance>0.160553</minDistance>
-            <offset x="-3.79588" y="-2.27079"/>
-            <text>Pos.</text>
-            </StaffText>
           <Harmony>
             <root>16</root>
             <name>m6</name>
@@ -37418,11 +37394,8 @@ synthesizer sustain pedal</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>61</pitch>
-              <tpc>9</tpc>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
           </voice>
@@ -37752,8 +37725,11 @@ synthesizer sustain pedal</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>46</pitch>
-              <tpc>12</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -37804,11 +37780,8 @@ synthesizer sustain pedal</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>52</pitch>
-              <tpc>6</tpc>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -37854,6 +37827,9 @@ synthesizer sustain pedal</text>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <pitch>52</pitch>
               <tpc>6</tpc>
               </Note>
@@ -37872,8 +37848,11 @@ synthesizer sustain pedal</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>49</pitch>
-              <tpc>9</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -37883,6 +37862,46 @@ synthesizer sustain pedal</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -37897,28 +37916,23 @@ synthesizer sustain pedal</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        <voice>
           <Chord>
-            <durationType>half</durationType>
+            <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/2</fractions>
+                    <fractions>1/8</fractions>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -37927,10 +37941,27 @@ synthesizer sustain pedal</text>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/2</fractions>
+                    <fractions>-1/8</fractions>
                     </location>
                   </prev>
                 </Spanner>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
@@ -37941,7 +37972,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -37949,7 +37980,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -37957,7 +37988,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -37965,38 +37996,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          </voice>
-        <voice/>
-        <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -38004,7 +38004,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -38012,7 +38012,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -38020,7 +38020,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -38028,7 +38028,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -38036,7 +38036,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -42320,6 +42320,10 @@ synthesizer sustain pedal</text>
             <MidiAction channel="3" name="Ped. +8' bourdon"/>
             <MidiAction channel="3" name="Ped. +16' violon"/>
             <MidiAction channel="3" name="Ped. +16' bourdon"/>
+            <MidiAction channel="4" name="Ped. +4' flûte"/>
+            <MidiAction channel="4" name="Ped. +8' bourdon"/>
+            <MidiAction channel="4" name="Ped. +16' violon"/>
+            <MidiAction channel="4" name="Ped. +16' bourdon"/>
             <channelSwitch voice="0" name="Pédale"/>
             <channelSwitch voice="1" name="Pédale"/>
             <channelSwitch voice="2" name="Pédale"/>
@@ -43339,6 +43343,9 @@ synthesizer sustain pedal</text>
             <MidiAction channel="3" name="Ped. +8' bourdon"/>
             <MidiAction channel="3" name="Ped. +16' bourdon doux"/>
             <MidiAction channel="3" name="Ped. +16' bourdon"/>
+            <MidiAction channel="4" name="Ped. +8' bourdon"/>
+            <MidiAction channel="4" name="Ped. +16' bourdon doux"/>
+            <MidiAction channel="4" name="Ped. +16' bourdon"/>
             <channelSwitch voice="0" name="Pédale"/>
             <channelSwitch voice="1" name="Pédale"/>
             <channelSwitch voice="2" name="Pédale"/>
@@ -46234,6 +46241,24 @@ synthesizer sustain pedal</text>
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <StaffText>
             <channelSwitch voice="0" name="Récit"/>
             <channelSwitch voice="1" name="Récit"/>
@@ -46280,7 +46305,8 @@ synthesizer sustain pedal</text>
                   </Tie>
                 <next>
                   <location>
-                    <fractions>1/8</fractions>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
                     </location>
                   </next>
                 </Spanner>
@@ -46288,13 +46314,18 @@ synthesizer sustain pedal</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <fractions>-1/8</fractions>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
                     </location>
                   </prev>
                 </Spanner>
@@ -46308,14 +46339,13 @@ synthesizer sustain pedal</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -46326,13 +46356,14 @@ synthesizer sustain pedal</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -46363,6 +46394,10 @@ synthesizer sustain pedal</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -46370,10 +46405,6 @@ synthesizer sustain pedal</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -46411,6 +46442,10 @@ synthesizer sustain pedal</text>
               <tpc>9</tpc>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -46438,10 +46473,6 @@ synthesizer sustain pedal</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -46449,6 +46480,10 @@ synthesizer sustain pedal</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -46490,6 +46525,10 @@ synthesizer sustain pedal</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -46500,21 +46539,19 @@ synthesizer sustain pedal</text>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Rest>
             <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
             </Rest>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>eighth</durationType>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -46522,39 +46559,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -52070,13 +52075,8 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -52144,9 +52144,19 @@ synthesizer sustain pedal</text>
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -52154,7 +52164,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -52162,7 +52172,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -52170,23 +52180,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -52194,7 +52188,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -52202,7 +52196,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -52210,7 +52204,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -52218,7 +52212,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -52226,7 +52220,15 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56052,13 +56054,8 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56126,9 +56123,19 @@ synthesizer sustain pedal</text>
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56136,7 +56143,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56144,7 +56151,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56152,23 +56159,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56176,7 +56167,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56184,7 +56175,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56192,7 +56183,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56200,7 +56191,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -56208,7 +56199,15 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -60227,13 +60226,8 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -60301,9 +60295,19 @@ synthesizer sustain pedal</text>
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>8</sigD>
+            <Groups>
+              <Node pos="4" action="512"/>
+              <Node pos="8" action="512"/>
+              <Node pos="12" action="273"/>
+              <Node pos="16" action="512"/>
+              </Groups>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -60311,7 +60315,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -60319,7 +60323,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -60327,23 +60331,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>eighth</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>eighth</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -60351,7 +60339,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -60359,7 +60347,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -60367,7 +60355,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -60375,7 +60363,7 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
@@ -60383,7 +60371,15 @@ synthesizer sustain pedal</text>
         <voice>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
             </Rest>
           </voice>
         </Measure>
