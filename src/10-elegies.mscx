@@ -53,7 +53,7 @@
       <footerFontSize>10</footerFontSize>
       <Spatium>1.75</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>0</showFrames>
     <showMargins>0</showMargins>
@@ -83,7 +83,6 @@
       <trackName>Voix</trackName>
       <Instrument id="voice">
         <longName>Voix</longName>
-        <shortName>Vo.</shortName>
         <trackName>Voice</trackName>
         <minPitchP>38</minPitchP>
         <maxPitchP>84</maxPitchP>
@@ -138,7 +137,7 @@
           <synti>Fluid</synti>
           <mute>1</mute>
           <midiPort>0</midiPort>
-          <midiChannel>9</midiChannel>
+          <midiChannel>10</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -2653,13 +2652,17 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
         </HBox>
       <Measure>
         <stretch>0.9</stretch>
-        <vspacerFixed>19.7767</vspacerFixed>
+        <vspacerFixed>17.1541</vspacerFixed>
         <voice>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <StaffText>
+            <offset x="-9.39444" y="2.70833"/>
+            <text>Vo.</text>
+            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -3697,11 +3700,7 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           <subtype>line</subtype>
           </LayoutBreak>
         </HBox>
-      <HBox>
-        <width>10.7075</width>
-        </HBox>
       <Measure>
-        <vspacerDown>15.4142</vspacerDown>
         <voice>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -4473,9 +4472,6 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
         </Measure>
       <Measure>
         <stretch>0</stretch>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <KeySig>
             <visible>0</visible>
@@ -4548,6 +4544,9 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>page</subtype>
+          </LayoutBreak>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -4659,9 +4658,6 @@ Pédale : Bourdon 8' et 16', flûte et violin 16'</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -6292,9 +6288,6 @@ the clock in bed track</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -6540,9 +6533,6 @@ the clock in bed track</text>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>page</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -6833,18 +6823,6 @@ gradually opening the door</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <diagonal>1</diagonal>
-              <lineWidth>0.32</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -6853,13 +6831,6 @@ gradually opening the door</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -10338,7 +10309,7 @@ gradually opening the door</text>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
@@ -10346,13 +10317,15 @@ gradually opening the door</text>
       <Measure>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>
+            <visible>0</visible>
             <size>9</size>
             <offset x="0.461496" y="-3.31171"/>
             <text><b>A little faster
@@ -10360,7 +10333,7 @@ gradually opening the door</text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
-            <duration>60/4</duration>
+            <duration>50/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -17247,14 +17220,14 @@ et en-dessous du cantus firmus rouge</text>
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <StaffText>
             <offset x="-1.55103" y="-5.5784"/>
             <text>Bed track 
 (cca. 10&quot;)</text>
             </StaffText>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -20265,24 +20238,9 @@ réverbération</text>
                 </location>
               </prev>
             </Spanner>
-          <Chord>
+          <Rest>
             <durationType>eighth</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <pitch>108</pitch>
-              <tpc>14</tpc>
-              </Note>
-            </Chord>
+            </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -20297,13 +20255,6 @@ réverbération</text>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -20311,20 +20262,21 @@ réverbération</text>
           <Chord>
             <durationType>32nd</durationType>
             <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>32nd</durationType>
-            <Note>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>32nd</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>32nd</durationType>
+            </Rest>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -20333,13 +20285,10 @@ réverbération</text>
                 </location>
               </prev>
             </Spanner>
-          <Chord>
+          <Rest>
+            <visible>0</visible>
             <durationType>32nd</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+            </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>32nd</durationType>
@@ -20350,14 +20299,6 @@ réverbération</text>
             </Rest>
           <Chord>
             <durationType>16th</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -20410,13 +20351,6 @@ réverbération</text>
           <Chord>
             <durationType>64th</durationType>
             <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>64th</durationType>
-            <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -20424,24 +20358,26 @@ réverbération</text>
           <Chord>
             <durationType>64th</durationType>
             <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
-          <Chord>
+          <Rest>
+            <visible>0</visible>
             <durationType>64th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
             <durationType>64th</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>64th</durationType>
+            </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>32nd</durationType>
@@ -20452,14 +20388,6 @@ réverbération</text>
             </Rest>
           <Chord>
             <durationType>16th</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -20508,13 +20436,6 @@ réverbération</text>
           <Chord>
             <durationType>64th</durationType>
             <Note>
-              <pitch>67</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>64th</durationType>
-            <Note>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -20522,24 +20443,26 @@ réverbération</text>
           <Chord>
             <durationType>64th</durationType>
             <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
-          <Chord>
+          <Rest>
+            <visible>0</visible>
             <durationType>64th</durationType>
-            <Note>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
-          <Chord>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
             <durationType>64th</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>64th</durationType>
+            </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>32nd</durationType>
@@ -20550,14 +20473,6 @@ réverbération</text>
             </Rest>
           <Chord>
             <durationType>16th</durationType>
-            <Note>
-              <pitch>55</pitch>
-              <tpc>15</tpc>
-              </Note>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -24359,6 +24274,9 @@ réverbération</text>
             <channelSwitch voice="1" name="Positif"/>
             <channelSwitch voice="2" name="Positif"/>
             <channelSwitch voice="3" name="Positif"/>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
+            <offset x="-3.5503" y="2.4173"/>
             <text>P.</text>
             </StaffText>
           <Spanner type="Ottava">
@@ -31918,7 +31836,7 @@ réverbération</text>
       <Measure>
         <voice>
           <StaffText>
-            <offset x="-2.68564" y="-8.92168"/>
+            <offset x="-15.0485" y="-9.87267"/>
             <text>Quittez la scène 
 en se cachant (dans
 une pièce avec une 
@@ -40211,38 +40129,87 @@ porte si possible) </text>
       <Measure>
         <voice>
           <StaffText>
-            <offset x="4.95137" y="-4.2757"/>
-            <text>25&quot;</text>
+            <offset x="4.01964" y="-4.04277"/>
+            <text>15 - 25&quot;</text>
             </StaffText>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
         </Measure>
       <Measure>
-        <StaffTypeChange>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <barlines>0</barlines>
-            </StaffType>
-          </StaffTypeChange>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
+            <minDistance>-999</minDistance>
+            <offset x="-2.54834" y="4.89764"/>
             <text>R.</text>
             </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.45967" y="0.557376"/>
+                <off2 x="-0.708694" y="0"/>
+                <minDistance>-0.567624</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.49008" y="3.50066"/>
+                <off2 x="-0.669017" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.119789</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.18128" y="-3.61345"/>
+                <off2 x="68.2432" y="0"/>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>55/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -40263,26 +40230,132 @@ porte si possible) </text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
-            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <headType>quarter</headType>
               </Note>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.07454" y="0.996556"/>
+                <off2 x="1.8256" y="0"/>
+                <minDistance>-1.02702</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.4341" y="-0.00416669"/>
+                <off2 x="-0.723686" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -40291,10 +40364,40 @@ porte si possible) </text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.47217" y="-2.99703"/>
+                <off2 x="-0.680698" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.47615" y="-3.99432"/>
+                <off2 x="-0.660875" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -40308,26 +40411,132 @@ porte si possible) </text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.45884" y="-3.50584"/>
+                <off2 x="-3.69933" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.4535" y="-2.52473"/>
+                <off2 x="-3.71176" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
-            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <headType>quarter</headType>
               </Note>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>76</pitch>
               <tpc>18</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>
@@ -40348,19 +40557,47 @@ porte si possible) </text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.47661" y="-1.89953"/>
+                <off2 x="-0.750594" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/1</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.51832" y="-2.99261"/>
+                <off2 x="-4.74879" y="0"/>
+                <minDistance>-999</minDistance>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -40378,6 +40615,23 @@ porte si possible) </text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.4712" y="-2.51082"/>
+                <off2 x="-3.72061" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -40399,10 +40653,31 @@ porte si possible) </text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -40435,46 +40710,229 @@ porte si possible) </text>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
+          <StaffText>
+            <offset x="-6.73103" y="-4.54043"/>
+            <text>cca. 50&quot;</text>
+            </StaffText>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-55/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.48933" y="1.00157"/>
+                <off2 x="-0.700426" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.48797" y="0.00301392"/>
+                <off2 x="-0.652263" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
-            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>74</pitch>
               <tpc>16</tpc>
               <headType>quarter</headType>
               </Note>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>77</pitch>
               <tpc>13</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
           <Chord>
-            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.49007" y="1.51704"/>
+                <off2 x="-0.747461" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>72</pitch>
               <tpc>14</tpc>
               <headType>quarter</headType>
               </Note>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>76</pitch>
               <tpc>18</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.41332" y="0.50564"/>
+                <off2 x="2.18205" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -40485,12 +40943,10 @@ porte si possible) </text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
+                    <voices>1</voices>
                     <fractions>1/4</fractions>
                     </location>
                   </next>
@@ -40500,9 +40956,136 @@ porte si possible) </text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.0802" y="2.00663"/>
+                <off2 x="1.90092" y="0"/>
+                <minDistance>-1.37704</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.86015" y="1.00626"/>
+                <off2 x="-0.99631" y="0"/>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.48719" y="-4.00236"/>
+                <off2 x="-0.593612" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.48533" y="-3.00024"/>
+                <off2 x="-0.665434" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <headType>quarter</headType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -40510,40 +41093,70 @@ porte si possible) </text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>57</pitch>
-              <tpc>17</tpc>
-              <headType>quarter</headType>
-              </Note>
-            <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              <headType>quarter</headType>
-              </Note>
-            </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <dots>1</dots>
-            <durationType>quarter</durationType>
-            <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
               <pitch>74</pitch>
               <tpc>16</tpc>
-              <headType>quarter</headType>
               </Note>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>77</pitch>
               <tpc>13</tpc>
-              <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.48213" y="-3.51082"/>
+                <off2 x="-0.841195" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.47018" y="-2.47496"/>
+                <off2 x="-0.858224" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -40557,6 +41170,20 @@ porte si possible) </text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -40579,33 +41206,85 @@ porte si possible) </text>
             </Rest>
           <Rest>
             <visible>0</visible>
-            <durationType>breve</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        <voice>
+          <location>
+            <fractions>65/8</fractions>
+            </location>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <voices>-1</voices>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>62</pitch>
-              <tpc>16</tpc>
-              </Note>
-            <Note>
-              <pitch>77</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>whole</durationType>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -44508,7 +45187,7 @@ synthesizer sustain pedal</text>
               </TextLine>
             <next>
               <location>
-                <fractions>29/4</fractions>
+                <fractions>1/1</fractions>
                 </location>
               </next>
             </Spanner>
@@ -44518,7 +45197,7 @@ synthesizer sustain pedal</text>
               </TextLine>
             <next>
               <location>
-                <fractions>1/1</fractions>
+                <fractions>29/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -47139,20 +47818,6 @@ synthesizer sustain pedal</text>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <MidiAction channel="0" name="Syn. 6"/>
-            <channelSwitch voice="0" name="Synthèse"/>
-            <channelSwitch voice="1" name="Synthèse"/>
-            <channelSwitch voice="2" name="Synthèse"/>
-            <channelSwitch voice="3" name="Synthèse"/>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <size>14</size>
-            <offset x="-0.0507723" y="14.9476"/>
-            <frameType>2</frameType>
-            <framePadding>0.4</framePadding>
-            <text>6</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -47168,6 +47833,21 @@ synthesizer sustain pedal</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <MidiAction channel="0" name="Syn. 6"/>
+            <channelSwitch voice="0" name="Synthèse"/>
+            <channelSwitch voice="1" name="Synthèse"/>
+            <channelSwitch voice="2" name="Synthèse"/>
+            <channelSwitch voice="3" name="Synthèse"/>
+            <autoplace>0</autoplace>
+            <visible>0</visible>
+            <placement>below</placement>
+            <size>14</size>
+            <offset x="0.117451" y="2.83556"/>
+            <frameType>2</frameType>
+            <framePadding>0.4</framePadding>
+            <text>6</text>
+            </StaffText>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -47958,6 +48638,7 @@ synthesizer sustain pedal</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>7.901</vspacerFixed>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -47978,49 +48659,168 @@ synthesizer sustain pedal</text>
             </TimeSig>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <headType>quarter</headType>
-              </Note>
-            </Chord>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
-            <MidiAction channel="0" name="Syn. 3"/>
             <channelSwitch voice="0" name="Synthèse"/>
             <channelSwitch voice="1" name="Synthèse"/>
             <channelSwitch voice="2" name="Synthèse"/>
             <channelSwitch voice="3" name="Synthèse"/>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <size>14</size>
-            <offset x="-0.0507719" y="5.56925"/>
-            <frameType>1</frameType>
-            <text>6</text>
+            <minDistance>-1.21468</minDistance>
+            <offset x="0" y="-2.50828"/>
+            <text>Syn.</text>
             </StaffText>
           <Rest>
             <visible>0</visible>
+            <durationType>32nd</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>32nd</durationType>
+            </Rest>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>32nd</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>32nd</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>16th</durationType>
+            </Rest>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>16th</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
             <durationType>quarter</durationType>
+            </Rest>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <offset x="24.3844" y="-13.6762"/>
+            <text>cca. 15&quot;</text>
+            </StaffText>
+          <Rest>
+            <visible>0</visible>
+            <durationType>whole</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>64th</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>64th</durationType>
+            </Rest>
+          <Chord>
+            <durationType>64th</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>64th</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>64th</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>32nd</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>64th</durationType>
+            </Rest>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>16th</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
@@ -48056,23 +48856,63 @@ synthesizer sustain pedal</text>
             </Rest>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>64th</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>64th</durationType>
+            </Rest>
+          <Chord>
+            <durationType>64th</durationType>
+            <Note>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>64th</durationType>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>64th</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>32nd</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>64th</durationType>
+            </Rest>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>16th</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
@@ -48106,17 +48946,6 @@ synthesizer sustain pedal</text>
             </TimeSig>
           <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/2</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
               <beginHookType>1</beginHookType>
               <endHookType>1</endHookType>
               <diagonal>1</diagonal>
@@ -48124,6 +48953,17 @@ synthesizer sustain pedal</text>
             <next>
               <location>
                 <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -49110,13 +49950,6 @@ synthesizer sustain pedal</text>
               </Note>
             </Chord>
           <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-5/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
@@ -49138,6 +49971,13 @@ synthesizer sustain pedal</text>
                 <fractions>-21/2</fractions>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-5/4</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
@@ -54470,19 +55310,6 @@ synthesizer sustain pedal</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <MidiAction channel="0" name="Syn. 6"/>
-            <channelSwitch voice="0" name="Synthèse"/>
-            <channelSwitch voice="1" name="Synthèse"/>
-            <channelSwitch voice="2" name="Synthèse"/>
-            <channelSwitch voice="3" name="Synthèse"/>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <size>14</size>
-            <offset x="-0.0507723" y="14.9476"/>
-            <frameType>1</frameType>
-            <text>6</text>
-            </StaffText>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -55431,6 +56258,7 @@ synthesizer sustain pedal</text>
             <channelSwitch voice="1" name="Positif"/>
             <channelSwitch voice="2" name="Positif"/>
             <channelSwitch voice="3" name="Positif"/>
+            <visible>0</visible>
             <text>P.</text>
             </StaffText>
           <Chord>
@@ -68444,40 +69272,28 @@ synthesizer sustain pedal</text>
         </Measure>
       <Measure>
         <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
         </Measure>
       <Measure>
-        <StaffTypeChange>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <barlines>0</barlines>
-            </StaffType>
-          </StaffTypeChange>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Rest>
-            <visible>0</visible>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>long</durationType>
@@ -68488,48 +69304,222 @@ synthesizer sustain pedal</text>
             </Rest>
           <Rest>
             <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
-            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <headType>quarter</headType>
               </Note>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>65</pitch>
               <tpc>13</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.42551" y="-1.50043"/>
+                <off2 x="1.92205" y="0"/>
+                <minDistance>-2.02314</minDistance>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.42782" y="-2.54075"/>
+                <off2 x="1.94853" y="0"/>
+                <minDistance>-0.982826</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
-            <dots>1</dots>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.85103" y="-1"/>
+                <off2 x="-57.4535" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>21/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <headType>quarter</headType>
               </Note>
             <Note>
-              <NoteDot>
-                <visible>0</visible>
-                </NoteDot>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.06957" y="-1.99962"/>
+                <off2 x="4.0402" y="0"/>
+                <minDistance>-1.02395</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -68540,9 +69530,6 @@ synthesizer sustain pedal</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -68555,11 +69542,45 @@ synthesizer sustain pedal</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.46398" y="3.49394"/>
+                <off2 x="17.4923" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.48558" y="2.52823"/>
+                <off2 x="-0.902415" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>13/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <visible>0</visible>
               <Spanner type="Tie">
                 <Tie>
+                  <visible>0</visible>
                   </Tie>
                 <next>
                   <location>
@@ -68581,6 +69602,7 @@ synthesizer sustain pedal</text>
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <visible>0</visible>
                   </Tie>
                 <next>
                   <location>
@@ -68593,11 +69615,20 @@ synthesizer sustain pedal</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <visible>0</visible>
               <Spanner type="Tie">
                 <Tie>
+                  <visible>0</visible>
                   </Tie>
                 <next>
                   <location>
@@ -68617,8 +69648,10 @@ synthesizer sustain pedal</text>
               <headType>quarter</headType>
               </Note>
             <Note>
+              <visible>0</visible>
               <Spanner type="Tie">
                 <Tie>
+                  <visible>0</visible>
                   </Tie>
                 <next>
                   <location>
@@ -68641,8 +69674,10 @@ synthesizer sustain pedal</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
+              <visible>0</visible>
               <Spanner type="Tie">
                 <Tie>
+                  <visible>0</visible>
                   </Tie>
                 <next>
                   <location>
@@ -68662,6 +69697,7 @@ synthesizer sustain pedal</text>
               <headType>quarter</headType>
               </Note>
             <Note>
+              <visible>0</visible>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -68677,6 +69713,7 @@ synthesizer sustain pedal</text>
           <Chord>
             <durationType>half</durationType>
             <Note>
+              <visible>0</visible>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -68689,30 +69726,32 @@ synthesizer sustain pedal</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-13/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
-            <durationType>quarter</durationType>
+            <durationType>breve</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>long</durationType>
-            </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-21/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           </voice>
         </Measure>
       </Staff>
@@ -71634,6 +72673,7 @@ synthesizer sustain pedal</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>8.73773</vspacerFixed>
         <voice>
           <TimeSig>
             <sigN>5</sigN>
@@ -71777,6 +72817,7 @@ synthesizer sustain pedal</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>11.1046</vspacerFixed>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -73702,7 +74743,7 @@ synthesizer sustain pedal</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerDown>17.556</vspacerDown>
+        <vspacerFixed>14.9099</vspacerFixed>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -73842,6 +74883,7 @@ synthesizer sustain pedal</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>23.6526</vspacerFixed>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -78933,13 +79975,16 @@ synthesizer sustain pedal</text>
         </Measure>
       <Measure>
         <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
@@ -78947,174 +79992,14 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>50/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -83117,7 +84002,7 @@ synthesizer sustain pedal</text>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
@@ -83125,13 +84010,14 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>60/4</duration>
+            <duration>50/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -87104,7 +87990,7 @@ synthesizer sustain pedal</text>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
@@ -87112,13 +87998,14 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>60/4</duration>
+            <duration>50/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -91245,7 +92132,7 @@ synthesizer sustain pedal</text>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
@@ -91253,13 +92140,14 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>60/4</duration>
+            <duration>50/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -95653,7 +96541,7 @@ synthesizer sustain pedal</text>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
@@ -95661,13 +96549,14 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>60/4</duration>
+            <duration>50/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -99640,7 +100529,7 @@ synthesizer sustain pedal</text>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
@@ -99648,13 +100537,14 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>60/4</duration>
+            <duration>50/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -103627,7 +104517,7 @@ synthesizer sustain pedal</text>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
@@ -103635,13 +104525,14 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>60/4</duration>
+            <duration>50/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -104182,6 +105073,7 @@ synthesizer sustain pedal</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>13.0926</vspacerFixed>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -104477,8 +105369,27 @@ synthesizer sustain pedal</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>2/4</duration>
+            <durationType>quarter</durationType>
+            </Rest>
+          <StaffText>
+            <MidiAction channel="0" name="Syn. 6"/>
+            <channelSwitch voice="0" name="Synthèse"/>
+            <channelSwitch voice="1" name="Synthèse"/>
+            <channelSwitch voice="2" name="Synthèse"/>
+            <channelSwitch voice="3" name="Synthèse"/>
+            <autoplace>0</autoplace>
+            <placement>below</placement>
+            <size>14</size>
+            <offset x="-0.0658498" y="0.985109"/>
+            <frameType>2</frameType>
+            <framePadding>0.4</framePadding>
+            <frameBgColor r="253" g="253" b="253" a="255"/>
+            <text>6</text>
+            </StaffText>
+          <Rest>
+            <offset x="0.30629" y="-7.96353"/>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -104678,12 +105589,14 @@ synthesizer sustain pedal</text>
       <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>15.0552</vspacerFixed>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -104691,42 +105604,52 @@ synthesizer sustain pedal</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
+            <visible>0</visible>
             <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <durationType>quarter</durationType>
+            <visible>0</visible>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <durationType>quarter</durationType>
+            <visible>0</visible>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <durationType>quarter</durationType>
+            <visible>0</visible>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <durationType>quarter</durationType>
+            <visible>0</visible>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <visible>0</visible>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <visible>0</visible>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <visible>0</visible>
+            <durationType>whole</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <visible>0</visible>
+            <durationType>whole</durationType>
             </Rest>
+          <StaffText>
+            <minDistance>-999</minDistance>
+            <size>14</size>
+            <offset x="0" y="0.672782"/>
+            <frameType>2</frameType>
+            <framePadding>0.4</framePadding>
+            <frameBgColor r="253" g="253" b="253" a="255"/>
+            <text>7</text>
+            </StaffText>
           <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
-          <Rest>
-            <durationType>long</durationType>
-            </Rest>
-          <Rest>
+            <visible>0</visible>
             <durationType>whole</durationType>
             </Rest>
           <TimeSig>
@@ -106287,7 +107210,7 @@ synthesizer sustain pedal</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerDown>16.1153</vspacerDown>
+        <vspacerFixed>14.6446</vspacerFixed>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -106433,7 +107356,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerDown>19.4089</vspacerDown>
+        <vspacerDown>18.3317</vspacerDown>
         <voice>
           <StaffText>
             <placement>below</placement>
@@ -106507,6 +107430,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>7.48555</vspacerFixed>
         <StaffTypeChange>
           <StaffType group="percussion">
             <name>perc5Line</name>
@@ -108748,8 +109672,39 @@ with crash of thunder</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>5/4</duration>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            </Rest>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <minDistance>-999</minDistance>
+            <size>14</size>
+            <offset x="-0.759991" y="0.849644"/>
+            <frameType>2</frameType>
+            <framePadding>0.4</framePadding>
+            <frameBgColor r="253" g="253" b="253" a="255"/>
+            <text>19</text>
+            </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="3.37946" y="-0.0239694"/>
+                <off2 x="-3.62735" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>2</measures>
+                <fractions>-3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -108761,7 +109716,7 @@ with crash of thunder</text>
             </Rest>
           <TimeSig>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
           </voice>
@@ -108769,14 +109724,48 @@ with crash of thunder</text>
       <Measure>
         <voice>
           <TimeSig>
+            <offset x="-1.91789" y="-0.0386153"/>
             <visible>0</visible>
-            <sigN>60</sigN>
+            <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                <fractions>3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.44813" y="0.0111687"/>
+                <off2 x="-26.716" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>25/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
-            <duration>60/4</duration>
+            <duration>50/4</duration>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-25/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           </voice>
         </Measure>
       </Staff>
