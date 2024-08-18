@@ -53,7 +53,7 @@
       <footerFontSize>10</footerFontSize>
       <Spatium>1.75</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>0</showFrames>
     <showMargins>0</showMargins>
@@ -6626,11 +6626,29 @@ l'horloge dans la bande sonore</text>
             <placement>above</placement>
             </Dynamic>
           <StaffText>
-            <offset x="-1.19855" y="-8.85397"/>
-            <text>Attendez la fin de la bande sonore,
-puis repetez 5 fois, tout en ouvrant
-la porte progressivement</text>
+            <offset x="-1.06811" y="-11.0865"/>
+            <text>Attendez la fin de la bande sonore, puis 
+repetez 5 fois, tout en ouvrant la porte 
+progressivement (cca. 12&quot; chaque répétition)</text>
             </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <lineWidth>0.116937</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-3.64523" y="-4.30183"/>
+                <off2 x="6.74438" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -6749,12 +6767,19 @@ la porte progressivement</text>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <offset x="7.81341" y="-3.58803"/>
+            <offset x="19.5109" y="-4.52383"/>
             <text><font size="20"></font>6</text>
             </StaffText>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-2</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -6871,6 +6896,14 @@ la porte progressivement</text>
             </TimeSig>
           </voice>
         </Measure>
+      <VBox>
+        <height>10</height>
+        <boxAutoSize>0</boxAutoSize>
+        </VBox>
+      <VBox>
+        <height>6.49166</height>
+        <boxAutoSize>0</boxAutoSize>
+        </VBox>
       <Measure>
         <voice>
           <TimeSig>
@@ -6878,6 +6911,15 @@ la porte progressivement</text>
             <sigN>64</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1.3333299999999999</tempo>
+            <followText>1</followText>
+            <minDistance>0.489396</minDistance>
+            <offset x="-0.595644" y="-7.94574"/>
+            <text><b></b>Un son grave se répète en boucle 
+pendant que l'organiste retourne 
+à l'instrument. (cca. 30&quot;)</text>
+            </Tempo>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -7608,6 +7650,12 @@ la porte progressivement</text>
         </Measure>
       <Measure>
         <voice>
+          <Tempo>
+            <tempo>2.3500000000000001</tempo>
+            <followText>1</followText>
+            <offset x="-0.259505" y="-2.97821"/>
+            <text>Joissance ephémère, une intensité tendre (même tempo)</text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -8429,7 +8477,8 @@ la porte progressivement</text>
             <tempo>2.1333333333333333</tempo>
             <followText>1</followText>
             <size>8</size>
-            <text><b>slower, cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 128 (treat beat as texture rather than metric constraint)</b></text>
+            <offset x="2.48864" y="-5.46514"/>
+            <text><b>Plus lentement, désynchronisé de la bande sonore (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 128) </b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -10463,8 +10512,9 @@ la porte progressivement</text>
           <Tempo>
             <tempo>0.83333333333333337</tempo>
             <followText>1</followText>
-            <offset x="2.84509" y="-1.46655"/>
-            <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 50</b></text>
+            <offset x="2.84509" y="-3.80097"/>
+            <text><b>Lent, sensation de flottement au 
+surface d'une calme profonde (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 50)</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -10675,7 +10725,7 @@ la porte progressivement</text>
             <tempo>1.1000000000000001</tempo>
             <followText>1</followText>
             <offset x="1.53862" y="-1.72025"/>
-            <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 66</b></text>
+            <text><b>Un peu plus vif (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 66)</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -10834,11 +10884,9 @@ la porte progressivement</text>
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>
-            <visible>0</visible>
             <size>9</size>
             <offset x="0.461496" y="-3.31171"/>
-            <text><b>A little faster
-(cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60)</b></text>
+            <text>Fragile et intemporelle </text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -41422,7 +41470,7 @@ R. Tremblant</text>
             <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <offset x="-11.4944" y="-4.54043"/>
+            <offset x="-12.5052" y="-5.04582"/>
             <text>cca. 50&quot;</text>
             </StaffText>
           <Spanner type="TextLine">
@@ -61561,6 +61609,7 @@ du bombarde dans la bande sonore</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>8.94049</vspacerFixed>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -61571,9 +61620,48 @@ du bombarde dans la bande sonore</text>
             <visible>0</visible>
             <durationType>whole</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.116937</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-6.28825" y="-1"/>
+                <off2 x="-107.753" y="0"/>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
-            <durationType>breve</durationType>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
@@ -61591,9 +61679,9 @@ du bombarde dans la bande sonore</text>
             <text>R. Fonds 8', 4'</text>
             </StaffText>
           <StaffText>
-            <minDistance>0.0479103</minDistance>
-            <offset x="14.144" y="-3.47333"/>
-            <text>Echo (délai de 2,5&quot;)</text>
+            <placement>below</placement>
+            <offset x="14.5404" y="2.98304"/>
+            <text>Écho</text>
             </StaffText>
           <Dynamic>
             <subtype>p</subtype>
@@ -61796,7 +61884,7 @@ du bombarde dans la bande sonore</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="6.02014" y="-7.61483"/>
+            <offset x="6.02014" y="-8.71881"/>
             <text><font size="20"></font>8</text>
             </StaffText>
           <Chord>
@@ -62203,6 +62291,14 @@ du bombarde dans la bande sonore</text>
             <sigN>88</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -66692,6 +66788,7 @@ du bombarde dans la bande sonore</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>6.3238</vspacerFixed>
         <voice>
           <TimeSig>
             <sigN>3</sigN>
@@ -79960,6 +80057,7 @@ Tir. G.</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>7.70951</vspacerFixed>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -105346,7 +105444,7 @@ Tir. G.</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerFixed>12.4824</vspacerFixed>
+        <vspacerFixed>18.9373</vspacerFixed>
         <voice>
           <Spanner type="TextLine">
             <TextLine>
@@ -105600,6 +105698,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             <minDistance>-999</minDistance>
             <offset x="0.0989066" y="1.00611"/>
             <frameType>2</frameType>
+            <framePadding>0.4</framePadding>
             <frameBgColor r="248" g="252" b="250" a="255"/>
             <text><font size="14"></font>13</text>
             </StaffText>
@@ -105638,7 +105737,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
       <Measure>
         <voice>
           <StaffText>
-            <offset x="30.7978" y="-2.0029"/>
+            <offset x="32.6694" y="-4.8103"/>
             <text><font size="20"></font>7</text>
             </StaffText>
           <Rest>
@@ -105687,12 +105786,6 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             <sigN>64</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <minDistance>-0.136571</minDistance>
-            <offset x="-0.0136208" y="-4.69069"/>
-            <text>Un son grave se répète en boucle pendant que
- l'organiste retourne à l'instrument. (cca. 30&quot;)</text>
-            </StaffText>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -105706,14 +105799,14 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="0.314097"/>
-                <off2 x="134.527" y="0"/>
+                <offset x="0.0545343" y="0.041426"/>
+                <off2 x="-0.909116" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>2/1</fractions>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -105735,17 +105828,15 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             <visible>0</visible>
             <durationType>whole</durationType>
             </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-2/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>breve</durationType>
             </Rest>
+          <StaffText>
+            <minDistance>0.409349</minDistance>
+            <offset x="-22.9699" y="-2.43586"/>
+            <text>Echo de 3,5&quot; avec distorsion</text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <durationType>long</durationType>
@@ -105774,19 +105865,26 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             <sigD>4</sigD>
             </TimeSig>
           <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0.218253" y="-0.0724672"/>
-                <off2 x="20.5158" y="0"/>
+                <offset x="0.262102" y="0.0152296"/>
+                <off2 x="-3.76187" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>18/1</fractions>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -105822,15 +105920,8 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             </StaffText>
           <StaffText>
             <offset x="9.88373" y="-2.57832"/>
-            <text>Plus d'echo</text>
+            <text>Plus d'écho</text>
             </StaffText>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-18/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>long</durationType>
@@ -105843,6 +105934,13 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
@@ -107903,6 +108001,28 @@ avec un coup de tonnerre</text>
             <sigN>3</sigN>
             <sigD>2</sigD>
             </TimeSig>
+          <StaffText>
+            <offset x="11.2241" y="-3.16056"/>
+            <text>Cloches inversées, courte délai</text>
+            </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.411133" y="-0.077037"/>
+                <off2 x="-0.877533" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <offset x="0" y="-2"/>
             <visible>0</visible>
@@ -107917,25 +108037,6 @@ avec un coup de tonnerre</text>
             <frameBgColor r="253" g="253" b="253" a="255"/>
             <text><font size="14"/>18</text>
             </StaffText>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <diagonal>1</diagonal>
-              <lineWidth>1</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-10.9642" y="-0.077037"/>
-                <off2 x="10.4978" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -107955,7 +108056,6 @@ avec un coup de tonnerre</text>
             <prev>
               <location>
                 <measures>-1</measures>
-                <fractions>1/4</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -108489,18 +108589,19 @@ avec un coup de tonnerre</text>
             </TimeSig>
           <Spanner type="TextLine">
             <TextLine>
+              <placement>below</placement>
               <diagonal>1</diagonal>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.237314" y="0.0457389"/>
-                <off2 x="36.3867" y="0"/>
+                <offset x="-0.0507073" y="0.0457389"/>
+                <off2 x="-0.226085" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>2</measures>
+                <measures>4</measures>
                 </location>
               </next>
             </Spanner>
@@ -108529,13 +108630,6 @@ avec un coup de tonnerre</text>
                 </location>
               </prev>
             </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <dots>1</dots>
@@ -108547,15 +108641,22 @@ avec un coup de tonnerre</text>
           <StaffText>
             <autoplace>0</autoplace>
             <z>7000</z>
-            <minDistance>-999</minDistance>
             <size>14</size>
-            <offset x="-0.759991" y="0.849644"/>
+            <offset x="-1.1332" y="0.663037"/>
             <frameType>2</frameType>
             <framePadding>0.4</framePadding>
             <frameBgColor r="253" g="253" b="253" a="255"/>
             <text>19</text>
             </StaffText>
+          <StaffText>
+            <offset x="-1.11964" y="-3.09006"/>
+            <frameType>1</frameType>
+            <frameFgColor r="253" g="253" b="253" a="255"/>
+            <frameBgColor r="253" g="253" b="253" a="255"/>
+            <text>Réverberation figé</text>
+            </StaffText>
           <Rest>
+            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -108582,6 +108683,13 @@ avec un coup de tonnerre</text>
             <sigN>50</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-4</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
