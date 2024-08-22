@@ -53,7 +53,7 @@
       <footerFontSize>10</footerFontSize>
       <Spatium>1.75</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>0</showFrames>
     <showMargins>0</showMargins>
@@ -2024,10 +2024,12 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>3.5</height>
+        <height>14.8319</height>
+        <boxAutoSize>0</boxAutoSize>
         <Text>
+          <autoplace>0</autoplace>
           <style>Title</style>
-          <offset x="25.947" y="2.8754"/>
+          <offset x="0.222" y="6.0254"/>
           <text><font size="22"></font>Élégies</text>
           </Text>
         </VBox>
@@ -2046,6 +2048,29 @@
             <sigN>20</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <StaffText>
+            <minDistance>0.457047</minDistance>
+            <offset x="10.7235" y="-4.44098"/>
+            <text>2' à 3'</text>
+            </StaffText>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.116937</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.89522"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -2070,7 +2095,7 @@
         <voice>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="-32.5679" y="-12.2004"/>
+            <offset x="-36.3641" y="-15.0476"/>
             <text>R.  Bourdon 8'
 G.  Bourdon 8', R., P.
 P.   Dulciane 8'
@@ -2084,6 +2109,44 @@ Péd.  Bourdon 8' et 16'</text>
             <offset x="-5.42173" y="-0.922642"/>
             <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
             </Tempo>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <placement>above</placement>
+            </Dynamic>
+          <Tempo>
+            <tempo>1</tempo>
+            <followText>1</followText>
+            <minDistance>-6.48519</minDistance>
+            <offset x="2.02642" y="-1.64061"/>
+            <text>Intensément, un cri intérieur résonne</text>
+            </Tempo>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.116937</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.18406" y="-4.51681"/>
+                <off2 x="0.0861923" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
@@ -2109,8 +2172,8 @@ Péd.  Bourdon 8' et 16'</text>
               <lineWidth>0.45</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.56465" y="-1.96531"/>
-                <off2 x="0.94463" y="0"/>
+                <offset x="0.0830909" y="-1.96531"/>
+                <off2 x="0.296889" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -2167,26 +2230,20 @@ Péd.  Bourdon 8' et 16'</text>
             <durationType>32nd</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>ais,</text>
+              <text>ais</text>
               </Lyrics>
             <Note>
-              <Events>
-                <Event>
-                  <len>7144</len>
-                  </Event>
-                </Events>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
-              <diagonal>1</diagonal>
               <lineWidth>0.45</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0.16376" y="3.0109"/>
-                <off2 x="-3.50618" y="0"/>
+                <offset x="0.727067" y="3.0109"/>
+                <off2 x="-1.87995" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -2197,6 +2254,7 @@ Péd.  Bourdon 8' et 16'</text>
               </next>
             </Spanner>
           <Rest>
+            <offset x="0.752794" y="-0.780805"/>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
@@ -2234,6 +2292,16 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Lyrics>
+              <text>qui</text>
+              </Lyrics>
+            <Note>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <visible>0</visible>
             <durationType>16th</durationType>
@@ -2244,36 +2312,28 @@ Péd.  Bourdon 8' et 16'</text>
               <lineWidth>0.45</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="1.93689" y="1.90534"/>
-                <off2 x="-9.07726" y="0"/>
+                <offset x="-1.81169" y="2.00153"/>
+                <off2 x="2.15565" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>5/16</fractions>
+                <fractions>1/16</fractions>
                 </location>
               </next>
             </Spanner>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Lyrics>
-              <text>qui</text>
-              </Lyrics>
-            <Note>
-              <Events>
-                <Event>
-                  <len>1264</len>
-                  </Event>
-                </Events>
-              <pitch>58</pitch>
-              <tpc>12</tpc>
-              </Note>
-            </Chord>
           <Rest>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/16</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
@@ -2295,13 +2355,6 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-5/16</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
@@ -2330,7 +2383,8 @@ Péd.  Bourdon 8' et 16'</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="-1.17156" y="-4.94135"/>
+            <autoplace>0</autoplace>
+            <offset x="-15.9716" y="-8.32188"/>
             <text><font size="20"></font>1</text>
             </StaffText>
           <Spanner type="TextLine">
@@ -2339,8 +2393,8 @@ Péd.  Bourdon 8' et 16'</text>
               <lineWidth>0.45</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.774004" y="2.55097"/>
-                <off2 x="-0.194443" y="0"/>
+                <offset x="0.110144" y="2.55097"/>
+                <off2 x="0.453302" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -2351,6 +2405,7 @@ Péd.  Bourdon 8' et 16'</text>
               </next>
             </Spanner>
           <Rest>
+            <offset x="0.228345" y="0.0499474"/>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
@@ -2360,8 +2415,8 @@ Péd.  Bourdon 8' et 16'</text>
               <lineWidth>0.45</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="4.10992" y="2.99587"/>
-                <off2 x="-5.94558" y="0"/>
+                <offset x="4.64063" y="2.99587"/>
+                <off2 x="-6.97752" y="0"/>
                 <minDistance>-999</minDistance>
                 <autoplace>0</autoplace>
                 </Segment>
@@ -2393,6 +2448,10 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <offset x="-0.658042" y="-4.94825"/>
+            <text>30&quot;</text>
+            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
@@ -2431,6 +2490,23 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.45</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.63218" y="2.49753"/>
+                <off2 x="-3.52822" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
@@ -2454,6 +2530,13 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
@@ -2524,8 +2607,8 @@ Péd.  Bourdon 8' et 16'</text>
               <lineWidth>0.45</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.731906" y="3.4995"/>
-                <off2 x="-0.224507" y="0"/>
+                <offset x="0.122025" y="3.4995"/>
+                <off2 x="-0.963042" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -2602,10 +2685,17 @@ Péd.  Bourdon 8' et 16'</text>
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>
-            <visible>0</visible>
-            <offset x="0.448662" y="-3.90681"/>
-            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
+            <minDistance>0.343003</minDistance>
+            <offset x="9.7115" y="-5.52848"/>
+            <text>Puissant et accablant, puis dénudé</text>
             </Tempo>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>50/4</duration>
@@ -2635,11 +2725,14 @@ Péd.  Bourdon 8' et 16'</text>
             <tempo>1</tempo>
             <followText>1</followText>
             <offset x="-47.3558" y="-3.31844"/>
-            <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
+            <text><b>S'élevant d'un brouillard (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 60)</b></text>
             </Tempo>
           <location>
             <fractions>27/4</fractions>
             </location>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -2663,12 +2756,45 @@ Péd.  Bourdon 8' et 16'</text>
             <offset x="-9.39444" y="2.70833"/>
             <text>Vo.</text>
             </StaffText>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            <placement>above</placement>
+            </Dynamic>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.116937</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.43724" y="-3.25362"/>
+                <off2 x="2.15472" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
               <text>Tout</text>
               </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>62</pitch>
@@ -2677,6 +2803,13 @@ Péd.  Bourdon 8' et 16'</text>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>53</pitch>
@@ -2729,12 +2862,20 @@ Péd.  Bourdon 8' et 16'</text>
             </Chord>
           <Spanner type="TextLine">
             <TextLine>
+              <visible>0</visible>
               <diagonal>1</diagonal>
               <lineWidth>0.45</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.93851" y="3.00625"/>
+                <off2 x="-12.0557" y="0"/>
+                <minDistance>-999</minDistance>
+                <visible>0</visible>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/4</fractions>
+                <fractions>5/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -2766,16 +2907,16 @@ Péd.  Bourdon 8' et 16'</text>
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-5/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -2783,6 +2924,15 @@ Péd.  Bourdon 8' et 16'</text>
               <syllabic>begin</syllabic>
               <text>Et</text>
               </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -2791,6 +2941,13 @@ Péd.  Bourdon 8' et 16'</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -2803,6 +2960,15 @@ Péd.  Bourdon 8' et 16'</text>
               <syllabic>middle</syllabic>
               <text>pour</text>
               </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -2811,6 +2977,13 @@ Péd.  Bourdon 8' et 16'</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -2835,8 +3008,14 @@ Péd.  Bourdon 8' et 16'</text>
             <durationType>half</durationType>
             </Rest>
           <StaffText>
-            <offset x="-1.23648" y="-5.17648"/>
+            <autoplace>0</autoplace>
+            <offset x="4.18996" y="-8.0493"/>
             <text><font size="20"></font>2</text>
+            </StaffText>
+          <StaffText>
+            <minDistance>-4.28804</minDistance>
+            <offset x="0" y="-3.72831"/>
+            <text>cca. 30&quot;</text>
             </StaffText>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -2910,6 +3089,15 @@ Péd.  Bourdon 8' et 16'</text>
               <syllabic>begin</syllabic>
               <text>Et</text>
               </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -2918,6 +3106,13 @@ Péd.  Bourdon 8' et 16'</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -2958,17 +3153,6 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <TextLine>
-              <diagonal>1</diagonal>
-              <lineWidth>0.45</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/8</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -2977,13 +3161,6 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -3006,12 +3183,34 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.45</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.6447" y="2.49328"/>
+                <off2 x="-14.8381" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-7/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
               <text>in</text>
               </Lyrics>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <anchor>3</anchor>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
@@ -3065,9 +3264,23 @@ Péd.  Bourdon 8' et 16'</text>
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>
-            <visible>0</visible>
-            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
+            <text>Presque en rêve</text>
             </Tempo>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>7/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>45/4</duration>
@@ -3090,8 +3303,9 @@ Péd.  Bourdon 8' et 16'</text>
             <tempo>0.75</tempo>
             <followText>1</followText>
             <size>11</size>
-            <offset x="1.15507" y="-4.99771"/>
-            <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 45</b></text>
+            <offset x="2.85416" y="-3.76201"/>
+            <text><b>Fragile, comme une 
+petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45)</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -3265,6 +3479,48 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <text><sym>metNoteQuarterUp</sym> = 80</text>
             </Tempo>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.116937</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.390694" y="-3.33883"/>
+                <off2 x="-0.849518" y="0"/>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/1</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <StaffText>
+            <offset x="-2.16854" y="-3.71718"/>
+            <text>cca. 10&quot;</text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -3293,18 +3549,46 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
+          <Tempo>
+            <tempo>1.3333333333333333</tempo>
+            <followText>1</followText>
+            <minDistance>-6.48547</minDistance>
+            <offset x="0" y="-3.88216"/>
+            <text>Avec un enthousiasme vif et animé</text>
+            </Tempo>
+          <Dynamic>
+            <subtype>mp</subtype>
+            <velocity>64</velocity>
+            <placement>above</placement>
+            <offset x="0.4" y="-1.2"/>
+            </Dynamic>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.116937</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.01519" y="-3.35914"/>
+                <off2 x="1.02031" y="0"/>
+                <minDistance>0.0257408</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-3/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -3318,6 +3602,23 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-4.39689" y="-1.7"/>
+                <off2 x="4.39689" y="0"/>
+                <minDistance>0.4</minDistance>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>9/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
@@ -3389,6 +3690,13 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-9/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -3397,6 +3705,23 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <placement>above</placement>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-1.7"/>
+                <off2 x="0" y="0"/>
+                <minDistance>0.589</minDistance>
+                </Segment>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>3/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
@@ -3432,7 +3757,7 @@ Péd.  Bourdon 8' et 16'</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="-1.48847" y="-3.91654"/>
+            <offset x="-2.63774" y="-7.52776"/>
             <text><font size="20"></font>3</text>
             </StaffText>
           <Chord>
@@ -3485,10 +3810,22 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <offset x="0" y="-3.9"/>
+            <text>cca. 20&quot;</text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -3505,6 +3842,13 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <placement>above</placement>
+            <minDistance>0.2</minDistance>
+            <offset x="0" y="-1.96699"/>
+            </Dynamic>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -3700,14 +4044,6 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           </voice>
         </Measure>
       <HBox>
@@ -3722,6 +4058,14 @@ Péd.  Bourdon 8' et 16'</text>
       <Measure>
         <stretch>0</stretch>
         <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>3/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -3811,10 +4155,40 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.116937</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-29.2222" y="-1"/>
+                <off2 x="29.2222" y="0"/>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-5/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>0</subtype>
+              <placement>above</placement>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>5/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -3897,6 +4271,13 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-5/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -3905,6 +4286,17 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>1</subtype>
+              <placement>above</placement>
+              </HairPin>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>16th</durationType>
@@ -3921,6 +4313,10 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <offset x="0" y="-2.7239"/>
+            <text>30&quot;</text>
+            </StaffText>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -3988,6 +4384,13 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>
@@ -4006,6 +4409,13 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <placement>above</placement>
+            <minDistance>0.287158</minDistance>
+            <offset x="0" y="-1.1"/>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -4180,6 +4590,11 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <HBox>
@@ -4199,8 +4614,16 @@ Péd.  Bourdon 8' et 16'</text>
             <tempo>1.25</tempo>
             <followText>1</followText>
             <offset x="2.79496" y="-5.78932"/>
-            <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 75</b></text>
+            <text><b>Élégant et digne (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 75)</b></text>
             </Tempo>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>5/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/1</duration>
@@ -4263,7 +4686,8 @@ Péd.  Bourdon 8' et 16'</text>
           <Tempo>
             <tempo>0.96666666666666667</tempo>
             <followText>1</followText>
-            <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 58</b></text>
+            <offset x="-0.3" y="-2"/>
+            <text><b>Stable et non sentimental (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 58)</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -4567,6 +4991,9 @@ Péd.  Bourdon 8' et 16'</text>
           <Rest>
             <durationType>long</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -4595,6 +5022,19 @@ Péd.  Bourdon 8' et 16'</text>
             <durationType>measure</durationType>
             <duration>60/4</duration>
             </Rest>
+          <location>
+            <fractions>-53/4</fractions>
+            </location>
+          <Tempo>
+            <tempo>1</tempo>
+            <followText>1</followText>
+            <minDistance>-3.76004</minDistance>
+            <offset x="-8.56446" y="-1.05192"/>
+            <text>En contemplation, en peu sinistre</text>
+            </Tempo>
+          <location>
+            <fractions>53/4</fractions>
+            </location>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -4654,6 +5094,12 @@ Péd.  Bourdon 8' et 16'</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1</tempo>
+            <followText>1</followText>
+            <offset x="3.6974" y="-2"/>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 60</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>1/1</duration>
@@ -5255,6 +5701,7 @@ Péd.  Bourdon 8' et 16'</text>
           <Tempo>
             <tempo>2.8999999999999999</tempo>
             <followText>1</followText>
+            <offset x="3.69426" y="-2.35183"/>
             <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 116</b></text>
             </Tempo>
           <Rest>
@@ -5545,13 +5992,13 @@ Péd.  Bourdon 8' et 16'</text>
               <diagonal>1</diagonal>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="-2.56962"/>
-                <off2 x="53.5841" y="0"/>
+                <offset x="0" y="-4.01539"/>
+                <off2 x="0.921419" y="0"/>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>15/4</fractions>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -5589,6 +6036,16 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <placement>above</placement>
+            </Dynamic>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <offset x="-10.7445" y="-1.4263"/>
+            <text>Implorant</text>
+            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
@@ -5762,7 +6219,7 @@ Péd.  Bourdon 8' et 16'</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="4.54768" y="-3.40341"/>
+            <offset x="4.54768" y="-5.23551"/>
             <text>cca. 30&quot;</text>
             </StaffText>
           <Chord>
@@ -5940,13 +6397,6 @@ Péd.  Bourdon 8' et 16'</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-15/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -6006,6 +6456,9 @@ Péd.  Bourdon 8' et 16'</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -6025,11 +6478,24 @@ Péd.  Bourdon 8' et 16'</text>
             <sigD>8</sigD>
             </TimeSig>
           <StaffText>
-            <minDistance>-17.0484</minDistance>
-            <offset x="-0.672877" y="-5.05268"/>
-            <text>Entrez dans le dernier tick de 
+            <offset x="-0.672877" y="-6.25268"/>
+            <text>Entrez avec le dernier tick de 
 l'horloge dans la bande sonore</text>
             </StaffText>
+          <Dynamic>
+            <subtype>mf</subtype>
+            <velocity>80</velocity>
+            <placement>above</placement>
+            <minDistance>0.387158</minDistance>
+            <offset x="0" y="-1.2"/>
+            </Dynamic>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -6121,9 +6587,20 @@ l'horloge dans la bande sonore</text>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Lyrics>
-              <syllabic>begin</syllabic>
+              <syllabic>end</syllabic>
+              <ticks>240</ticks>
+              <ticks_f>1/8</ticks_f>
               <text>moi</text>
               </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <noStem>1</noStem>
             <Note>
               <pitch>53</pitch>
@@ -6133,6 +6610,13 @@ l'horloge dans la bande sonore</text>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <noStem>1</noStem>
             <Note>
               <pitch>55</pitch>
@@ -6146,7 +6630,6 @@ l'horloge dans la bande sonore</text>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <syllabic>end</syllabic>
               <text>qui</text>
               </Lyrics>
             <noStem>1</noStem>
@@ -6309,7 +6792,7 @@ l'horloge dans la bande sonore</text>
             <tempo>1.1333333333333333</tempo>
             <followText>1</followText>
             <offset x="-0.211794" y="-2"/>
-            <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 68</b></text>
+            <text><b>Lent et évolutif (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 68)</b></text>
             </Tempo>
           <Rest>
             <durationType>half</durationType>
@@ -6512,7 +6995,7 @@ l'horloge dans la bande sonore</text>
           <Tempo>
             <tempo>0.80000000000000004</tempo>
             <followText>1</followText>
-            <offset x="1.04098" y="-7.23254"/>
+            <offset x="4.42625" y="-6.10412"/>
             <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 48</b></text>
             </Tempo>
           <Rest>
@@ -6824,6 +7307,9 @@ l'horloge dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -7072,6 +7558,56 @@ progressivement (cca. 12&quot; chaque répétition)</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <slashStyle>1</slashStyle>
+            <stemless>1</stemless>
+            </StaffType>
+          </StaffTypeChange>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -7084,43 +7620,9 @@ progressivement (cca. 12&quot; chaque répétition)</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>64</sigN>
@@ -7510,7 +8012,7 @@ pendant que l'organiste retourne
             <durationType>whole</durationType>
             </Rest>
           <StaffText>
-            <text>Sous-harmoniques</text>
+            <text>Sous-harmoniques (si possible)</text>
             </StaffText>
           <Dynamic>
             <subtype>mp</subtype>
@@ -7890,7 +8392,7 @@ pendant que l'organiste retourne
           <Tempo>
             <tempo>2.3500000000000001</tempo>
             <followText>1</followText>
-            <offset x="-0.259505" y="-2.97821"/>
+            <offset x="-0.259505" y="-2.47821"/>
             <text>Jouissance ephémère, une intensité tendre (même tempo)</text>
             </Tempo>
           <Chord>
@@ -11210,7 +11712,7 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
             <channelSwitch voice="2" name="Synthèse"/>
             <channelSwitch voice="3" name="Synthèse"/>
             <minDistance>0.392253</minDistance>
-            <offset x="1.3582" y="-3.2124"/>
+            <offset x="2.4582" y="-3.2124"/>
             <text>Syn.</text>
             </StaffText>
           <Rest>
@@ -11329,7 +11831,7 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
             <channelSwitch voice="3" name="Pédale"/>
             <autoplace>0</autoplace>
             <placement>below</placement>
-            <offset x="-0.300355" y="4.81892"/>
+            <offset x="-1.00036" y="4.71892"/>
             <text>Pédale crescendo</text>
             </StaffText>
           <Chord>
@@ -15257,6 +15759,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
             <durationType>measure</durationType>
             <duration>50/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -15302,7 +15807,7 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
             <channelSwitch voice="3" name="Positif"/>
             <autoplace>0</autoplace>
             <placement>below</placement>
-            <offset x="-3.11705" y="3.34181"/>
+            <offset x="-3.11705" y="4.44181"/>
             <text>P.</text>
             </StaffText>
           <Dynamic>
@@ -16705,14 +17210,14 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <lineWidth>0.25</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-1.04198" y="0.502405"/>
-                <off2 x="3.0458" y="0"/>
-                <minDistance>-0.662595</minDistance>
+                <offset x="-1.12351" y="0.539486"/>
+                <off2 x="-4.91267" y="0"/>
+                <minDistance>-1.88551</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>1/2</fractions>
+                <fractions>3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -16746,6 +17251,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -16760,6 +17268,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -16772,20 +17283,13 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               </Note>
             </Chord>
           <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-0.845506" y="1.01845"/>
-                <off2 x="8.45971" y="0"/>
+                <off2 x="10.3779" y="0"/>
                 <minDistance>-0.646546</minDistance>
                 <autoplace>0</autoplace>
                 </Segment>
@@ -16803,7 +17307,7 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.21462" y="-0.489367"/>
-                <off2 x="8.80603" y="0"/>
+                <off2 x="10.7773" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -16821,6 +17325,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -16843,6 +17350,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -16868,6 +17378,13 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -16876,6 +17393,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -16898,6 +17418,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -16916,75 +17439,13 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <noStem>1</noStem>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="4.81387"/>
-                <off2 x="0" y="0"/>
+                <offset x="1.05449" y="4.81387"/>
+                <off2 x="0.283939" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -17001,6 +17462,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -17023,6 +17487,77 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -17049,6 +17584,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -17071,6 +17609,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -17097,6 +17638,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -17119,6 +17663,9 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -17126,33 +17673,6 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
                     </location>
                   </next>
                 </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
               <Spanner type="Tie">
                 <prev>
                   <location>
@@ -17171,6 +17691,33 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
                 </location>
               </prev>
             </Spanner>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -18236,6 +18783,11 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
           <Fermata>
             <subtype>fermataAbove</subtype>
             </Fermata>
+          <StaffText>
+            <minDistance>0.474358</minDistance>
+            <offset x="23.2476" y="-1.5596"/>
+            <text>attacca.</text>
+            </StaffText>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -18359,6 +18911,11 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -21086,68 +21643,37 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <TextLine>
-              <diagonal>1</diagonal>
-              <lineWidth>1</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.96217" y="2.10041"/>
-                <off2 x="30.8426" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <visible>0</visible>
-            </BarLine>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <BarLine>
-            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -21323,6 +21849,11 @@ réverbération</text>
             <autoplace>0</autoplace>
             <offset x="0" y="4.88707"/>
             </Dynamic>
+          <StaffText>
+            <minDistance>-2.75581</minDistance>
+            <offset x="0" y="-1.02593"/>
+            <text>Attaques percussives</text>
+            </StaffText>
           <Spanner type="TextLine">
             <TextLine>
               <beginHookType>1</beginHookType>
@@ -21331,13 +21862,14 @@ réverbération</text>
               <lineWidth>0.119789</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.393394" y="-2.23535"/>
-                <off2 x="47.8803" y="0"/>
+                <offset x="-0.393394" y="-3.21489"/>
+                <off2 x="0.545966" y="0"/>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>41/8</fractions>
+                <measures>1</measures>
+                <fractions>-3/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -21527,13 +22059,6 @@ réverbération</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-41/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>64th</durationType>
             <Note>
@@ -21632,7 +22157,8 @@ réverbération</text>
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
-            <offset x="5.72641" y="-3.56746"/>
+            <minDistance>-2.21587</minDistance>
+            <offset x="5.72641" y="-1.08916"/>
             <text>attaca.</text>
             </StaffText>
           <Rest>
@@ -21660,6 +22186,7 @@ réverbération</text>
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
+            <subtype>double</subtype>
             <spanToOffset>-8</spanToOffset>
             </BarLine>
           <TimeSig>
@@ -21680,6 +22207,14 @@ réverbération</text>
             <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>3/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>60/4</duration>
@@ -21899,6 +22434,12 @@ réverbération</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.09003" y="-2.50367"/>
+                <off2 x="2.72508" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -22001,13 +22542,6 @@ réverbération</text>
               <visible>0</visible>
               <Spanner type="Tie">
                 <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  <TieSegment no="1">
-                    <visible>0</visible>
-                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -28114,6 +28648,9 @@ réverbération</text>
             <durationType>measure</durationType>
             <duration>28/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -28186,6 +28723,10 @@ réverbération</text>
             <offset x="0" y="-1.83947"/>
             <text>Syn. Interpolation de jeu</text>
             </StaffText>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            </Dynamic>
           <Chord>
             <autoplace>0</autoplace>
             <dots>1</dots>
@@ -34240,6 +34781,9 @@ cette sortie.</text>
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -34347,6 +34891,9 @@ cette sortie.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -34379,6 +34926,9 @@ cette sortie.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>64</sigN>
@@ -41716,7 +42266,7 @@ cette sortie.</text>
             </TimeSig>
           <StaffText>
             <offset x="39.6072" y="-1.27315"/>
-            <text>attaca.</text>
+            <text>attacca.</text>
             </StaffText>
           <StaffText>
             <offset x="19.7799" y="-3.45837"/>
@@ -47764,6 +48314,9 @@ pédale forte du sythétiseur</text>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -48419,6 +48972,9 @@ pédale forte du sythétiseur</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -48436,7 +48992,7 @@ pédale forte du sythétiseur</text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.18926" y="0.993978"/>
-                <off2 x="1.82283" y="0"/>
+                <off2 x="5.15905" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -48455,6 +49011,9 @@ pédale forte du sythétiseur</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -48508,6 +49067,9 @@ pédale forte du sythétiseur</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -48527,6 +49089,22 @@ pédale forte du sythétiseur</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.17468" y="1.51717"/>
+                <off2 x="2.41843" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -48559,6 +49137,9 @@ pédale forte du sythétiseur</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -48637,6 +49218,13 @@ pédale forte du sythétiseur</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -49761,6 +50349,7 @@ pédale forte du sythétiseur</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>7.07867</vspacerFixed>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -49815,6 +50404,11 @@ pédale forte du sythétiseur</text>
             <durationType>measure</durationType>
             <duration>35/4</duration>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -51365,7 +51959,7 @@ pédale forte du sythétiseur</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerFixed>7.901</vspacerFixed>
+        <vspacerFixed>11.2862</vspacerFixed>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -51469,7 +52063,7 @@ pédale forte du sythétiseur</text>
             </Rest>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="30.8082" y="-15.1586"/>
+            <offset x="30.8082" y="-15.7586"/>
             <text>cca. 15&quot;</text>
             </StaffText>
           <Rest>
@@ -51644,6 +52238,9 @@ pédale forte du sythétiseur</text>
             <visible>0</visible>
             <durationType>long</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -51672,20 +52269,14 @@ pédale forte du sythétiseur</text>
             </TimeSig>
           <Spanner type="TextLine">
             <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              </TextLine>
-            <next>
-              <location>
-                <fractions>3/2</fractions>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
               <beginHookType>1</beginHookType>
               <endHookType>1</endHookType>
               <diagonal>1</diagonal>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-3.73"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -51693,38 +52284,18 @@ pédale forte du sythétiseur</text>
                 </location>
               </next>
             </Spanner>
-          <Chord>
+          <Rest>
+            <visible>0</visible>
+            <dots>1</dots>
             <durationType>whole</durationType>
-            <Note>
+            <NoteDot>
               <visible>0</visible>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <headType>quarter</headType>
-              </Note>
-            </Chord>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
+              </NoteDot>
             </Rest>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-3/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Dynamic>
-            <subtype>pp</subtype>
-            <velocity>33</velocity>
-            </Dynamic>
           <StaffText>
             <MidiAction channel="0" name="Syn. 4"/>
             <channelSwitch voice="0" name="Synthèse"/>
@@ -51736,6 +52307,10 @@ pédale forte du sythétiseur</text>
             <offset x="-4.48738" y="2.0426"/>
             <text>Syn.</text>
             </StaffText>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -51760,6 +52335,12 @@ pédale forte du sythétiseur</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.02726" y="3.51122"/>
+                <off2 x="1.65371" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -51938,6 +52519,12 @@ pédale forte du sythétiseur</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.05524" y="2.50275"/>
+                <off2 x="-0.866743" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -52028,10 +52615,16 @@ pédale forte du sythétiseur</text>
           <Spanner type="TextLine">
             <TextLine>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.04889" y="4.00517"/>
+                <off2 x="1.58515" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>5/4</fractions>
+                <fractions>3/4</fractions>
                 </location>
               </next>
             </Spanner>
@@ -52109,6 +52702,13 @@ pédale forte du sythétiseur</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -52137,17 +52737,16 @@ pédale forte du sythétiseur</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-5/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.09996" y="0.577248"/>
+                <off2 x="4.21202" y="0"/>
+                <minDistance>-0.587752</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -52266,12 +52865,12 @@ pédale forte du sythétiseur</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="-0.209609" y="-7.72618"/>
+            <offset x="1.49039" y="-8.52618"/>
             <text><font size="20"></font>4</text>
             </StaffText>
           <StaffText>
-            <minDistance>-5.92409</minDistance>
-            <offset x="-3.34052" y="-4.64195"/>
+            <minDistance>-6.72409</minDistance>
+            <offset x="-0.56749" y="-4.64195"/>
             <text>cca. 30&quot;</text>
             </StaffText>
           <Rest>
@@ -52311,6 +52910,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.05808" y="-0.510543"/>
+                <off2 x="4.12953" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -52515,6 +53120,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.05059" y="-1.52043"/>
+                <off2 x="11.9561" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -52681,13 +53292,14 @@ pédale forte du sythétiseur</text>
               <Segment>
                 <subtype>1</subtype>
                 <offset x="14.5762" y="-1.54236"/>
-                <off2 x="-25.9321" y="0"/>
+                <off2 x="-25.4342" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="1"/>
-                <off2 x="0" y="0"/>
+                <offset x="-0.320475" y="-2.52522"/>
+                <off2 x="-0.440653" y="0"/>
+                <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
@@ -52935,29 +53547,6 @@ pédale forte du sythétiseur</text>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <lineWidth>0.25</lineWidth>
-              <Segment>
-                <subtype>1</subtype>
-                <offset x="1.8644" y="-2.5593"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              <Segment>
-                <subtype>3</subtype>
-                <offset x="0" y="1"/>
-                <off2 x="0" y="0"/>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>-27/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -52979,6 +53568,24 @@ pédale forte du sythétiseur</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.05347" y="-2.5083"/>
+                <off2 x="2.63862" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-29/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -53063,6 +53670,14 @@ pédale forte du sythétiseur</text>
               </prev>
             </Spanner>
           <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>29/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
             <TextLine>
               <beginHookType>1</beginHookType>
               <endHookType>1</endHookType>
@@ -53083,6 +53698,7 @@ pédale forte du sythétiseur</text>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
+              <visible>0</visible>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
@@ -53166,14 +53782,6 @@ pédale forte du sythétiseur</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>27/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -53222,6 +53830,23 @@ pédale forte du sythétiseur</text>
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.900538" y="-2.0086"/>
+                <off2 x="1.43103" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -53296,6 +53921,13 @@ pédale forte du sythétiseur</text>
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -53328,6 +53960,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.911285" y="-0.00192787"/>
+                <off2 x="6.379" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -53489,6 +54127,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.91307" y="0.0060897"/>
+                <off2 x="-0.792302" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -53609,6 +54253,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.924353" y="-0.998098"/>
+                <off2 x="1.3205" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -53704,6 +54354,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.946691" y="-1.00156"/>
+                <off2 x="1.24539" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -53916,11 +54572,16 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.884646" y="1.54775"/>
+                <off2 x="-1.08915" y="0"/>
+                <minDistance>-0.617249</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-35/4</fractions>
+                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -53965,12 +54626,25 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.579504" y="1.01282"/>
+                <off2 x="3.39279" y="0"/>
+                <minDistance>-0.652176</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
                 <fractions>3/2</fractions>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
@@ -54194,6 +54868,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.904744" y="-2.46819"/>
+                <off2 x="7.61493" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -54426,6 +55106,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.919495" y="-1.49577"/>
+                <off2 x="-6.50215" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -54545,6 +55231,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.5106" y="-0.5106"/>
+                <off2 x="0" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -54617,14 +55309,6 @@ pédale forte du sythétiseur</text>
             <prev>
               <location>
                 <measures>-1</measures>
-                <fractions>35/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
                 <fractions>53/4</fractions>
                 </location>
               </prev>
@@ -54641,6 +55325,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-0.5"/>
+                <off2 x="0" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -54767,10 +55457,38 @@ pédale forte du sythétiseur</text>
             <visible>0</visible>
             <durationType>whole</durationType>
             </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <noStem>1</noStem>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              <headType>quarter</headType>
+              </Note>
+            </Chord>
           <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.03008" y="-1.50215"/>
+                <off2 x="-0.943335" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -54782,28 +55500,6 @@ pédale forte du sythétiseur</text>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>48</pitch>
-              <tpc>14</tpc>
-              <headType>quarter</headType>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>quarter</durationType>
-            <noStem>1</noStem>
-            <Note>
               <visible>0</visible>
               <Spanner type="Tie">
                 <Tie>
@@ -54847,6 +55543,10 @@ pédale forte du sythétiseur</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -54854,17 +55554,10 @@ pédale forte du sythétiseur</text>
                 </location>
               </prev>
             </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>quarter</durationType>
-            </Rest>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
@@ -54878,8 +55571,8 @@ pédale forte du sythétiseur</text>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
@@ -54887,6 +55580,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.02119" y="-0.00407013"/>
+                <off2 x="4.11904" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -54919,8 +55618,8 @@ pédale forte du sythétiseur</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
@@ -54949,8 +55648,8 @@ pédale forte du sythétiseur</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
@@ -54973,8 +55672,8 @@ pédale forte du sythétiseur</text>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>44</pitch>
-              <tpc>22</tpc>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
               <headType>quarter</headType>
               </Note>
             </Chord>
@@ -55011,11 +55710,16 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.08284" y="0.529499"/>
+                <off2 x="-2.43338" y="0"/>
+                <minDistance>-0.635501</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-9/2</fractions>
+                <fractions>3/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -55130,6 +55834,13 @@ pédale forte du sythétiseur</text>
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -55160,6 +55871,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.07326" y="-0.502564"/>
+                <off2 x="-68.2946" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -55387,11 +56104,16 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.01402" y="-1.44557"/>
+                <off2 x="3.90515" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-17/2</fractions>
+                <fractions>1/1</fractions>
                 </location>
               </next>
             </Spanner>
@@ -55515,6 +56237,13 @@ pédale forte du sythétiseur</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
@@ -55573,6 +56302,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.03159" y="-1.50522"/>
+                <off2 x="-0.996448" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -55724,11 +56459,16 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.00701" y="-2.46953"/>
+                <off2 x="1.23984" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
-                <fractions>-51/4</fractions>
+                <fractions>1/1</fractions>
                 </location>
               </next>
             </Spanner>
@@ -55839,6 +56579,13 @@ pédale forte du sythétiseur</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -55872,6 +56619,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.03322" y="-1.97052"/>
+                <off2 x="1.0978" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -55945,14 +56698,6 @@ pédale forte du sythétiseur</text>
             <prev>
               <location>
                 <measures>-1</measures>
-                <fractions>9/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
                 <fractions>13/2</fractions>
                 </location>
               </prev>
@@ -55962,22 +56707,6 @@ pédale forte du sythétiseur</text>
               <location>
                 <measures>-1</measures>
                 <fractions>8/1</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>17/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>51/4</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -56021,6 +56750,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.526781" y="0.0104195"/>
+                <off2 x="3.38645" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -56179,6 +56914,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.526781" y="0.0104195"/>
+                <off2 x="1.01594" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -56303,6 +57044,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.526781" y="-0.994244"/>
+                <off2 x="1.09119" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -56396,6 +57143,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.571065" y="-1.00502"/>
+                <off2 x="1.15184" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -56520,6 +57273,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.606964" y="1.52101"/>
+                <off2 x="1.19715" y="0"/>
+                <minDistance>-0.643991</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -56575,6 +57334,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.256499" y="0.997004"/>
+                <off2 x="-51.3907" y="0"/>
+                <minDistance>-0.667996</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -56816,6 +57581,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.23482" y="-2.49197"/>
+                <off2 x="9.18741" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -57168,6 +57939,12 @@ pédale forte du sythétiseur</text>
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.16789" y="-1.4915"/>
+                <off2 x="0.856453" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -62479,6 +63256,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>28/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -64566,6 +65346,9 @@ du bombarde dans la bande sonore</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -64658,6 +65441,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -64690,6 +65476,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>64</sigN>
@@ -64827,6 +65616,24 @@ du bombarde dans la bande sonore</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <diagonal>1</diagonal>
+              <lineWidth>0.116937</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.98031" y="1.37171"/>
+                <off2 x="-5.91869" y="0.802623"/>
+                <minDistance>-1.36676</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>3/2</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -64856,6 +65663,13 @@ du bombarde dans la bande sonore</text>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-3/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -73384,7 +74198,7 @@ du bombarde dans la bande sonore</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerDown>6.91827</vspacerDown>
+        <vspacerDown>5.07756</vspacerDown>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -74084,6 +74898,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>50/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -74600,6 +75417,9 @@ du bombarde dans la bande sonore</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -74625,7 +75445,7 @@ du bombarde dans la bande sonore</text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-1.2616" y="-0.486891"/>
-                <off2 x="8.92604" y="0"/>
+                <off2 x="10.7317" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -74642,6 +75462,9 @@ du bombarde dans la bande sonore</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -74667,6 +75490,9 @@ du bombarde dans la bande sonore</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -74692,6 +75518,9 @@ du bombarde dans la bande sonore</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -74724,6 +75553,9 @@ du bombarde dans la bande sonore</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -74749,6 +75581,9 @@ du bombarde dans la bande sonore</text>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
                   </Tie>
                 <next>
                   <location>
@@ -75021,6 +75856,11 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>35/4</duration>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -75656,6 +76496,9 @@ du bombarde dans la bande sonore</text>
           <Rest>
             <durationType>long</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -75740,7 +76583,6 @@ du bombarde dans la bande sonore</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -75749,7 +76591,6 @@ du bombarde dans la bande sonore</text>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -75758,7 +76599,6 @@ du bombarde dans la bande sonore</text>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -75767,7 +76607,6 @@ du bombarde dans la bande sonore</text>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -75780,7 +76619,6 @@ du bombarde dans la bande sonore</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -75793,7 +76631,6 @@ du bombarde dans la bande sonore</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -75802,7 +76639,6 @@ du bombarde dans la bande sonore</text>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -75818,7 +76654,6 @@ du bombarde dans la bande sonore</text>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -77716,8 +78551,15 @@ du bombarde dans la bande sonore</text>
             </TimeSig>
           <Spanner type="TextLine">
             <TextLine>
+              <placement>below</placement>
               <diagonal>1</diagonal>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.66254" y="0.187612"/>
+                <off2 x="0.549047" y="0"/>
+                <minDistance>-0.477388</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
@@ -77789,10 +78631,16 @@ du bombarde dans la bande sonore</text>
             <TextLine>
               <diagonal>1</diagonal>
               <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.65351" y="3.43441"/>
+                <off2 x="9.25044" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>3/1</fractions>
+                <fractions>4/1</fractions>
                 </location>
               </next>
             </Spanner>
@@ -77840,6 +78688,59 @@ du bombarde dans la bande sonore</text>
               <pitch>45</pitch>
               <tpc>17</tpc>
               <headType>quarter</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/1</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/1</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <TieSegment no="0">
+                    <visible>0</visible>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/1</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/1</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -77951,63 +78852,10 @@ du bombarde dans la bande sonore</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <fractions>-3/1</fractions>
+                <fractions>-4/1</fractions>
                 </location>
               </prev>
             </Spanner>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/1</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/1</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Spanner type="Tie">
-                <Tie>
-                  <visible>0</visible>
-                  <TieSegment no="0">
-                    <visible>0</visible>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/1</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/1</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
           <Chord>
             <durationType>half</durationType>
             <Stem>
@@ -78038,6 +78886,9 @@ du bombarde dans la bande sonore</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -79210,6 +80061,9 @@ du bombarde dans la bande sonore</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -79302,6 +80156,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79334,6 +80191,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>64</sigN>
@@ -80575,7 +81435,7 @@ Tir. G.</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerFixed>8.14886</vspacerFixed>
+        <vspacerFixed>6.61886</vspacerFixed>
         <voice>
           <Dynamic>
             <subtype>mf</subtype>
@@ -80976,7 +81836,7 @@ Tir. G.</text>
       <Measure>
         <voice>
           <StaffText>
-            <text>attaca.</text>
+            <text>attacca.</text>
             </StaffText>
           <Chord>
             <durationType>whole</durationType>
@@ -83830,6 +84690,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>50/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -84067,6 +84930,11 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>35/4</duration>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -84411,6 +85279,9 @@ Tir. G.</text>
           <Rest>
             <durationType>long</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -85440,6 +86311,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>28/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -85975,6 +86849,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -86067,6 +86944,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -86099,6 +86979,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>64</sigN>
@@ -87858,6 +88741,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>50/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -88065,6 +88951,11 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>35/4</duration>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -88409,6 +89300,9 @@ Tir. G.</text>
           <Rest>
             <durationType>long</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -89306,6 +90200,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>28/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -89841,6 +90738,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -89933,6 +90833,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -89965,6 +90868,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>64</sigN>
@@ -91878,6 +92784,9 @@ Tir. G.</text>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -92085,6 +92994,11 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>35/4</duration>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -92429,6 +93343,9 @@ Tir. G.</text>
           <Rest>
             <durationType>long</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -93326,6 +94243,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>28/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -93861,6 +94781,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -93953,6 +94876,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -93985,6 +94911,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>64</sigN>
@@ -95747,6 +96676,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>50/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -95954,6 +96886,11 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>35/4</duration>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -96298,6 +97235,9 @@ Tir. G.</text>
           <Rest>
             <durationType>long</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -97191,6 +98131,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>28/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -98148,6 +99091,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -98240,6 +99186,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -98272,6 +99221,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>64</sigN>
@@ -100034,6 +100986,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>50/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -100241,6 +101196,11 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>35/4</duration>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -100585,6 +101545,9 @@ Tir. G.</text>
           <Rest>
             <durationType>long</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -101478,6 +102441,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>28/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -102014,6 +102980,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -102106,6 +103075,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -102138,6 +103110,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>64</sigN>
@@ -103900,6 +104875,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>50/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -104107,6 +105085,11 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>35/4</duration>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -104451,6 +105434,9 @@ Tir. G.</text>
           <Rest>
             <durationType>long</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -105344,6 +106330,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>28/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -105880,6 +106869,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -105972,6 +106964,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -106004,6 +106999,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>64</sigN>
@@ -107985,6 +108983,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>50/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>35</sigN>
@@ -108241,7 +109242,7 @@ Tir. G.</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerFixed>15.2798</vspacerFixed>
+        <vspacerFixed>17.4761</vspacerFixed>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -108282,14 +109283,10 @@ Tir. G.</text>
             <text>5</text>
             </StaffText>
           <StaffText>
-            <offset x="-1.55103" y="-5.5784"/>
-            <text>Bed track 
-(cca. 10&quot;)</text>
-            </StaffText>
-          <StaffText>
-            <minDistance>0.474358</minDistance>
-            <offset x="23.2476" y="-1.5596"/>
-            <text>attaca.</text>
+            <size>8</size>
+            <offset x="-1.04897" y="-4.17428"/>
+            <text><i>Bed track 
+(cca. 10&quot;)</i></text>
             </StaffText>
           <Spanner type="TextLine">
             <TextLine>
@@ -108327,7 +109324,7 @@ Tir. G.</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerFixed>7.1167</vspacerFixed>
+        <vspacerFixed>6.84216</vspacerFixed>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -108406,6 +109403,11 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>35/4</duration>
             </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -108750,7 +109752,7 @@ Tir. G.</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerFixed>15.0552</vspacerFixed>
+        <vspacerFixed>16.8391</vspacerFixed>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -108794,18 +109796,30 @@ Tir. G.</text>
             <durationType>whole</durationType>
             </Rest>
           <StaffText>
+            <placement>below</placement>
             <minDistance>-999</minDistance>
             <size>14</size>
-            <offset x="0" y="0.672782"/>
+            <offset x="-3.44089" y="1.04103"/>
             <frameType>2</frameType>
             <framePadding>0.4</framePadding>
             <frameBgColor r="253" g="253" b="253" a="255"/>
             <text>7</text>
             </StaffText>
+          <StaffText>
+            <minDistance>0.31504</minDistance>
+            <size>8</size>
+            <offset x="-4.30223" y="-6.38206"/>
+            <text><i>Transition du son 
+cloche vers échantillon 
+des verres de vin (40&quot;) </i></text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <durationType>whole</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
@@ -109667,126 +110681,15 @@ Tir. G.</text>
                 </location>
               </prev>
             </Spanner>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Spanner type="TextLine">
             <TextLine>
+              <placement>below</placement>
               <diagonal>1</diagonal>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.339307" y="-0.219155"/>
-                <off2 x="0" y="0"/>
+                <offset x="0.361968" y="0.0610583"/>
+                <off2 x="118.017" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -109854,8 +110757,206 @@ Tir. G.</text>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="0.193075"/>
-                <off2 x="0" y="0"/>
+                <offset x="0.326642" y="0.00600367"/>
+                <off2 x="117.527" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.50062" y="-0.019155"/>
+                <off2 x="23.4308" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>5</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-5</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.3" y="0.0240165"/>
+                <off2 x="99.7796" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.158377" y="0.00649862"/>
+                <off2 x="1.11699" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -109982,6 +111083,23 @@ Tir. G.</text>
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.360682" y="-0.0186654"/>
+                <off2 x="0.819265" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>2</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -110001,23 +111119,6 @@ Tir. G.</text>
             <frameBgColor r="255" g="255" b="255" a="255"/>
             <text>11</text>
             </StaffText>
-          <Spanner type="TextLine">
-            <TextLine>
-              <diagonal>1</diagonal>
-              <lineWidth>1</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="0.120152"/>
-                <off2 x="0" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -110044,7 +111145,7 @@ Tir. G.</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <measures>-1</measures>
+                <measures>-2</measures>
                 </location>
               </prev>
             </Spanner>
@@ -110054,8 +111155,8 @@ Tir. G.</text>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="0.304503"/>
-                <off2 x="0" y="0"/>
+                <offset x="0" y="0.0437495"/>
+                <off2 x="1.83702" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -110070,6 +111171,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>28/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>12</sigN>
@@ -110322,8 +111426,81 @@ Tir. G.</text>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-2.13509" y="0.0326008"/>
-                <off2 x="75.3441" y="0"/>
+                <offset x="-1.92931" y="0.0326008"/>
+                <off2 x="1.93705" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>5</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-5</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.0447557" y="0.0263555"/>
+                <off2 x="17.3138" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -110334,6 +111511,7 @@ Tir. G.</text>
               </next>
             </Spanner>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110349,50 +111527,7 @@ Tir. G.</text>
               </prev>
             </Spanner>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110406,8 +111541,8 @@ Tir. G.</text>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.767052" y="0.0461554"/>
-                <off2 x="114.802" y="0"/>
+                <offset x="0.432948" y="0.0148697"/>
+                <off2 x="-1.20067" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -110418,6 +111553,7 @@ Tir. G.</text>
               </next>
             </Spanner>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110442,7 +111578,25 @@ Tir. G.</text>
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.5" y="-0.000741932"/>
+                <off2 x="-0.55695" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
@@ -110454,7 +111608,48 @@ Tir. G.</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.434772" y="-0.00669203"/>
+                <off2 x="64.0096" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110463,14 +111658,7 @@ Tir. G.</text>
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110488,8 +111676,25 @@ Tir. G.</text>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.564274" y="0.00209679"/>
-                <off2 x="112.855" y="0"/>
+                <offset x="26.1458" y="0.00209679"/>
+                <off2 x="89.6697" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-0.00689369"/>
+                <off2 x="0" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -110500,6 +111705,7 @@ Tir. G.</text>
               </next>
             </Spanner>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
@@ -110518,7 +111724,15 @@ Tir. G.</text>
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110527,6 +111741,7 @@ Tir. G.</text>
       <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110535,6 +111750,7 @@ Tir. G.</text>
       <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110543,6 +111759,7 @@ Tir. G.</text>
       <Measure>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110555,7 +111772,25 @@ Tir. G.</text>
             <sigN>7</sigN>
             <sigD>8</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.319755" y="0.00236599"/>
+                <off2 x="-0.466409" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>7/8</duration>
             </Rest>
@@ -110567,40 +111802,50 @@ Tir. G.</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-92.2136" y="0.30446"/>
-                <off2 x="91.4154" y="0"/>
+                <offset x="0.367777" y="0.00446"/>
+                <off2 x="-1.16599" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>3</measures>
                 </location>
               </next>
             </Spanner>
           <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110621,7 +111866,7 @@ Tir. G.</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <measures>-1</measures>
+                <measures>-3</measures>
                 </location>
               </prev>
             </Spanner>
@@ -110632,102 +111877,9 @@ Tir. G.</text>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0.835207" y="0.30446"/>
-                <off2 x="-2.63705" y="0"/>
-                <minDistance>-999</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>5</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>5/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-5</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Spanner type="TextLine">
-            <TextLine>
-              <placement>below</placement>
-              <diagonal>1</diagonal>
-              <lineWidth>1</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-0.739549" y="0.775902"/>
+                <offset x="0" y="-0.00695447"/>
                 <off2 x="0" y="0"/>
-                <minDistance>-0.779098</minDistance>
+                <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
@@ -110737,6 +111889,133 @@ Tir. G.</text>
               </next>
             </Spanner>
           <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>5/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.21163" y="0.0054197"/>
+                <off2 x="-0.352326" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>4</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-4</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.254224" y="0.0164532"/>
+                <off2 x="-0.52846" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>4</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -110757,11 +112036,30 @@ Tir. G.</text>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <measures>-1</measures>
+                <measures>-4</measures>
                 </location>
               </prev>
             </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <diagonal>1</diagonal>
+              <lineWidth>1</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0.317115" y="0.00929535"/>
+                <off2 x="-0.317115" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>5/8</duration>
             </Rest>
@@ -110773,6 +112071,13 @@ Tir. G.</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
@@ -110830,6 +112135,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -110877,11 +112185,9 @@ Tir. G.</text>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <offset x="-50.0279" y="-3.14405"/>
-            <text>8'</text>
-            </StaffText>
-          <StaffText>
             <minDistance>0.346232</minDistance>
+            <size>8</size>
+            <italic>1</italic>
             <offset x="1.64351" y="-3.94375"/>
             <text><font size="9"></font>Enregistrement joue, déclenché par un 
 assistant dans le jubé ouest  (cca. 1&quot;)</text>
@@ -110989,6 +112295,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <subtype>double</subtype>
             <visible>0</visible>
             </BarLine>
           </voice>
@@ -111072,7 +112379,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <visible>0</visible>
+            <subtype>double</subtype>
             </BarLine>
           <TimeSig>
             <visible>0</visible>
@@ -111136,8 +112443,9 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             </Rest>
           <StaffText>
             <minDistance>0.409349</minDistance>
+            <size>8</size>
             <offset x="-22.9699" y="-2.43586"/>
-            <text>Echo de 3,5&quot; avec distorsion</text>
+            <text><i>Echo de 3,5&quot; avec distorsion</i></text>
             </StaffText>
           <Rest>
             <visible>0</visible>
@@ -111180,7 +112488,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0.262102" y="0.0152296"/>
-                <off2 x="-3.76187" y="0"/>
+                <off2 x="1.56509" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -111221,8 +112529,9 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             <text>15</text>
             </StaffText>
           <StaffText>
+            <size>8</size>
             <offset x="9.88373" y="-2.57832"/>
-            <text>Plus d'écho</text>
+            <text><i>Plus d'écho</i></text>
             </StaffText>
           <Rest>
             <visible>0</visible>
@@ -111634,7 +112943,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="-0.2907"/>
+                <offset x="0" y="-0.0202039"/>
                 <off2 x="0" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
@@ -111718,8 +113027,10 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <minDistance>-0.689155</minDistance>
-            <offset x="-0.207218" y="-4.48622"/>
+            <minDistance>-1.13315</minDistance>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="-0.207218" y="-3.47715"/>
             <frameType>1</frameType>
             <frameFgColor r="253" g="253" b="253" a="255"/>
             <frameBgColor r="253" g="253" b="253" a="255"/>
@@ -111740,14 +113051,14 @@ avec un coup de tonnerre</text>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="0.219155"/>
-                <off2 x="39.8981" y="0"/>
+                <offset x="0" y="-0.0126988"/>
+                <off2 x="-0.519118" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>4</measures>
                 </location>
               </next>
             </Spanner>
@@ -111760,13 +113071,6 @@ avec un coup de tonnerre</text>
         </Measure>
       <Measure>
         <voice>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -111798,6 +113102,13 @@ avec un coup de tonnerre</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-4</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
@@ -113304,8 +114615,10 @@ avec un coup de tonnerre</text>
             <sigD>2</sigD>
             </TimeSig>
           <StaffText>
-            <offset x="11.2241" y="-3.16056"/>
-            <text>Cloches inversées, courte délai</text>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="11.2241" y="-2.66056"/>
+            <text>Cloches inversées, court délai</text>
             </StaffText>
           <Spanner type="TextLine">
             <TextLine>
@@ -113951,7 +115264,10 @@ avec un coup de tonnerre</text>
             <text>19</text>
             </StaffText>
           <StaffText>
-            <offset x="-1.11964" y="-3.09006"/>
+            <minDistance>0.2</minDistance>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="-1.41964" y="-2.87569"/>
             <frameType>1</frameType>
             <frameFgColor r="253" g="253" b="253" a="255"/>
             <frameBgColor r="253" g="253" b="253" a="255"/>
