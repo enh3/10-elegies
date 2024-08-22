@@ -5701,7 +5701,7 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
           <Tempo>
             <tempo>2.8999999999999999</tempo>
             <followText>1</followText>
-            <offset x="3.69426" y="-2.35183"/>
+            <offset x="3.16543" y="-10.7395"/>
             <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 116</b></text>
             </Tempo>
           <Rest>
@@ -28073,12 +28073,6 @@ réverbération</text>
           </voice>
         </Measure>
       <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -60431,7 +60425,7 @@ pédale forte du sythétiseur</text>
             </TimeSig>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="-1.07314" y="-7.11223"/>
+            <offset x="-1.07314" y="-8.01706"/>
             <frameType>1</frameType>
             <frameFgColor r="253" g="253" b="253" a="255"/>
             <frameBgColor r="253" g="253" b="253" a="255"/>
@@ -60462,6 +60456,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -60550,6 +60553,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -60562,6 +60572,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -60650,6 +60669,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -60662,6 +60688,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -60750,6 +60785,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -60762,6 +60804,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -60850,6 +60901,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -60862,6 +60920,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -60950,6 +61017,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -60962,6 +61036,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -61050,6 +61133,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -61062,6 +61152,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -61150,6 +61249,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -61162,6 +61268,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -61250,6 +61365,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -61262,6 +61384,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -61350,6 +61481,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -61362,6 +61500,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -61450,6 +61597,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -61462,6 +61616,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -61550,6 +61713,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -61562,6 +61732,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -61650,6 +61829,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -61662,6 +61848,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -61750,6 +61945,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -61762,6 +61964,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -61850,6 +62061,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -61862,6 +62080,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -61950,6 +62177,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -61962,6 +62196,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -62050,6 +62293,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -62070,6 +62320,15 @@ du bombarde dans la bande sonore</text>
             </Tuplet>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>39/28</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>45</pitch>
               <tpc>17</tpc>
@@ -62171,6 +62430,13 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-39/28</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -62183,6 +62449,15 @@ du bombarde dans la bande sonore</text>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -62263,6 +62538,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -62274,6 +62556,15 @@ du bombarde dans la bande sonore</text>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -62354,6 +62645,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -62365,6 +62663,15 @@ du bombarde dans la bande sonore</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -62442,6 +62749,13 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -62453,6 +62767,15 @@ du bombarde dans la bande sonore</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -62530,6 +62853,13 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -62541,6 +62871,15 @@ du bombarde dans la bande sonore</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -62618,6 +62957,13 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -62630,6 +62976,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -62673,6 +63028,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -62681,6 +63043,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -62721,6 +63092,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -62733,6 +63111,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -62776,6 +63163,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -62784,6 +63178,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -62800,6 +63203,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -62808,6 +63218,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -62824,6 +63243,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -62836,6 +63262,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>11/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -62924,6 +63359,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-11/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -62936,6 +63378,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Fingering>
                 <style>String Number</style>
@@ -62984,6 +63435,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -62992,6 +63450,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -63008,6 +63475,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -63016,6 +63490,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -63032,6 +63515,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -63048,6 +63538,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -63064,6 +63563,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -63072,6 +63578,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -63091,6 +63606,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -63099,6 +63621,15 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -63115,6 +63646,13 @@ du bombarde dans la bande sonore</text>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -63130,6 +63668,15 @@ du bombarde dans la bande sonore</text>
             </TimeSig>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>5/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -63165,6 +63712,13 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-5/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -63172,6 +63726,16 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-3/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -63218,6 +63782,14 @@ du bombarde dans la bande sonore</text>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>3/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>43</pitch>
               <tpc>15</tpc>
@@ -110394,7 +110966,7 @@ des verres de vin (40&quot;) </i></text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerFixed>11.5</vspacerFixed>
+        <vspacerFixed>14.3508</vspacerFixed>
         <voice>
           <Rest>
             <durationType>measure</durationType>
