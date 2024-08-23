@@ -2725,7 +2725,7 @@ Péd.  Bourdon 8' et 16'</text>
             <tempo>1</tempo>
             <followText>1</followText>
             <offset x="-47.3558" y="-3.31844"/>
-            <text><b>S'élevant d'un brouillard (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 60)</b></text>
+            <text><b>S'élevant d'un brouillard (cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60)</b></text>
             </Tempo>
           <location>
             <fractions>27/4</fractions>
@@ -2745,6 +2745,10 @@ Péd.  Bourdon 8' et 16'</text>
         </HBox>
       <Measure>
         <stretch>0.9</stretch>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>5</text>
+          </MeasureNumber>
         <vspacerFixed>17.1541</vspacerFixed>
         <voice>
           <TimeSig>
@@ -3289,7 +3293,7 @@ Péd.  Bourdon 8' et 16'</text>
         </Measure>
       <Measure>
         <stretch>1.2</stretch>
-        <noOffset>-12</noOffset>
+        <noOffset>-6</noOffset>
         <voice>
           <KeySig>
             <accidental>-1</accidental>
@@ -3305,7 +3309,7 @@ Péd.  Bourdon 8' et 16'</text>
             <size>11</size>
             <offset x="2.85416" y="-3.76201"/>
             <text><b>Fragile, comme une 
-petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45)</b></text>
+petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 45)</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -3463,6 +3467,10 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
         </HBox>
       <Measure>
         <stretch>0.6</stretch>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>24</text>
+          </MeasureNumber>
         <voice>
           <KeySig>
             <custom>1</custom>
@@ -3560,7 +3568,7 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
             <subtype>mp</subtype>
             <velocity>64</velocity>
             <placement>above</placement>
-            <offset x="0.4" y="-1.2"/>
+            <offset x="0.6" y="-1.2"/>
             </Dynamic>
           <Spanner type="TextLine">
             <prev>
@@ -3577,8 +3585,8 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
               <lineWidth>0.116937</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-1.01519" y="-3.35914"/>
-                <off2 x="1.02031" y="0"/>
+                <offset x="-0.370805" y="-3.35914"/>
+                <off2 x="0.375927" y="0"/>
                 <minDistance>0.0257408</minDistance>
                 </Segment>
               </TextLine>
@@ -4057,6 +4065,10 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
         </HBox>
       <Measure>
         <stretch>0</stretch>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>25</text>
+          </MeasureNumber>
         <voice>
           <Spanner type="TextLine">
             <prev>
@@ -4604,7 +4616,7 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
           </LayoutBreak>
         </HBox>
       <Measure>
-        <noOffset>-23</noOffset>
+        <noOffset>-25</noOffset>
         <voice>
           <TimeSig>
             <sigN>4</sigN>
@@ -4614,7 +4626,7 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
             <tempo>1.25</tempo>
             <followText>1</followText>
             <offset x="2.79496" y="-5.78932"/>
-            <text><b>Élégant et digne (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 75)</b></text>
+            <text><b>Élégant et digne (cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 75)</b></text>
             </Tempo>
           <Spanner type="TextLine">
             <prev>
@@ -4687,7 +4699,7 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
             <tempo>0.96666666666666667</tempo>
             <followText>1</followText>
             <offset x="-0.3" y="-2"/>
-            <text><b>Stable et non sentimental (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 58)</b></text>
+            <text><b>Stable et non sentimental (cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 58)</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -4930,6 +4942,14 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
           </voice>
         </Measure>
       <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -4938,23 +4958,19 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <stretch>3.1</stretch>
-        <voice>
           <KeySig>
             <visible>0</visible>
-            <accidental>-1</accidental>
+            <accidental>0</accidental>
             </KeySig>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
+        <stretch>0.5</stretch>
         <voice>
           <KeySig>
             <visible>0</visible>
@@ -4965,6 +4981,15 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -5088,7 +5113,7 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
           </voice>
         </Measure>
       <Measure>
-        <noOffset>-44</noOffset>
+        <noOffset>-41</noOffset>
         <voice>
           <TimeSig>
             <sigN>4</sigN>
@@ -5098,7 +5123,7 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
             <tempo>1</tempo>
             <followText>1</followText>
             <offset x="3.6974" y="-2"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 60</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -5615,6 +5640,9 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -5838,6 +5866,9 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
         </Measure>
       <Measure>
         <stretch>0.8</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -6471,6 +6502,10 @@ petite prière (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 45
         </HBox>
       <Measure>
         <stretch>0.6</stretch>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>89</text>
+          </MeasureNumber>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -6787,12 +6822,13 @@ l'horloge dans la bande sonore</text>
           </LayoutBreak>
         </HBox>
       <Measure len="4/8">
+        <noOffset>-93</noOffset>
         <voice>
           <Tempo>
             <tempo>1.1333333333333333</tempo>
             <followText>1</followText>
             <offset x="-0.211794" y="-2"/>
-            <text><b>Lent et évolutif (cca. </b><font face="ScoreText"/><b><font face="Edwin"/> = 68)</b></text>
+            <text><b>Lent et évolutif (cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 68)</b></text>
             </Tempo>
           <Rest>
             <durationType>half</durationType>
@@ -7700,6 +7736,7 @@ pendant que l'organiste retourne
           </voice>
         </Measure>
       <Measure>
+        <noOffset>-65</noOffset>
         <voice>
           <KeySig>
             <accidental>-1</accidental>
@@ -8383,10 +8420,10 @@ pendant que l'organiste retourne
           </voice>
         </Measure>
       <Measure>
-        <noOffset>-177</noOffset>
+        <noOffset>-52</noOffset>
         <MeasureNumber>
           <visible>0</visible>
-          <text>26</text>
+          <text>1</text>
           </MeasureNumber>
         <voice>
           <Tempo>
@@ -11682,6 +11719,10 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>3</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -15690,7 +15731,7 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
                   </Tie>
                 <next>
                   <location>
-                    <measures>154</measures>
+                    <measures>155</measures>
                     <fractions>-49/4</fractions>
                     </location>
                   </next>
@@ -15792,6 +15833,10 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>6</text>
+          </MeasureNumber>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -18780,14 +18825,14 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <StaffText>
             <minDistance>0.474358</minDistance>
             <offset x="23.2476" y="-1.5596"/>
             <text>attacca.</text>
             </StaffText>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -18937,7 +18982,7 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
             <channelSwitch voice="2" name="Positif"/>
             <channelSwitch voice="3" name="Positif"/>
             <placement>below</placement>
-            <offset x="-3.46138" y="3.47167"/>
+            <offset x="-3.46138" y="4.57167"/>
             <text>P.</text>
             </StaffText>
           <Dynamic>
@@ -21432,7 +21477,7 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
               </Pedal>
             <next>
               <location>
-                <measures>6</measures>
+                <measures>7</measures>
                 </location>
               </next>
             </Spanner>
@@ -21683,130 +21728,41 @@ surface d'une calme profonde (cca. </b><font face="ScoreText"></font><b><font
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
-            <lines>1</lines>
-            <yoffset>1.5</yoffset>
             <stepOffset>-4</stepOffset>
             <slashStyle>1</slashStyle>
             <stemless>1</stemless>
-            <barlines>0</barlines>
-            </StaffType>
-          </StaffTypeChange>
-        <StaffTypeChange>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            <lines>1</lines>
-            <yoffset>1.5</yoffset>
-            <stepOffset>-4</stepOffset>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <barlines>0</barlines>
             </StaffType>
           </StaffTypeChange>
         <voice>
-          <BarLine>
-            <offset x="0" y="1"/>
-            </BarLine>
-          <KeySig>
-            <visible>0</visible>
-            <accidental>-1</accidental>
-            </KeySig>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <color r="254" g="254" b="254" a="255"/>
-            <offset x="9.13738" y="2.5006"/>
-            <frameType>1</frameType>
-            <framePadding>10</framePadding>
-            <frameWidth>0.3</frameWidth>
-            <frameBgColor r="253" g="253" b="253" a="255"/>
-            <text>ssss</text>
-            </StaffText>
-          <StaffText>
-            <offset x="-0.823381" y="-13.8475"/>
-            <text>
-cca. 30&quot; (jusqu'à la fin de 
-la transformation)</text>
-            </StaffText>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <z>6900</z>
-            <placement>below</placement>
-            <minDistance>-999</minDistance>
-            <size>12</size>
-            <offset x="7.25332" y="4.66933"/>
-            <text>(Syn.)</text>
-            </StaffText>
-          <StaffText>
-            <minDistance>-2.08788</minDistance>
-            <offset x="23.7543" y="-11.4408"/>
-            <text>cca. 10&quot; de 
-réverbération</text>
-            </StaffText>
-          <Spanner type="Pedal">
-            <prev>
-              <location>
-                <measures>-6</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <beginHookType>1</beginHookType>
-              <endHookType>1</endHookType>
-              <lineWidth>0.119789</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-1.01843" y="-7.57911"/>
-                <off2 x="-8.20984" y="0"/>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                </location>
-              </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <TextLine>
-              <beginHookType>1</beginHookType>
-              <endHookType>1</endHookType>
-              <diagonal>1</diagonal>
-              <lineWidth>0.119789</lineWidth>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="23.639" y="-7.58145"/>
-                <off2 x="-35.9865" y="0"/>
-                <minDistance>-3.55845</minDistance>
-                </Segment>
-              </TextLine>
-            <next>
-              <location>
-                <measures>1</measures>
-                <fractions>1/2</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <autoplace>0</autoplace>
-            <offset x="3.5" y="-1.5"/>
-            </Clef>
           <BarLine>
-            <spanToOffset>-4</spanToOffset>
+            <subtype>double</subtype>
             </BarLine>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>36</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
-            <yoffset>-0.5</yoffset>
+            <lines>1</lines>
+            <yoffset>1.5</yoffset>
+            <stepOffset>-4</stepOffset>
             <slashStyle>1</slashStyle>
             <stemless>1</stemless>
             </StaffType>
@@ -21821,6 +21777,124 @@ réverbération</text>
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <placement>below</placement>
+            <color r="254" g="254" b="254" a="255"/>
+            <offset x="10.1961" y="3.91595"/>
+            <frameType>1</frameType>
+            <framePadding>10</framePadding>
+            <frameWidth>0.3</frameWidth>
+            <frameBgColor r="253" g="253" b="253" a="255"/>
+            <text>ssssssssssss
+</text>
+            </StaffText>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <z>7000</z>
+            <placement>below</placement>
+            <size>21</size>
+            <offset x="3.21263" y="-1.50485"/>
+            <text>Ad lib. (Syn.)</text>
+            </StaffText>
+          <StaffText>
+            <offset x="4.12021" y="-11.0205"/>
+            <text>
+cca. 30&quot; (jusqu'à la fin de 
+la transformation)</text>
+            </StaffText>
+          <StaffText>
+            <offset x="32.3511" y="-8.38472"/>
+            <text>cca. 10&quot; de 
+réverbération</text>
+            </StaffText>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <z>7000</z>
+            <placement>below</placement>
+            <size>9</size>
+            <offset x="1.79487" y="2.08429"/>
+            <text>Lignes mélodiques ascendantes 
+en Do# diminué, ponctuées de 
+silences. Conclure par une quinte 
+Sol-Ré tenue. Intensité chaotique 
+retenue, presque douloureuse.</text>
+            </StaffText>
+          <Spanner type="Pedal">
+            <prev>
+              <location>
+                <measures>-7</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.116922</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="-5.3776"/>
+                <off2 x="-12.6247" y="0"/>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.116922</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="32.0147" y="-5.41346"/>
+                <off2 x="-32.0147" y="0"/>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <yoffset>-0.5</yoffset>
+            <slashStyle>1</slashStyle>
+            <stemless>1</stemless>
+            </StaffType>
+          </StaffTypeChange>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <yoffset>-0.5</yoffset>
+            <slashStyle>1</slashStyle>
+            <stemless>1</stemless>
+            </StaffType>
+          </StaffTypeChange>
+        <voice>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="TextLine">
             <prev>
               <location>
@@ -21829,6 +21903,7 @@ réverbération</text>
               </prev>
             </Spanner>
           <Rest>
+            <visible>0</visible>
             <durationType>eighth</durationType>
             </Rest>
           <Rest>
@@ -21863,7 +21938,7 @@ réverbération</text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-0.393394" y="-3.21489"/>
-                <off2 x="0.545966" y="0"/>
+                <off2 x="2.0562" y="0"/>
                 </Segment>
               </TextLine>
             <next>
@@ -21903,14 +21978,6 @@ réverbération</text>
             <visible>0</visible>
             <durationType>32nd</durationType>
             </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>32nd</durationType>
@@ -21923,6 +21990,15 @@ réverbération</text>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <z>6900</z>
+            <placement>below</placement>
+            <minDistance>-999</minDistance>
+            <size>12</size>
+            <offset x="7.25332" y="4.66933"/>
+            <text>(Syn.)</text>
+            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Note>
@@ -22158,7 +22234,7 @@ réverbération</text>
             </Rest>
           <StaffText>
             <minDistance>-2.21587</minDistance>
-            <offset x="5.72641" y="-1.08916"/>
+            <offset x="5.82641" y="-1.08916"/>
             <text>attaca.</text>
             </StaffText>
           <Rest>
@@ -22187,7 +22263,7 @@ réverbération</text>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
-            <spanToOffset>-8</spanToOffset>
+            <spanToOffset>-23</spanToOffset>
             </BarLine>
           <TimeSig>
             <visible>0</visible>
@@ -22253,6 +22329,10 @@ réverbération</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>41</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -26767,7 +26847,7 @@ réverbération</text>
             </TimeSig>
           <StaffText>
             <placement>below</placement>
-            <offset x="-3.86804" y="3.57706"/>
+            <offset x="-3.35829" y="2.92514"/>
             <frameType>1</frameType>
             <frameFgColor r="253" g="253" b="253" a="255"/>
             <frameBgColor r="253" g="253" b="253" a="255"/>
@@ -26790,11 +26870,6 @@ réverbération</text>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
-            <Arpeggio>
-              <subtype>3</subtype>
-              <userLen1>-11.549</userLen1>
-              <userLen2>-1.08178</userLen2>
-              </Arpeggio>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
@@ -28707,6 +28782,10 @@ réverbération</text>
           </voice>
         </Measure>
       <Measure len="4/8">
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>0</text>
+          </MeasureNumber>
         <voice>
           <StaffText>
             <MidiAction channel="0" name="Syn. 5"/>
@@ -28742,7 +28821,7 @@ réverbération</text>
               <Spanner type="Tie">
                 <prev>
                   <location>
-                    <measures>-154</measures>
+                    <measures>-155</measures>
                     <fractions>49/4</fractions>
                     </location>
                   </prev>
@@ -34963,6 +35042,10 @@ cette sortie.</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>65</text>
+          </MeasureNumber>
         <voice>
           <TimeSig>
             <offset x="-4.03727" y="0"/>
@@ -42274,6 +42357,10 @@ R. Tremblant</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>1</text>
+          </MeasureNumber>
         <voice>
           <TimeSig>
             <sigN>4</sigN>
@@ -47221,6 +47308,10 @@ R. Tremblant</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>4</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -51909,10 +52000,27 @@ pédale forte du sythétiseur</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -51920,44 +52028,8 @@ pédale forte du sythétiseur</text>
           <StaffType group="pitched">
             <name>stdNormal</name>
             <lines>1</lines>
-            <yoffset>3</yoffset>
-            <stepOffset>-5</stepOffset>
-            <slashStyle>1</slashStyle>
-            <stemless>1</stemless>
-            <barlines>0</barlines>
-            </StaffType>
-          </StaffTypeChange>
-        <voice>
-          <KeySig>
-            <visible>0</visible>
-            <accidental>-1</accidental>
-            </KeySig>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <z>7000</z>
-            <size>28</size>
-            <offset x="1.72411" y="-5.34674"/>
-            <text>Ad Lib</text>
-            </StaffText>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            <autoplace>0</autoplace>
-            <offset x="3.5" y="-2"/>
-            </Clef>
-          </voice>
-        </Measure>
-      <Measure>
-        <vspacerFixed>11.2862</vspacerFixed>
-        <StaffTypeChange>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            <yoffset>1</yoffset>
+            <yoffset>4</yoffset>
+            <stepOffset>-4</stepOffset>
             <slashStyle>1</slashStyle>
             <stemless>1</stemless>
             </StaffType>
@@ -51972,6 +52044,24 @@ pédale forte du sythétiseur</text>
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <vspacerFixed>11.2862</vspacerFixed>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <yoffset>2</yoffset>
+            <slashStyle>1</slashStyle>
+            <stemless>1</stemless>
+            </StaffType>
+          </StaffTypeChange>
+        <voice>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>
@@ -52057,7 +52147,7 @@ pédale forte du sythétiseur</text>
             </Rest>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="30.8082" y="-15.7586"/>
+            <offset x="21.9938" y="-16.0104"/>
             <text>cca. 15&quot;</text>
             </StaffText>
           <Rest>
@@ -52243,6 +52333,10 @@ pédale forte du sythétiseur</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>38</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -53650,27 +53744,16 @@ pédale forte du sythétiseur</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>39</text>
+          </MeasureNumber>
         <voice>
           <TimeSig>
             <visible>0</visible>
             <sigN>60</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                </location>
-              </prev>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>29/2</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Spanner type="TextLine">
             <TextLine>
               <beginHookType>1</beginHookType>
@@ -53687,6 +53770,21 @@ pédale forte du sythétiseur</text>
                 <fractions>31/4</fractions>
                 </location>
               </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>29/2</fractions>
+                </location>
+              </prev>
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
@@ -54617,6 +54715,13 @@ pédale forte du sythétiseur</text>
               </Note>
             </Chord>
           <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
             <TextLine>
               <placement>below</placement>
               <lineWidth>0.25</lineWidth>
@@ -54632,13 +54737,6 @@ pédale forte du sythétiseur</text>
                 <fractions>3/2</fractions>
                 </location>
               </next>
-            </Spanner>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-1/2</fractions>
-                </location>
-              </prev>
             </Spanner>
           <Chord>
             <durationType>quarter</durationType>
@@ -55298,6 +55396,10 @@ pédale forte du sythétiseur</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>40</text>
+          </MeasureNumber>
         <voice>
           <Spanner type="TextLine">
             <prev>
@@ -60072,6 +60174,12 @@ pédale forte du sythétiseur</text>
               <pitch>48</pitch>
               <tpc>14</tpc>
               </Note>
+            <Arpeggio>
+              <autoplace>0</autoplace>
+              <offset x="0.358555" y="0"/>
+              <subtype>3</subtype>
+              <userLen1>10.1047</userLen1>
+              </Arpeggio>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
@@ -66059,6 +66167,10 @@ du bombarde dans la bande sonore</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>64</text>
+          </MeasureNumber>
         <vspacerFixed>8.94049</vspacerFixed>
         <voice>
           <TimeSig>
@@ -71628,7 +71740,7 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="-2.60448" y="-20.5254"/>
+            <offset x="-2.60448" y="-18.4254"/>
             <text><font size="20"></font>10</text>
             </StaffText>
           <Chord>
@@ -77018,7 +77130,8 @@ du bombarde dans la bande sonore</text>
       <Measure>
         <voice>
           <Chord>
-            <durationType>whole</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             <Note>
               <pitch>45</pitch>
               <tpc>17</tpc>
@@ -77030,19 +77143,32 @@ du bombarde dans la bande sonore</text>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
-            <barlines>0</barlines>
             </StaffType>
           </StaffTypeChange>
         <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           <KeySig>
             <visible>0</visible>
-            <accidental>-1</accidental>
+            <accidental>0</accidental>
             </KeySig>
-          <Rest>
+          <TimeSig>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -77056,6 +77182,14 @@ du bombarde dans la bande sonore</text>
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -78335,6 +78469,7 @@ du bombarde dans la bande sonore</text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>7.65234</vspacerFixed>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -85818,14 +85953,19 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
-          <KeySig>
-            <visible>0</visible>
-            <accidental>-1</accidental>
-            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -85839,6 +85979,14 @@ Tir. G.</text>
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -89839,14 +89987,19 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
-          <KeySig>
-            <visible>0</visible>
-            <accidental>-1</accidental>
-            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -89860,6 +90013,14 @@ Tir. G.</text>
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -93882,14 +94043,19 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
-          <KeySig>
-            <visible>0</visible>
-            <accidental>-1</accidental>
-            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -93903,6 +94069,14 @@ Tir. G.</text>
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -97774,14 +97948,19 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
-          <KeySig>
-            <visible>0</visible>
-            <accidental>-1</accidental>
-            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -97795,6 +97974,14 @@ Tir. G.</text>
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -102084,14 +102271,19 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
-          <KeySig>
-            <visible>0</visible>
-            <accidental>-1</accidental>
-            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -102105,6 +102297,14 @@ Tir. G.</text>
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -105973,14 +106173,19 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
-          <KeySig>
-            <visible>0</visible>
-            <accidental>-1</accidental>
-            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -105994,6 +106199,14 @@ Tir. G.</text>
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>whole</durationType>
             </Rest>
@@ -109319,6 +109532,14 @@ Tir. G.</text>
             <frameBgColor r="253" g="253" b="253" a="255"/>
             <text>1</text>
             </StaffText>
+          <StaffText>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="-1.55851" y="-5.69656"/>
+            <text>La bande sonore s'ouvre 
+sur le son des cloches et 
+du tonnerre lointain.</text>
+            </StaffText>
           <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
@@ -109386,6 +109607,13 @@ Tir. G.</text>
             <framePadding>0.4</framePadding>
             <frameBgColor r="253" g="253" b="253" a="255"/>
             <text>2</text>
+            </StaffText>
+          <StaffText>
+            <minDistance>0.28148</minDistance>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="-5.74539" y="-2.1152"/>
+            <text>La bande sonore s'éteint progressivement</text>
             </StaffText>
           <Spanner type="TextLine">
             <prev>
@@ -109690,6 +109918,16 @@ Tir. G.</text>
             <frameBgColor r="253" g="253" b="253" a="255"/>
             <text>4</text>
             </StaffText>
+          <StaffText>
+            <minDistance>-0.138471</minDistance>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="-2.42619" y="-2.27667"/>
+            <frameType>1</frameType>
+            <frameFgColor r="253" g="253" b="253" a="255"/>
+            <frameBgColor r="253" g="253" b="253" a="255"/>
+            <text>Envelope dynamique</text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <durationType>half</durationType>
@@ -109858,7 +110096,7 @@ Tir. G.</text>
             <size>8</size>
             <offset x="-1.04897" y="-4.17428"/>
             <text><i>Bed track 
-(cca. 10&quot;)</i></text>
+(cca. 15&quot;)</i></text>
             </StaffText>
           <Spanner type="TextLine">
             <TextLine>
@@ -109917,14 +110155,14 @@ Tir. G.</text>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="0.136786"/>
-                <off2 x="47.3068" y="0"/>
+                <offset x="0" y="-0.00485474"/>
+                <off2 x="-14.215" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <fractions>17/16</fractions>
+                <fractions>81/16</fractions>
                 </location>
               </next>
             </Spanner>
@@ -109936,17 +110174,17 @@ Tir. G.</text>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
-          <Spanner type="TextLine">
-            <prev>
-              <location>
-                <fractions>-17/16</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>long</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-81/16</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>breve</durationType>
@@ -110317,20 +110555,37 @@ Tir. G.</text>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <KeySig>
+            <visible>0</visible>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>40</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
-        <vspacerFixed>16.8391</vspacerFixed>
         <voice>
           <TimeSig>
             <visible>0</visible>
             <sigN>40</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>40/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <vspacerFixed>16.3493</vspacerFixed>
+        <voice>
           <Rest>
             <visible>0</visible>
             <durationType>whole</durationType>
@@ -110378,9 +110633,9 @@ Tir. G.</text>
             <text>7</text>
             </StaffText>
           <StaffText>
-            <minDistance>0.31504</minDistance>
+            <minDistance>0.172087</minDistance>
             <size>8</size>
-            <offset x="-4.30223" y="-6.38206"/>
+            <offset x="-8.26411" y="-6.23911"/>
             <text><i>Transition du son 
 cloche vers échantillon 
 des verres de vin (40&quot;) </i></text>
@@ -110991,19 +111246,31 @@ des verres de vin (40&quot;) </i></text>
             <z>7000</z>
             <minDistance>-999</minDistance>
             <size>14</size>
-            <offset x="0" y="0.935671"/>
+            <offset x="-0.101894" y="0.819635"/>
             <frameType>2</frameType>
             <framePadding>0.4</framePadding>
             <frameBgColor r="253" g="253" b="253" a="255"/>
             <text>8</text>
             </StaffText>
+          <StaffText>
+            <minDistance>-0.541793</minDistance>
+            <size>8</size>
+            <italic>1</italic>
+            <offset x="-0.696104" y="-4.0685"/>
+            <frameType>1</frameType>
+            <frameFgColor r="253" g="253" b="253" a="255"/>
+            <frameBgColor r="253" g="253" b="253" a="255"/>
+            <text>Un fichier son joue avec des arpèges répétitifs 
+avec une forte réverbération et un passe-bas.</text>
+            </StaffText>
           <Spanner type="TextLine">
             <TextLine>
+              <placement>below</placement>
               <diagonal>1</diagonal>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="0.010302"/>
+                <offset x="-0.0373265" y="0.0226365"/>
                 <off2 x="0" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
@@ -111016,6 +111283,7 @@ des verres de vin (40&quot;) </i></text>
               </next>
             </Spanner>
           <Rest>
+            <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
           </voice>
@@ -111245,6 +111513,7 @@ des verres de vin (40&quot;) </i></text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>6.51248</vspacerFixed>
         <voice>
           <Spanner type="TextLine">
             <prev>
@@ -111322,6 +111591,7 @@ des verres de vin (40&quot;) </i></text>
           </voice>
         </Measure>
       <Measure>
+        <vspacerFixed>10</vspacerFixed>
         <voice>
           <Spanner type="TextLine">
             <TextLine>
@@ -111399,7 +111669,7 @@ des verres de vin (40&quot;) </i></text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="0.50062" y="-0.019155"/>
-                <off2 x="23.4308" y="0"/>
+                <off2 x="1.2616" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -111461,29 +111731,20 @@ des verres de vin (40&quot;) </i></text>
                 </location>
               </prev>
             </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
               <lineWidth>1</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0.3" y="0.0240165"/>
-                <off2 x="99.7796" y="0"/>
+                <offset x="0.328342" y="0.0240165"/>
+                <off2 x="1.20318" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
             <next>
               <location>
-                <measures>1</measures>
+                <measures>4</measures>
                 </location>
               </next>
             </Spanner>
@@ -111496,31 +111757,40 @@ des verres de vin (40&quot;) </i></text>
         </Measure>
       <Measure>
         <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>12/8</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Spanner type="TextLine">
             <prev>
               <location>
-                <measures>-1</measures>
+                <measures>-4</measures>
                 </location>
               </prev>
             </Spanner>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>12/8</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Spanner type="TextLine">
             <TextLine>
               <diagonal>1</diagonal>
