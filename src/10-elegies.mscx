@@ -2097,7 +2097,7 @@
             <autoplace>0</autoplace>
             <offset x="-36.3641" y="-15.0476"/>
             <text>R.  Bourdon 8'
-G.  Bourdon 8', R., P.
+G.  Bourdon 8'
 P.   Dulciane 8'
 Péd.  Bourdon 8' et 16'</text>
             </StaffText>
@@ -5718,6 +5718,7 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
           </voice>
         </Measure>
       <Measure>
+        <noOffset>-1</noOffset>
         <voice>
           <KeySig>
             <accidental>-2</accidental>
@@ -6475,6 +6476,11 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <StaffText>
+            <minDistance>-3.01475</minDistance>
+            <offset x="5.07687" y="-1.10587"/>
+            <text>attacca.</text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <durationType>quarter</durationType>
@@ -6504,7 +6510,7 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
         <stretch>0.6</stretch>
         <MeasureNumber>
           <visible>0</visible>
-          <text>89</text>
+          <text>88</text>
           </MeasureNumber>
         <voice>
           <TimeSig>
@@ -6822,7 +6828,7 @@ l'horloge dans la bande sonore</text>
           </LayoutBreak>
         </HBox>
       <Measure len="4/8">
-        <noOffset>-93</noOffset>
+        <noOffset>-92</noOffset>
         <voice>
           <Tempo>
             <tempo>1.1333333333333333</tempo>
@@ -7681,8 +7687,9 @@ progressivement (cca. 12&quot; chaque répétition)</text>
         <boxAutoSize>0</boxAutoSize>
         </VBox>
       <VBox>
-        <height>6.49166</height>
+        <height>5.01389</height>
         <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
         </VBox>
       <HBox>
         <width>5</width>
@@ -15876,6 +15883,10 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>6</text>
+          </MeasureNumber>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -19003,6 +19014,10 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>1</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -21698,6 +21713,10 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>36</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -22174,6 +22193,7 @@ retenue, presque douloureuse.</text>
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <visible>0</visible>
             <minDistance>-2.21587</minDistance>
             <offset x="5.82641" y="-1.08916"/>
             <text>attaca.</text>
@@ -22270,6 +22290,10 @@ retenue, presque douloureuse.</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>41</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -22585,6 +22609,10 @@ retenue, presque douloureuse.</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>1</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -28719,6 +28747,10 @@ retenue, presque douloureuse.</text>
           </voice>
         </Measure>
       <Measure len="4/8">
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>0</text>
+          </MeasureNumber>
         <voice>
           <StaffText>
             <MidiAction channel="0" name="Syn. 5"/>
@@ -34975,6 +35007,10 @@ cette sortie.</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>65</text>
+          </MeasureNumber>
         <voice>
           <TimeSig>
             <offset x="-4.03727" y="0"/>
@@ -35401,6 +35437,10 @@ cette sortie.</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>1</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -42319,6 +42359,10 @@ R. Tremblant</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>1</text>
+          </MeasureNumber>
         <voice>
           <TimeSig>
             <sigN>4</sigN>
@@ -47266,6 +47310,10 @@ R. Tremblant</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>4</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -52322,6 +52370,10 @@ pédale forte du sythétiseur</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>38</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -52377,7 +52429,7 @@ pédale forte du sythétiseur</text>
             <channelSwitch voice="3" name="Synthèse"/>
             <placement>below</placement>
             <minDistance>-2.55958</minDistance>
-            <offset x="-4.48738" y="2.0426"/>
+            <offset x="-4.68738" y="2.0426"/>
             <text>Syn.</text>
             </StaffText>
           <Dynamic>
@@ -53729,6 +53781,10 @@ pédale forte du sythétiseur</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>39</text>
+          </MeasureNumber>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -55377,6 +55433,10 @@ pédale forte du sythétiseur</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>40</text>
+          </MeasureNumber>
         <voice>
           <Spanner type="TextLine">
             <prev>
@@ -59237,7 +59297,6 @@ pédale forte du sythétiseur</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -59246,7 +59305,6 @@ pédale forte du sythétiseur</text>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -59259,7 +59317,6 @@ pédale forte du sythétiseur</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -59272,7 +59329,6 @@ pédale forte du sythétiseur</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
@@ -59285,7 +59341,6 @@ pédale forte du sythétiseur</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -59298,7 +59353,6 @@ pédale forte du sythétiseur</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -59307,7 +59361,6 @@ pédale forte du sythétiseur</text>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -59320,7 +59373,6 @@ pédale forte du sythétiseur</text>
             <sigD>4</sigD>
             </TimeSig>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
@@ -60460,6 +60512,10 @@ pédale forte du sythétiseur</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>58</text>
+          </MeasureNumber>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -66189,6 +66245,10 @@ du bombarde dans la bande sonore</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>64</text>
+          </MeasureNumber>
         <vspacerFixed>8.94049</vspacerFixed>
         <voice>
           <TimeSig>
@@ -66488,7 +66548,7 @@ du bombarde dans la bande sonore</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="6.02014" y="-8.71881"/>
+            <offset x="-2.56202" y="-8.47361"/>
             <text><font size="20"></font>8</text>
             </StaffText>
           <Chord>
@@ -71776,7 +71836,7 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="-2.60448" y="-20.4254"/>
+            <offset x="-6.00448" y="-18.2254"/>
             <text><font size="20"></font>10</text>
             </StaffText>
           <Chord>
@@ -111335,7 +111395,6 @@ des verres de vin (40&quot;) </i></text>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -111345,7 +111404,6 @@ des verres de vin (40&quot;) </i></text>
         <vspacerFixed>14.3508</vspacerFixed>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -111354,7 +111412,6 @@ des verres de vin (40&quot;) </i></text>
       <Measure>
         <voice>
           <Rest>
-            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -113270,6 +113327,10 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>60</text>
+          </MeasureNumber>
         <voice>
           <StaffText>
             <placement>below</placement>
@@ -113342,6 +113403,10 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <offset x="25.3" y="-1"/>
+            <text>attacca.</text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
