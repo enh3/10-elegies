@@ -5439,6 +5439,10 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -11206,6 +11210,11 @@ pendant que l'organiste retourne
             <durationType>measure</durationType>
             <duration>6/4</duration>
             </Rest>
+          <TimeSig>
+            <offset x="0" y="-2"/>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -25996,6 +26005,10 @@ retenue, presque douloureuse.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -43102,6 +43115,11 @@ R. Tremblant</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <TimeSig>
+            <offset x="0" y="-2"/>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -59769,6 +59787,7 @@ pédale forte du sythétiseur</text>
               </Note>
             </Chord>
           <TimeSig>
+            <offset x="0" y="2"/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -60226,6 +60245,11 @@ pédale forte du sythétiseur</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <offset x="0" y="-2"/>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -60464,6 +60488,11 @@ pédale forte du sythétiseur</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <offset x="0" y="-2"/>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -61381,6 +61410,15 @@ pédale forte du sythétiseur</text>
           <visible>0</visible>
           <text>58</text>
           </MeasureNumber>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <lines>1</lines>
+            <yoffset>2</yoffset>
+            <stepOffset>-4</stepOffset>
+            <keysig>0</keysig>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -61466,6 +61504,11 @@ pédale forte du sythétiseur</text>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
           <KeySig>
             <accidental>-2</accidental>
@@ -79194,6 +79237,10 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -79794,6 +79841,15 @@ du bombarde dans la bande sonore</text>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <lines>1</lines>
+            <yoffset>2</yoffset>
+            <stepOffset>-4</stepOffset>
+            <keysig>0</keysig>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -79812,6 +79868,11 @@ du bombarde dans la bande sonore</text>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
           <KeySig>
             <accidental>-2</accidental>
@@ -87747,6 +87808,10 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -91791,6 +91856,10 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -95857,6 +95926,10 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -99768,6 +99841,10 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -104101,6 +104178,10 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -108013,6 +108094,10 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
@@ -112431,6 +112516,10 @@ des verres de vin (40&quot;) </i></text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           </voice>
         </Measure>
       <Measure>
