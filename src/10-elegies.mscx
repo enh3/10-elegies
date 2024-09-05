@@ -2754,6 +2754,9 @@ Péd.  Bourdon 8' et 16'</text>
         <height>6</height>
         <boxAutoSize>0</boxAutoSize>
         </VBox>
+      <HBox>
+        <width>5</width>
+        </HBox>
       <Measure>
         <stretch>0.9</stretch>
         <MeasureNumber>
@@ -5134,7 +5137,7 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
             <tempo>1</tempo>
             <followText>1</followText>
             <offset x="3.6974" y="-2"/>
-            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
+            <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -22409,7 +22412,7 @@ retenue, presque douloureuse.</text>
           <StaffText>
             <minDistance>-2.75581</minDistance>
             <offset x="0" y="-1.02593"/>
-            <text>Attaques percussives</text>
+            <text>Attaques percussives (laissez vibrer)</text>
             </StaffText>
           <Spanner type="TextLine">
             <TextLine>
@@ -22472,22 +22475,39 @@ retenue, presque douloureuse.</text>
             <visible>0</visible>
             <durationType>16th</durationType>
             </Rest>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <z>6900</z>
-            <placement>below</placement>
-            <minDistance>-999</minDistance>
-            <size>12</size>
-            <offset x="7.25332" y="4.66933"/>
-            <text>(Syn.)</text>
-            </StaffText>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-23.8377" y="0"/>
+                    <offset x="0" y="-0.209906"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>11/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-23.6491" y="0"/>
+                    <offset x="0" y="0.209906"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>11/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -22573,10 +22593,50 @@ retenue, presque douloureuse.</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-21.9746" y="0"/>
+                    <offset x="0" y="-0.209906"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>9/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-11/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-22.0244" y="0"/>
+                    <offset x="0" y="0.209906"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>9/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-11/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -22658,10 +22718,53 @@ retenue, presque douloureuse.</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-30.8435" y="0"/>
+                    <offset x="0" y="-0.209906"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>16</measures>
+                    <fractions>-45/8</fractions>
+                    <notes>1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-9/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-30.8495" y="0"/>
+                    <offset x="0" y="0.209906"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>15</measures>
+                    <fractions>-43/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-9/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -22715,6 +22818,7 @@ retenue, presque douloureuse.</text>
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <visible>0</visible>
             <minDistance>-2.21587</minDistance>
             <offset x="4.92641" y="-1.08916"/>
             <text>attacca</text>
@@ -25001,6 +25105,14 @@ retenue, presque douloureuse.</text>
               <tpc>19</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-15</measures>
+                    <fractions>43/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -25076,6 +25188,15 @@ retenue, presque douloureuse.</text>
                     <fractions>1/2</fractions>
                     </location>
                   </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-16</measures>
+                    <fractions>45/8</fractions>
+                    <notes>-1</notes>
+                    </location>
+                  </prev>
                 </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
@@ -33378,8 +33499,8 @@ P. Mélodie</text>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>70</pitch>
-              <tpc>12</tpc>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           </voice>
@@ -53013,10 +53134,35 @@ pédale forte du sythétiseur</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-21.8002" y="0"/>
+                    <offset x="0" y="-0.0699063"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>43/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-23.9081" y="0"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>11/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -53091,6 +53237,13 @@ pédale forte du sythétiseur</text>
           <Chord>
             <durationType>64th</durationType>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-43/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -53106,10 +53259,42 @@ pédale forte du sythétiseur</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-20.0089" y="0"/>
+                    <offset x="0" y="-0.0699063"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>35/16</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-21.8815" y="0"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>9/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-11/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -53179,6 +53364,13 @@ pédale forte du sythétiseur</text>
           <Chord>
             <durationType>64th</durationType>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-35/16</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
@@ -53194,10 +53386,45 @@ pédale forte du sythétiseur</text>
           <Chord>
             <durationType>16th</durationType>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-30.7332" y="0"/>
+                    <offset x="0" y="-0.0699063"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>16</measures>
+                    <fractions>-45/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <o4 x="-30.7572" y="0"/>
+                    </TieSegment>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>35</measures>
+                    <fractions>-45/8</fractions>
+                    <notes>-1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-9/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -59787,7 +60014,7 @@ pédale forte du sythétiseur</text>
               </Note>
             </Chord>
           <TimeSig>
-            <offset x="0" y="2"/>
+            <offset x="0" y="1.5"/>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -60076,6 +60303,14 @@ pédale forte du sythétiseur</text>
                     <fractions>1/2</fractions>
                     </location>
                   </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-16</measures>
+                    <fractions>45/8</fractions>
+                    </location>
+                  </prev>
                 </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -60542,6 +60777,15 @@ pédale forte du sythétiseur</text>
                     <measures>1</measures>
                     </location>
                   </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-35</measures>
+                    <fractions>45/8</fractions>
+                    <notes>1</notes>
+                    </location>
+                  </prev>
                 </Spanner>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -115136,7 +115380,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="-0.254346" y="0.0069389"/>
-                <off2 x="0.832118" y="0"/>
+                <off2 x="6.54695" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
