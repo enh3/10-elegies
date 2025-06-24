@@ -53,7 +53,7 @@
       <footerFontSize>10</footerFontSize>
       <Spatium>1.75</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>0</showFrames>
     <showMargins>0</showMargins>
@@ -3026,12 +3026,12 @@ Péd.  Bourdon 8' et 16'</text>
             </Rest>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="2.68996" y="-8.0493"/>
+            <offset x="0.78996" y="-8.0493"/>
             <text><font size="20"></font>2</text>
             </StaffText>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="0" y="-3.82831"/>
+            <offset x="-1.2" y="-3.82831"/>
             <text>cca. 30&quot;</text>
             </StaffText>
           <Chord>
@@ -3351,7 +3351,6 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
           </voice>
         </Measure>
       <Measure>
-        <noOffset>7</noOffset>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -3481,7 +3480,7 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
         <stretch>0.6</stretch>
         <MeasureNumber>
           <visible>0</visible>
-          <text>24</text>
+          <text>17</text>
           </MeasureNumber>
         <voice>
           <KeySig>
@@ -4079,7 +4078,7 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
         <stretch>0</stretch>
         <MeasureNumber>
           <visible>0</visible>
-          <text>25</text>
+          <text>18</text>
           </MeasureNumber>
         <voice>
           <Spanner type="TextLine">
@@ -4728,6 +4727,7 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
           </voice>
         </Measure>
       <Measure>
+        <noOffset>7</noOffset>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4799,6 +4799,9 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -5733,7 +5736,6 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
           </voice>
         </Measure>
       <Measure>
-        <noOffset>-1</noOffset>
         <voice>
           <KeySig>
             <accidental>-2</accidental>
@@ -6020,7 +6022,7 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
         <stretch>0.9</stretch>
         <MeasureNumber>
           <visible>0</visible>
-          <text>83</text>
+          <text>84</text>
           </MeasureNumber>
         <LayoutBreak>
           <subtype>line</subtype>
@@ -6174,6 +6176,24 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
                 </Spanner>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <diagonal>1</diagonal>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.64969" y="0.57445"/>
+                <off2 x="-4.34041" y="0"/>
+                <minDistance>-0.59055</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>5/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -6220,6 +6240,13 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-5/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>
@@ -6267,7 +6294,7 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
               </Note>
             </Chord>
           <StaffText>
-            <offset x="4.54768" y="-5.23551"/>
+            <offset x="1.84768" y="-5.23551"/>
             <text>cca. 30&quot;</text>
             </StaffText>
           <Chord>
@@ -6380,6 +6407,24 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <diagonal>1</diagonal>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.63972" y="-0.99526"/>
+                <off2 x="-1.39217" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
@@ -6419,6 +6464,31 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <diagonal>1</diagonal>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.65486" y="-0.529165"/>
+                <off2 x="-0.367424" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
@@ -6460,6 +6530,13 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>
@@ -6495,7 +6572,7 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
           <StaffText>
             <minDistance>-3.01475</minDistance>
             <offset x="5.07687" y="-1.10587"/>
-            <text>attacca</text>
+            <text><i>attacca</i></text>
             </StaffText>
           <Rest>
             <visible>0</visible>
@@ -6526,7 +6603,7 @@ petite prière (cca. </b><font face="ScoreText"></font><b><font face="Edwin">
         <stretch>0.6</stretch>
         <MeasureNumber>
           <visible>0</visible>
-          <text>84</text>
+          <text>85</text>
           </MeasureNumber>
         <voice>
           <TimeSig>
@@ -6681,7 +6758,7 @@ l'horloge dans la bande sonore</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="10.4134" y="-3.58803"/>
+            <offset x="11.4134" y="-3.58803"/>
             <text><font size="20"></font>5</text>
             </StaffText>
           <Chord>
@@ -6845,7 +6922,7 @@ l'horloge dans la bande sonore</text>
           </LayoutBreak>
         </HBox>
       <Measure len="4/8">
-        <noOffset>-92</noOffset>
+        <noOffset>-89</noOffset>
         <voice>
           <Tempo>
             <tempo>1.1333333333333333</tempo>
@@ -7408,7 +7485,7 @@ l'horloge dans la bande sonore</text>
         <startRepeat/>
         <MeasureNumber>
           <visible>0</visible>
-          <text>47</text>
+          <text>51</text>
           </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
@@ -7579,7 +7656,7 @@ progressivement (cca. 12&quot; chaque répétition)</text>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <offset x="17.4109" y="-4.52383"/>
+            <offset x="17.8109" y="-4.52383"/>
             <text><font size="20"></font>6</text>
             </StaffText>
           <Fermata>
@@ -8152,6 +8229,26 @@ pendant que l'organiste retourne
             <minDistance>0.424489</minDistance>
             <offset x="0.7" y="-1.1"/>
             </Dynamic>
+          <Spanner type="TextLine">
+            <TextLine>
+              <beginHookType>1</beginHookType>
+              <endHookType>1</endHookType>
+              <diagonal>1</diagonal>
+              <lineWidth>0.12</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-0.62398" y="-5.94774"/>
+                <off2 x="0.78712" y="0"/>
+                <autoplace>0</autoplace>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>half</durationType>
             <Lyrics>
@@ -8218,6 +8315,10 @@ pendant que l'organiste retourne
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <StaffText>
+            <offset x="3.52054" y="-6.53938"/>
+            <text>cca. 20&quot;</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Spanner type="Slur">
@@ -8333,6 +8434,24 @@ pendant que l'organiste retourne
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <diagonal>1</diagonal>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.78659" y="1.99879"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-6/1</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>whole</durationType>
@@ -8361,11 +8480,26 @@ pendant que l'organiste retourne
           <Tempo>
             <tempo>2.3500000000000001</tempo>
             <followText>1</followText>
-            <visible>0</visible>
             <minDistance>-999</minDistance>
             <offset x="2.1" y="-1.71465"/>
             <text><b>cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 141</b></text>
             </Tempo>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>6/1</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -8536,7 +8670,7 @@ pendant que l'organiste retourne
         <noOffset>-52</noOffset>
         <MeasureNumber>
           <visible>0</visible>
-          <text>-3</text>
+          <text>1</text>
           </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
@@ -8829,7 +8963,7 @@ pendant que l'organiste retourne
               </Note>
             </Chord>
           <StaffText>
-            <offset x="-38.6905" y="-6.78479"/>
+            <offset x="-40.8905" y="-6.78479"/>
             <text><font size="20"></font>9</text>
             </StaffText>
           <Chord>
@@ -9355,6 +9489,9 @@ pendant que l'organiste retourne
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -10264,20 +10401,64 @@ pendant que l'organiste retourne
           </voice>
         </Measure>
       <Measure>
-        <StaffTypeChange>
-          <StaffType group="pitched">
-            <name>stdNormal</name>
-            <lines>1</lines>
-            <yoffset>2</yoffset>
-            <stepOffset>-4</stepOffset>
-            </StaffType>
-          </StaffTypeChange>
         <voice>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/2</duration>
+            <durationType>half</durationType>
             </Rest>
+          <Rest>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <durationType>16th</durationType>
+            <Lyrics>
+              <ticks>360</ticks>
+              <ticks_f>3/16</ticks_f>
+              <text>Aux</text>
+              </Lyrics>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>3/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-3/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+            <Note>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -10649,7 +10830,7 @@ pendant que l'organiste retourne
             <tempo>1.6666666666666667</tempo>
             <followText>1</followText>
             <minDistance>-999</minDistance>
-            <offset x="-1.07685" y="-4.35591"/>
+            <offset x="-1.07685" y="-3.45591"/>
             <text><b>Encore plus lentement
 (cca. </b><font face="ScoreText"></font><b><font face="Edwin"></font> = 100)</b></text>
             </Tempo>
@@ -16146,18 +16327,21 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
             <channelSwitch voice="3" name="Positif"/>
             <autoplace>0</autoplace>
             <placement>below</placement>
-            <offset x="-3.11705" y="4.44181"/>
+            <offset x="-4.11705" y="4.94181"/>
             <text>P.</text>
             </StaffText>
           <Dynamic>
             <subtype>pp</subtype>
             <velocity>33</velocity>
-            <offset x="0.743393" y="3.79664"/>
+            <offset x="0.743393" y="5.19664"/>
             </Dynamic>
           <Chord>
             <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
@@ -16171,13 +16355,13 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </next>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             <Arpeggio>
-              <offset x="0.431167" y="0.246381"/>
+              <offset x="-0.0475918" y="0.246381"/>
               <subtype>3</subtype>
-              <userLen2>12.4166</userLen2>
+              <userLen2>13.3119</userLen2>
               </Arpeggio>
             </Chord>
           <Spanner type="TextLine">
@@ -16222,8 +16406,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -16232,6 +16416,9 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
             <noStem>1</noStem>
             <Note>
               <autoplace>0</autoplace>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
@@ -16245,8 +16432,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </next>
                 </Spanner>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               </Note>
             <Note>
               <autoplace>0</autoplace>
@@ -16290,8 +16477,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Spanner type="TextLine">
@@ -16353,8 +16540,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               </Note>
             <Note>
               <autoplace>0</autoplace>
@@ -16406,8 +16593,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -16435,8 +16622,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               <headType>quarter</headType>
               </Note>
             <Note>
@@ -16487,8 +16674,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Spanner type="TextLine">
@@ -16519,8 +16706,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               <headType>quarter</headType>
               </Note>
             <Note>
@@ -16559,8 +16746,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Spanner type="TextLine">
@@ -16609,8 +16796,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Spanner type="TextLine">
@@ -16655,8 +16842,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -16719,8 +16906,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Spanner type="TextLine">
@@ -16800,8 +16987,8 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>71</pitch>
-              <tpc>19</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Spanner type="TextLine">
@@ -17282,6 +17469,9 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
@@ -17471,9 +17661,6 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
             <durationType>quarter</durationType>
             <noStem>1</noStem>
             <Note>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                </Accidental>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
@@ -18084,7 +18271,7 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
-            <offset x="-0.298337" y="-3.4013"/>
+            <offset x="-0.298337" y="-3.1013"/>
             <text>cca. 5&quot;</text>
             </StaffText>
           <Rest>
@@ -19122,7 +19309,7 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
         <voice>
           <StaffText>
             <offset x="13.5476" y="-0.9596"/>
-            <text>attacca</text>
+            <text><i>attacca</i></text>
             </StaffText>
           <Fermata>
             <subtype>fermataAbove</subtype>
@@ -19260,7 +19447,7 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
       <Measure>
         <MeasureNumber>
           <visible>0</visible>
-          <text>1</text>
+          <text>-6</text>
           </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
@@ -20440,6 +20627,20 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
               </Spanner>
             <Note>
               <Spanner type="Tie">
+                <Tie>
+                  <TieSegment no="0">
+                    <offset x="0" y="0.5"/>
+                    </TieSegment>
+                  <up>down</up>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
                 <prev>
                   <location>
                     <voices>1</voices>
@@ -20451,6 +20652,17 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
               <tpc>14</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    <notes>1</notes>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
@@ -20521,6 +20733,7 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     <voices>-1</voices>
                     <measures>1</measures>
                     <fractions>-3/4</fractions>
+                    <notes>1</notes>
                     </location>
                   </next>
                 </Spanner>
@@ -20536,8 +20749,23 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -20545,11 +20773,25 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
                     <voices>1</voices>
                     <measures>-1</measures>
                     <fractions>3/4</fractions>
+                    <notes>-1</notes>
                     </location>
                   </prev>
                 </Spanner>
               <pitch>65</pitch>
               <tpc>13</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    <notes>-1</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -22154,6 +22396,7 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
             <duration>4/4</duration>
             </Rest>
           <BarLine>
+            <span>0</span>
             </BarLine>
           </voice>
         </Measure>
@@ -22164,6 +22407,9 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -22185,6 +22431,7 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
             </Rest>
           <BarLine>
             <subtype>double</subtype>
+            <span>0</span>
             </BarLine>
           <KeySig>
             <visible>0</visible>
@@ -22202,6 +22449,7 @@ surface d'un calme profond (cca. </b><font face="ScoreText"></font><b><font f
           <visible>0</visible>
           <text>36</text>
           </MeasureNumber>
+        <vspacerFixed>7.68598</vspacerFixed>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -22367,7 +22615,7 @@ retenue, presque douloureuse.</text>
             <subtype>f</subtype>
             <velocity>96</velocity>
             <autoplace>0</autoplace>
-            <offset x="0" y="4.88707"/>
+            <offset x="0" y="5.38707"/>
             </Dynamic>
           <StaffText>
             <minDistance>-2.75581</minDistance>
@@ -22402,7 +22650,7 @@ retenue, presque douloureuse.</text>
             <Arpeggio>
               <offset x="0.667355" y="0"/>
               <subtype>3</subtype>
-              <userLen2>6.99819</userLen2>
+              <userLen2>10.9125</userLen2>
               </Arpeggio>
             </Chord>
           <Chord>
@@ -22489,6 +22737,7 @@ retenue, presque douloureuse.</text>
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
+            <visible>0</visible>
             <offset x="-3.05052" y="-10.9817"/>
             <text>cca. 15&quot;</text>
             </StaffText>
@@ -22677,6 +22926,20 @@ retenue, presque douloureuse.</text>
             </Rest>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <SlurSegment no="0">
+                  <o1 x="-0.168277" y="0.0420692"/>
+                  <o4 x="0.921125" y="-0.109078"/>
+                  <offset x="0.883454" y="0.504831"/>
+                  </SlurSegment>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -22705,20 +22968,6 @@ retenue, presque douloureuse.</text>
               </Note>
             <Note>
               <Spanner type="Tie">
-                <Tie>
-                  <TieSegment no="0">
-                    <o4 x="-30.8495" y="0"/>
-                    <offset x="0" y="0.209906"/>
-                    </TieSegment>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>15</measures>
-                    <fractions>-43/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
                 <prev>
                   <location>
                     <fractions>-9/4</fractions>
@@ -22730,10 +22979,19 @@ retenue, presque douloureuse.</text>
               </Note>
             </Chord>
           <Rest>
+            <autoplace>0</autoplace>
             <visible>0</visible>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             </Rest>
           <Rest>
+            <autoplace>0</autoplace>
             <visible>0</visible>
             <durationType>quarter</durationType>
             </Rest>
@@ -22962,7 +23220,7 @@ retenue, presque douloureuse.</text>
             <durationType>half</durationType>
             </Rest>
           <StaffText>
-            <offset x="-2.95478" y="-2.93524"/>
+            <offset x="-3.15478" y="-2.93524"/>
             <text>cca. 30&quot;</text>
             </StaffText>
           <Rest>
@@ -25065,14 +25323,6 @@ retenue, presque douloureuse.</text>
               <tpc>19</tpc>
               </Note>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-15</measures>
-                    <fractions>43/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
@@ -29375,7 +29625,7 @@ retenue, presque douloureuse.</text>
       <Measure len="4/8">
         <MeasureNumber>
           <visible>0</visible>
-          <text>-4</text>
+          <text>0</text>
           </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
@@ -29383,6 +29633,8 @@ retenue, presque douloureuse.</text>
             </StaffType>
           </StaffTypeChange>
         <voice>
+          <BarLine>
+            </BarLine>
           <StaffText>
             <MidiAction channel="0" name="Syn. 5"/>
             <channelSwitch voice="0" name="Synthèse"/>
@@ -29859,7 +30111,6 @@ retenue, presque douloureuse.</text>
               </Note>
             </Chord>
           <BarLine>
-            <spanToOffset>-4</spanToOffset>
             </BarLine>
           </voice>
         <voice>
@@ -35506,7 +35757,7 @@ Concluez par 10 secondes de bourdon seul</text>
             </Rest>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="19.8121" y="2.97259"/>
+            <offset x="19.8121" y="1.57259"/>
             <text>Quittez l'orgue 
 en se cachant
 hors vu du
@@ -35734,7 +35985,7 @@ cette sortie.</text>
       <Measure>
         <MeasureNumber>
           <visible>0</visible>
-          <text>61</text>
+          <text>65</text>
           </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
@@ -36189,7 +36440,7 @@ cette sortie.</text>
       <Measure>
         <MeasureNumber>
           <visible>0</visible>
-          <text>-3</text>
+          <text>1</text>
           </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
@@ -37127,6 +37378,9 @@ cette sortie.</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -37136,6 +37390,9 @@ cette sortie.</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -37154,6 +37411,9 @@ cette sortie.</text>
             <durationType>measure</durationType>
             <duration>29/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -37167,6 +37427,9 @@ cette sortie.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -37176,6 +37439,9 @@ cette sortie.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -37185,6 +37451,9 @@ cette sortie.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -37194,6 +37463,9 @@ cette sortie.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -37442,6 +37714,9 @@ cette sortie.</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -43147,7 +43422,7 @@ cette sortie.</text>
             </TimeSig>
           <StaffText>
             <offset x="39.6072" y="-1.27315"/>
-            <text>attacca.</text>
+            <text><i>attacca</i></text>
             </StaffText>
           <StaffText>
             <offset x="19.7799" y="-3.45837"/>
@@ -43169,7 +43444,7 @@ R. Tremblant</text>
       <Measure>
         <MeasureNumber>
           <visible>0</visible>
-          <text>-3</text>
+          <text>1</text>
           </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
@@ -44205,6 +44480,10 @@ R. Tremblant</text>
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>40</text>
+          </MeasureNumber>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -44805,7 +45084,7 @@ R. Tremblant</text>
             <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <offset x="-12.5052" y="-5.04582"/>
+            <offset x="-12.5052" y="-4.44582"/>
             <text>cca. 50&quot;</text>
             </StaffText>
           <Spanner type="TextLine">
@@ -49293,7 +49572,7 @@ pédale forte du sythétiseur</text>
               <Segment>
                 <subtype>0</subtype>
                 <offset x="1.62443" y="-0.518591"/>
-                <off2 x="-69.0371" y="0"/>
+                <off2 x="-68.3311" y="0"/>
                 <minDistance>-1.41422</minDistance>
                 </Segment>
               </TextLine>
@@ -49351,8 +49630,8 @@ pédale forte du sythétiseur</text>
               <lineWidth>0.25</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-1.39851" y="0.984303"/>
-                <off2 x="2.16777" y="0"/>
+                <offset x="-1.21911" y="0.984303"/>
+                <off2 x="1.98837" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -49650,8 +49929,8 @@ pédale forte du sythétiseur</text>
               <lineWidth>0.25</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0.150102" y="-3.4774"/>
-                <off2 x="4.69335" y="0"/>
+                <offset x="-0.746163" y="-3.4774"/>
+                <off2 x="5.58962" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -49774,6 +50053,22 @@ pédale forte du sythétiseur</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="-1.15345" y="1.00445"/>
+                <off2 x="0.785094" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <fractions>1/8</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -49789,6 +50084,13 @@ pédale forte du sythétiseur</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <fractions>-1/8</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
@@ -52063,16 +52365,6 @@ pédale forte du sythétiseur</text>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-7/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
@@ -52085,21 +52377,6 @@ pédale forte du sythétiseur</text>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>7/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
           <StaffText>
             <MidiAction channel="0" name="Syn. 6"/>
             <channelSwitch voice="0" name="Synthèse"/>
@@ -52116,7 +52393,7 @@ pédale forte du sythétiseur</text>
             <text>6</text>
             </StaffText>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Clef>
             <concertClefType>G</concertClefType>
@@ -53011,7 +53288,8 @@ pédale forte du sythétiseur</text>
             <channelSwitch voice="1" name="Synthèse"/>
             <channelSwitch voice="2" name="Synthèse"/>
             <channelSwitch voice="3" name="Synthèse"/>
-            <offset x="-4.66961" y="-2.88184"/>
+            <autoplace>0</autoplace>
+            <offset x="-4.66961" y="-4.08184"/>
             <text>Syn.</text>
             </StaffText>
           <Rest>
@@ -53108,7 +53386,7 @@ pédale forte du sythétiseur</text>
             </Rest>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="21.9938" y="-16.0104"/>
+            <offset x="28.1938" y="-18.2104"/>
             <text>cca. 15&quot;</text>
             </StaffText>
           <Rest>
@@ -53995,12 +54273,12 @@ pédale forte du sythétiseur</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="1.49039" y="-8.52618"/>
+            <autoplace>0</autoplace>
+            <offset x="3.19039" y="-8.02618"/>
             <text><font size="20"></font>4</text>
             </StaffText>
           <StaffText>
-            <minDistance>-6.72409</minDistance>
-            <offset x="-0.56749" y="-4.64195"/>
+            <offset x="1.13251" y="-4.84195"/>
             <text>cca. 30&quot;</text>
             </StaffText>
           <Rest>
@@ -55481,7 +55759,7 @@ pédale forte du sythétiseur</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="-2.31762" y="-3.34768"/>
+            <offset x="-0.91762" y="-3.34768"/>
             <text>cca. 30&quot;</text>
             </StaffText>
           <Spanner type="TextLine">
@@ -57114,7 +57392,7 @@ pédale forte du sythétiseur</text>
               </Note>
             </Chord>
           <StaffText>
-            <offset x="0" y="0"/>
+            <offset x="-1.8" y="0"/>
             <text>cca. 30&quot;</text>
             </StaffText>
           <Chord>
@@ -60145,7 +60423,6 @@ pédale forte du sythétiseur</text>
               </Note>
             </Chord>
           <BarLine>
-            <spanToOffset>-4</spanToOffset>
             </BarLine>
           </voice>
         </Measure>
@@ -61574,7 +61851,6 @@ pédale forte du sythétiseur</text>
         </Measure>
       <Measure>
         <MeasureNumber>
-          <visible>0</visible>
           <text>58</text>
           </MeasureNumber>
         <StaffTypeChange>
@@ -66542,6 +66818,7 @@ du bombarde dans la bande sonore</text>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -66552,6 +66829,7 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -66559,6 +66837,7 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -66570,6 +66849,7 @@ du bombarde dans la bande sonore</text>
           </voice>
         <voice>
           <Rest>
+            <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -66734,6 +67014,60 @@ du bombarde dans la bande sonore</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2.1347" y="-1.03725"/>
+                <off2 x="-1.75092" y="0"/>
+                <minDistance>-0.787436</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2.13801" y="-0.524688"/>
+                <off2 x="-1.74856" y="0"/>
+                <minDistance>-1.3</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
+          <Spanner type="TextLine">
+            <TextLine>
+              <diagonal>1</diagonal>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="2.14174" y="2.50664e-16"/>
+                <off2 x="-1.73838" y="0"/>
+                <minDistance>-999</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -66785,6 +67119,30 @@ du bombarde dans la bande sonore</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -66911,7 +67269,7 @@ du bombarde dans la bande sonore</text>
       <Measure>
         <MeasureNumber>
           <visible>0</visible>
-          <text>60</text>
+          <text>64</text>
           </MeasureNumber>
         <vspacerFixed>8.94049</vspacerFixed>
         <StaffTypeChange>
@@ -67206,7 +67564,7 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <StaffText>
             <autoplace>0</autoplace>
-            <offset x="-2.8129" y="-8.58248"/>
+            <offset x="-4.0129" y="-8.58248"/>
             <text><font size="20"></font>8</text>
             </StaffText>
           <Chord>
@@ -68982,7 +69340,19 @@ du bombarde dans la bande sonore</text>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            <lines>1</lines>
+            <yoffset>2</yoffset>
+            <stepOffset>-4</stepOffset>
+            <keysig>0</keysig>
+            </StaffType>
+          </StaffTypeChange>
         <voice>
+          <KeySig>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
@@ -70238,6 +70608,9 @@ du bombarde dans la bande sonore</text>
             <sigN>3</sigN>
             <sigD>2</sigD>
             </TimeSig>
+          <StaffText>
+            <text>G.P.R.</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -76810,8 +77183,8 @@ du bombarde dans la bande sonore</text>
               <lineWidth>0.25</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0.146464" y="-2.0042"/>
-                <off2 x="0.274291" y="0"/>
+                <offset x="-0.675112" y="-2.0042"/>
+                <off2 x="1.09587" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -76941,8 +77314,8 @@ du bombarde dans la bande sonore</text>
               <lineWidth>0.25</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-1.1602" y="-0.996288"/>
-                <off2 x="-0.979649" y="0"/>
+                <offset x="-1.01082" y="-0.996288"/>
+                <off2 x="-1.12903" y="0"/>
                 <minDistance>-999</minDistance>
                 </Segment>
               </TextLine>
@@ -77255,6 +77628,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -77264,6 +77640,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -77539,6 +77918,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -77548,6 +77930,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -77557,6 +77942,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -77566,6 +77954,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -77584,6 +77975,9 @@ du bombarde dans la bande sonore</text>
             <transposingClefType>F</transposingClefType>
             <offset x="0" y="-1"/>
             </Clef>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -77622,6 +78016,9 @@ du bombarde dans la bande sonore</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -77634,6 +78031,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -77646,6 +78046,9 @@ du bombarde dans la bande sonore</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -78198,6 +78601,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -78207,6 +78613,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -78216,6 +78625,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -78225,6 +78637,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -78238,6 +78653,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -78251,6 +78669,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -78260,6 +78681,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -78274,6 +78698,9 @@ du bombarde dans la bande sonore</text>
             <transposingClefType>F</transposingClefType>
             <offset x="0" y="-2"/>
             </Clef>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79300,6 +79727,8 @@ du bombarde dans la bande sonore</text>
         </Measure>
       <Measure>
         <voice>
+          <BarLine>
+            </BarLine>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -79323,6 +79752,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79358,6 +79790,9 @@ du bombarde dans la bande sonore</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79386,6 +79821,9 @@ du bombarde dans la bande sonore</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79414,6 +79852,9 @@ du bombarde dans la bande sonore</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79435,6 +79876,9 @@ du bombarde dans la bande sonore</text>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>27</sigN>
@@ -79453,6 +79897,8 @@ du bombarde dans la bande sonore</text>
             </StaffType>
           </StaffTypeChange>
         <voice>
+          <BarLine>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>27</sigN>
@@ -79467,6 +79913,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>27/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79501,6 +79950,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79529,6 +79981,42 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            </BarLine>
+          <Chord>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79557,6 +80045,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79585,34 +80076,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>whole</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79632,10 +80098,15 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <BarLine>
+            </BarLine>
           <Chord>
             <dots>1</dots>
             <durationType>whole</durationType>
@@ -79644,6 +80115,9 @@ du bombarde dans la bande sonore</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79665,6 +80139,9 @@ du bombarde dans la bande sonore</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79684,6 +80161,9 @@ du bombarde dans la bande sonore</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79705,34 +80185,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>whole</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79761,6 +80216,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79789,6 +80247,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79817,6 +80278,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79845,6 +80309,40 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79864,6 +80362,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79876,6 +80377,9 @@ du bombarde dans la bande sonore</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79888,6 +80392,9 @@ du bombarde dans la bande sonore</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79900,6 +80407,9 @@ du bombarde dans la bande sonore</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79921,6 +80431,9 @@ du bombarde dans la bande sonore</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79949,6 +80462,9 @@ du bombarde dans la bande sonore</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79968,6 +80484,9 @@ du bombarde dans la bande sonore</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -79989,6 +80508,9 @@ du bombarde dans la bande sonore</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80008,6 +80530,9 @@ du bombarde dans la bande sonore</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80032,6 +80557,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>28</sigN>
@@ -80379,6 +80907,7 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>0</span>
             </BarLine>
           <TimeSig>
             <visible>0</visible>
@@ -80456,6 +80985,9 @@ du bombarde dans la bande sonore</text>
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80469,6 +81001,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80482,6 +81017,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80491,6 +81029,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80500,6 +81041,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80509,6 +81053,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80745,6 +81292,9 @@ du bombarde dans la bande sonore</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80829,6 +81379,9 @@ du bombarde dans la bande sonore</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80861,6 +81414,9 @@ du bombarde dans la bande sonore</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80879,6 +81435,9 @@ du bombarde dans la bande sonore</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80927,6 +81486,9 @@ du bombarde dans la bande sonore</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80955,6 +81517,9 @@ du bombarde dans la bande sonore</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -80982,6 +81547,9 @@ du bombarde dans la bande sonore</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81000,6 +81568,9 @@ du bombarde dans la bande sonore</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81025,6 +81596,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81034,6 +81608,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81244,6 +81821,9 @@ du bombarde dans la bande sonore</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81312,6 +81892,9 @@ du bombarde dans la bande sonore</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81370,6 +81953,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81438,6 +82024,9 @@ du bombarde dans la bande sonore</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81493,6 +82082,9 @@ du bombarde dans la bande sonore</text>
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81517,6 +82109,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81544,6 +82139,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81562,6 +82160,9 @@ du bombarde dans la bande sonore</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81583,6 +82184,25 @@ du bombarde dans la bande sonore</text>
               <headType>quarter</headType>
               </Note>
             </Chord>
+          <Spanner type="TextLine">
+            <TextLine>
+              <placement>below</placement>
+              <diagonal>1</diagonal>
+              <lineWidth>0.25</lineWidth>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="1.89114" y="0.5"/>
+                <off2 x="-1.51778" y="0"/>
+                <minDistance>-0.325</minDistance>
+                </Segment>
+              </TextLine>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/4</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
@@ -81607,6 +82227,7 @@ du bombarde dans la bande sonore</text>
             </Chord>
           <BarLine>
             <subtype>double</subtype>
+            <span>0</span>
             </BarLine>
           <TimeSig>
             <visible>0</visible>
@@ -81625,6 +82246,14 @@ du bombarde dans la bande sonore</text>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Spanner type="TextLine">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/4</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -81870,6 +82499,9 @@ Tir. G.</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81906,6 +82538,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -81948,6 +82583,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82019,6 +82657,9 @@ Tir. G.</text>
               </Note>
             </Chord>
           <endTuplet/>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         <voice>
           <Chord>
@@ -82077,6 +82718,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         <voice>
           <Chord>
@@ -82158,6 +82802,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82209,6 +82856,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82240,6 +82890,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82264,6 +82917,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         <voice>
           <Chord>
@@ -82339,6 +82995,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82369,6 +83028,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82390,34 +83052,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>45</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82446,6 +83083,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82474,6 +83114,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82502,6 +83145,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82530,6 +83176,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82558,6 +83207,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82586,6 +83238,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82614,6 +83269,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82642,6 +83300,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82670,6 +83331,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82698,6 +83362,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82726,6 +83393,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82754,6 +83424,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82782,6 +83455,40 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82801,6 +83508,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82822,90 +83532,9 @@ Tir. G.</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82934,6 +83563,102 @@ Tir. G.</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82980,6 +83705,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>29/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -82993,6 +83721,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83002,6 +83733,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83033,6 +83767,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83051,9 +83788,17 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <StaffTypeChange>
+          <StaffType group="pitched">
+            <name>stdNormal</name>
+            </StaffType>
+          </StaffTypeChange>
         <StaffTypeChange>
           <StaffType group="pitched">
             <name>stdNormal</name>
@@ -83080,6 +83825,9 @@ Tir. G.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83098,6 +83846,9 @@ Tir. G.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83121,6 +83872,9 @@ Tir. G.</text>
               <tpc>8</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83139,6 +83893,9 @@ Tir. G.</text>
               <tpc>8</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83159,6 +83916,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83177,6 +83937,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83197,6 +83960,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83246,6 +84012,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83266,6 +84035,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83315,6 +84087,9 @@ Tir. G.</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83335,6 +84110,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83391,6 +84169,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83411,12 +84192,15 @@ Tir. G.</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <StaffText>
-            <text>attacca.</text>
+            <text><i>attacca</i></text>
             </StaffText>
           <Chord>
             <durationType>whole</durationType>
@@ -83432,6 +84216,9 @@ Tir. G.</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83452,6 +84239,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83470,6 +84260,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83490,6 +84283,9 @@ Tir. G.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83508,6 +84304,9 @@ Tir. G.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83528,6 +84327,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83546,6 +84348,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83566,6 +84371,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83584,6 +84392,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83604,6 +84415,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83622,6 +84436,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83642,6 +84459,9 @@ Tir. G.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83660,6 +84480,9 @@ Tir. G.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83680,6 +84503,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83698,6 +84524,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83718,6 +84547,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83736,10 +84568,16 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-1</accidental>
+            </KeySig>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -83756,6 +84594,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83791,6 +84632,9 @@ Tir. G.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83819,6 +84663,9 @@ Tir. G.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83854,6 +84701,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83876,6 +84726,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83894,6 +84747,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83910,6 +84766,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83919,6 +84778,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83928,6 +84790,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>3/2</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83941,6 +84806,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -83982,6 +84850,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84020,6 +84891,9 @@ Tir. G.</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84049,6 +84923,9 @@ Tir. G.</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84093,6 +84970,9 @@ Tir. G.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84149,6 +85029,9 @@ Tir. G.</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84208,6 +85091,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84233,6 +85119,9 @@ Tir. G.</text>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84257,6 +85146,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84275,6 +85167,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84295,6 +85190,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84313,6 +85211,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84336,6 +85237,9 @@ Tir. G.</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84364,6 +85268,9 @@ Tir. G.</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84384,6 +85291,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84409,6 +85319,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84445,6 +85358,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84483,6 +85399,9 @@ Tir. G.</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84512,6 +85431,9 @@ Tir. G.</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84556,6 +85478,9 @@ Tir. G.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84588,6 +85513,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84619,6 +85547,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84639,6 +85570,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84671,6 +85605,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84709,6 +85646,9 @@ Tir. G.</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84738,6 +85678,9 @@ Tir. G.</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84782,6 +85725,9 @@ Tir. G.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84814,6 +85760,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84842,6 +85791,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84871,6 +85823,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84908,6 +85863,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84926,6 +85884,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84968,6 +85929,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -84982,6 +85946,9 @@ Tir. G.</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85001,6 +85968,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85012,6 +85982,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85032,6 +86005,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85050,6 +86026,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85069,6 +86048,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85080,6 +86062,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85091,6 +86076,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85102,6 +86090,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85121,6 +86112,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85132,6 +86126,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85151,6 +86148,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85162,6 +86162,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85181,6 +86184,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85195,6 +86201,9 @@ Tir. G.</text>
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85213,6 +86222,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85231,6 +86243,9 @@ Tir. G.</text>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85242,6 +86257,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85253,6 +86271,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85264,6 +86285,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85466,6 +86490,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85482,6 +86509,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85500,6 +86530,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85511,6 +86544,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85529,6 +86565,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85540,6 +86579,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85558,6 +86600,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85579,6 +86624,9 @@ Tir. G.</text>
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85603,6 +86651,9 @@ Tir. G.</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85617,6 +86668,9 @@ Tir. G.</text>
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85641,6 +86695,9 @@ Tir. G.</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85655,6 +86712,9 @@ Tir. G.</text>
               <tpc>10</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85673,6 +86733,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85691,6 +86754,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85702,6 +86768,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85720,6 +86789,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85731,6 +86803,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85749,6 +86824,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85760,6 +86838,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85778,6 +86859,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85789,6 +86873,9 @@ Tir. G.</text>
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85807,6 +86894,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85835,6 +86925,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85860,6 +86953,9 @@ Tir. G.</text>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85878,6 +86974,9 @@ Tir. G.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85919,6 +87018,9 @@ Tir. G.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85934,6 +87036,9 @@ Tir. G.</text>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85954,6 +87059,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85975,6 +87083,9 @@ Tir. G.</text>
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -85986,6 +87097,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -86001,6 +87115,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -86018,6 +87135,9 @@ Tir. G.</text>
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -86034,6 +87154,9 @@ Tir. G.</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -86062,6 +87185,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -86090,6 +87216,9 @@ Tir. G.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -86120,6 +87249,9 @@ Tir. G.</text>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -86169,6 +87301,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -86213,6 +87348,9 @@ Tir. G.</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -86224,6 +87362,9 @@ Tir. G.</text>
             <durationType>measure</durationType>
             <duration>5/4</duration>
             </Rest>
+          <BarLine>
+            <span>0</span>
+            </BarLine>
           <TimeSig>
             <visible>0</visible>
             <sigN>50</sigN>
@@ -89216,6 +90357,9 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -93092,6 +94236,9 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -97122,6 +98269,9 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -101419,6 +102569,9 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -105295,6 +106448,9 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -109171,6 +110327,9 @@ Tir. G.</text>
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>-1</accidental>
+            </KeySig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -111316,7 +112475,7 @@ du tonnerre lointain.</text>
           </voice>
         </Measure>
       <Measure>
-        <vspacerFixed>16.3493</vspacerFixed>
+        <vspacerFixed>15.7554</vspacerFixed>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -113857,7 +115016,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
       <Measure>
         <MeasureNumber>
           <visible>0</visible>
-          <text>56</text>
+          <text>60</text>
           </MeasureNumber>
         <voice>
           <StaffText>
@@ -113933,7 +115092,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
         <voice>
           <StaffText>
             <offset x="25.3" y="-1"/>
-            <text>attacca</text>
+            <text><i>attacca</i></text>
             </StaffText>
           <Rest>
             <visible>0</visible>
@@ -114578,7 +115737,7 @@ assistant dans le jubé ouest  (cca. 1&quot;)</text>
             <frameType>2</frameType>
             <framePadding>0.6</framePadding>
             <frameBgColor r="253" g="253" b="253" a="255"/>
-            <text><font size="14"></font>15</text>
+            <text><font size="14"></font>16</text>
             </StaffText>
           <Rest>
             <visible>0</visible>
@@ -115581,7 +116740,7 @@ avec un coup de tonnerre</text>
             <frameType>2</frameType>
             <framePadding>0.4</framePadding>
             <frameBgColor r="253" g="253" b="253" a="255"/>
-            <text>16</text>
+            <text>17</text>
             </StaffText>
           <Spanner type="TextLine">
             <TextLine>
@@ -115848,7 +117007,7 @@ avec un coup de tonnerre</text>
             <frameType>2</frameType>
             <framePadding>0.6</framePadding>
             <frameBgColor r="253" g="253" b="253" a="255"/>
-            <text><font size="14"></font>17</text>
+            <text><font size="14"></font>18</text>
             </StaffText>
           <Rest>
             <offset x="-5" y="0"/>
@@ -116306,7 +117465,7 @@ avec un coup de tonnerre</text>
             <frameType>2</frameType>
             <framePadding>0.6</framePadding>
             <frameBgColor r="253" g="253" b="253" a="255"/>
-            <text><font size="14"></font>18</text>
+            <text><font size="14"></font>19</text>
             </StaffText>
           <Rest>
             <durationType>whole</durationType>
@@ -116917,7 +118076,7 @@ avec un coup de tonnerre</text>
             <frameType>2</frameType>
             <framePadding>0.4</framePadding>
             <frameBgColor r="253" g="253" b="253" a="255"/>
-            <text>19</text>
+            <text>20</text>
             </StaffText>
           <StaffText>
             <minDistance>5.15873e-07</minDistance>
